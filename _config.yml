@@ -1,10 +1,10 @@
-title: Stack Problems
-description: My Personal Stack Problems
-author: Agus Makmun
-github: https://github.com/agusmakmun
-about: I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django.
-disqus_shortname: stackproblems
-google_analytics: UA-XXXXXXXX-Y
+title: Braindump
+description: 
+author: Carlos Aguni
+github: https://github.com/crashlaker
+about: Highly motivated self-taught IT analyst. Always learning and ready to explore new skills. An eternal apprentice.
+disqus_shortname: crashlaker
+google_analytics: 
 
 enableTags: true
 tagarray: []
@@ -20,25 +20,27 @@ social:
     - icon: fa-twitter
       link: "#"
     - icon: fa-linkedin
-      link: "#"
+      link: "carlos-aguni"
     - icon: fa-stack-exchange
       link: "#"
     - icon: fa-github
-      link: "https://github.com/agusmakmun"
+      link: "https://github.com/crashlaker"
 
 share:
   twitter_username: github.io
-  fb_appid: 1749788565247320
+  fb_appid: 
 
 urls:
     - text: About Me
       url: /about/
+    - text: Archive
+      url: /archive/
     - text: My Projects
       url: /projects/
     - text: XML Feed
       url: /feed.xml
 
-url: "https://agusmakmun.github.io"
+url: "https://crashlaker.github.io"
 baseurl: ""
 paginate: 20
 per_page: 20
