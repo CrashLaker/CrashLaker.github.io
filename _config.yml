@@ -3,8 +3,11 @@ description:
 author: Carlos Aguni
 github: https://github.com/crashlaker
 about: Highly motivated self-taught IT analyst. Always learning and ready to explore new skills. An eternal apprentice.
-disqus_shortname: crashlaker
 google_analytics: 
+
+
+owner:
+  disqus_shortname: crashlaker
 
 enableTags: true
 tagarray: []
