@@ -128,6 +128,9 @@ layout: compress
             font-size: 15px;
             font-weight: 500;
         }
+        .highlight {
+            position: relative;
+        }
     </style>
   </head>
   <body>
@@ -184,5 +187,23 @@ layout: compress
     <script src="/static/js/super-search.js"></script>
     <script src="/static/js/thickbox-compressed.js"></script>
     <script src="/static/js/projects.js"></script>
+    <script>
+        const copyToClipboard = str => {
+          const el = document.createElement('textarea');
+          el.value = str;
+          document.body.appendChild(el);
+          el.select();
+          document.execCommand('copy');
+          document.body.removeChild(el);
+        };
+        $('pre').each(function (){
+            $(this).parent().prepend(
+                let button = $('<button>', { style: 'font-size:12px;position:absolute;top:0;right:0;'} ).text('copy')
+                button.get(0).addEventListener('click', function (){
+                    copyToClipboard(this.innerText)
+                })
+            )            
+        })
+    </script>
   </body>
 </html>
