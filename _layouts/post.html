@@ -15,7 +15,10 @@ layout: default
 <div class="content">
   <div class="post">{{ content }}</div>
 </div>
+<hr>
+<div>
 {% include disqus.html %}
+</div>
 
 {% assign hasSimilar = '' %}
   {% for post in site.posts  %}
