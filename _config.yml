@@ -15,14 +15,14 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-facebook
-      link: "#"
-    - icon: fa-twitter
-      link: "#"
+    #- icon: fa-facebook
+    #  link: "#"
+    #- icon: fa-twitter
+    #  link: "#"
     - icon: fa-linkedin
-      link: "carlos-aguni"
-    - icon: fa-stack-exchange
-      link: "#"
+      link: "https://www.linkedin.com/in/carlos-aguni"
+    #- icon: fa-stack-exchange
+    #  link: "#"
     - icon: fa-github
       link: "https://github.com/crashlaker"
 
@@ -33,12 +33,10 @@ share:
 urls:
     - text: About Me
       url: /about/
-    - text: Archive
-      url: /archive/
     - text: My Projects
       url: /projects/
-    - text: XML Feed
-      url: /feed.xml
+    #- text: XML Feed
+    #  url: /feed.xml
 
 url: "https://crashlaker.github.io"
 baseurl: ""
