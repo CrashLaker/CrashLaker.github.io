@@ -197,11 +197,11 @@ layout: compress
           document.body.removeChild(el);
         };
         $('pre').each(function (){
-            let button = $('<button>', { style: 'font-size:12px;position:absolute;top:0;right:0;'} ).text('copy')
+            let button = $('<button>', { style: 'font-size:12px;position:absolute;top:0;right:0;'} ).text('copy');
             button.get(0).addEventListener('click', function (){
-                copyToClipboard(this.innerText)
+                copyToClipboard(this.innerText);
             })
-            $(this).parent().prepend(button)            
+            $(this).parent().prepend(button);
         })
     </script>
   </body>
