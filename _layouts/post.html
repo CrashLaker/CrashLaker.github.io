@@ -15,6 +15,10 @@ layout: default
 <div class="content">
   <div class="post">{{ content }}</div>
 </div>
+{% if site.owner.disqus-shortname %}
+<div id="disqus_thread"></div>
+{% include disqus.html %}
+{% endif %}
 
 {% assign hasSimilar = '' %}
   {% for post in site.posts  %}
@@ -44,10 +48,6 @@ layout: default
 </div>
 {% endif %}
 
-{% if site.owner.disqus-shortname == true %}
-<div id="disqus_thread"></div>
-{% include disqus.html %}
-{% endif %}
 
 <div class="PageNavigation">
   {% if page.previous.url %}
