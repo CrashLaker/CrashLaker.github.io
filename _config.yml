@@ -7,7 +7,7 @@ google_analytics:
 
 
 owner:
-  disqus_shortname: crashlaker
+  disqus-shortname: crashlaker
 
 enableTags: true
 tagarray: []
