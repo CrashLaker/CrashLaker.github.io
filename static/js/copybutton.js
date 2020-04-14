@@ -8,8 +8,9 @@ const copyToClipboard = str => {
 };
 $('pre').each(function (){
     let button = $('<button>', { style: 'font-size:12px;position:absolute;top:0;right:-40px;z-index:10;'} ).text('copy');
+    let txt = this.innerText;
     button.get(0).addEventListener('click', function (){
-        copyToClipboard(this.innerText);
+        copyToClipboard(txt);
     });
     $(this).parent().prepend(button);
 });
