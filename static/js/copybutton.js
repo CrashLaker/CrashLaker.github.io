@@ -7,7 +7,7 @@ const copyToClipboard = str => {
   document.body.removeChild(el);
 };
 $('pre').each(function (){
-    let button = $('<button>', { style: 'font-size:12px;position:absolute;top:0;right:0;'} ).text('copy');
+    let button = $('<button>', { style: 'font-size:12px;position:absolute;top:0;right:-40px;z-index:10;'} ).text('copy');
     button.get(0).addEventListener('click', function (){
         copyToClipboard(this.innerText);
     });
