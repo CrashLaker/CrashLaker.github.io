@@ -16,7 +16,7 @@ https://stackoverflow.com/questions/18414020/memory-usage-keep-growing-with-pyth
 To avoid memory leaks:
 
 ```python
-def myParallelProcess(func, args, nthreads):
+def parallel(func, args, nthreads):
     from multiprocessing import Pool
     from contextlib import closing
         with closing( Pool(nthreads) ) as p:
