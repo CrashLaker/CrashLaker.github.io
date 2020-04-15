@@ -22,13 +22,10 @@ Dito isso, nesse post irei explorar os seguintes plugins:
 * SVG Panel
 * FlowCharting
 
-| WorldMap | SVG Panel | FlowCharting |
-|:--------:|:---------:|:------------:|
-| ![](/uploads/upload_86f4a66fa3fdb5ed4d67ab30db88763b.png)| ![](/uploads/upload_d08a93a0064aea80382db02948b8e870.png)    |   ![](/assets/img/K6VI7qsEm_1dd18282d55cfe06847b983f37924ac8.png)|
-     
+![](/assets/img/K6VI7qsEm_60b1fed22c139e1beca57a2c94d932ad.png)
+
      
 Vamos começar.
-> Se os arquivos em anexo no post não abrirem o mesmo conteúdo está disponível no meu blog em .
 
 # WorldMap Plugin
 https://grafana.com/grafana/plugins/grafana-worldmap-panel/installation
@@ -126,6 +123,8 @@ Desça até encontrar "Graph inspect Id" e assimile os ids.
 ![](/assets/img/K6VI7qsEm_cf33e017818efc1041b53adaf3e20751.png)
 
 ### Passo 3.
+Edite o "**Mapping**" das "**rules**" certifique-se de rastrear o **Alias** da query até o mapping e configuração das cores como mostra a imagem abaixo.
+
 ![](/assets/img/K6VI7qsEm_2ab69f59807e48f0d15635fcd72e1820.png)
 
 Faça isso para cada estado e no final será algo do tipo.
@@ -140,5 +139,13 @@ Transições de cores a cada atualização também funciona.
 
 ![](/assets/img/K6VI7qsEm_svg-panel-brasil-transition.gif)
 
+# Conclusão
+As formas de configuracão de tecnologias dos 3 plugins são muito diferentes um do outro.
+Como sempre se um trouxer maior flexibilidade de customização será, também, mais complexo.
+A tabela abaixo ex
+
+| Plugin   | Dificuldade | Configuracão | Conhecimento |
+| -------- | ----------- | --- | ---- |
+| WorldMap | Mais fácil dos três  | Manual | Longitude, Latitude  |
 
 Obrigado!
