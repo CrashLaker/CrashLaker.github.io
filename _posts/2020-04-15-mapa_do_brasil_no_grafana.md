@@ -127,7 +127,7 @@ Edite o "**Mapping**" das "**rules**" certifique-se de rastrear o **Alias** da q
 
 ![](/assets/img/K6VI7qsEm_2ab69f59807e48f0d15635fcd72e1820.png)
 
-Faça isso para cada estado e no final será algo do tipo.
+Faça isso para cada estado e no final terá algo do tipo.
 
 ![](/assets/img/K6VI7qsEm_690a4d16c0d819053497a7e7e4c4522c.png)
 
@@ -144,12 +144,11 @@ As formas de configuracão de tecnologias dos 3 plugins são muito diferentes um
 Como sempre se um trouxer maior flexibilidade de customização será, também, mais complexo.
 A tabela abaixo categoriza os processos seguidos onde **configuração** descreve o trabalho de customização em configurar métricas, mudança de cores, etc.
 
-| Plugin   | Dificuldade         | Configuracão | Conhecimento        |
-| -------- | ------------------- | ------------ | ------------------- |
-| WorldMap | Básico | Manual       | Longitude, Latitude, Grafana |
-| SVG Panel | Avançado  | Pode ser 100% automático | SVG, HTML DOM, Javascript, Grafana  |
-| Flowcharting | Intermediário  | Manual | Draw.io, Grafana |
+![](/assets/img/K6VI7qsEm_c8bcd70dabac388f78b67ca6f5a80f4a.png)
+
 
 Lembrando que o foco do flowcharting volta-se para diagramas de rede, componentes Cloud, plantas baixa de construções. Recomendo uma visita à página do [projeto](https://github.com/algenty/grafana-flowcharting).
+
+Link para o mapa: https://grafana.com/grafana/dashboards/12082.
 
 Obrigado!
