@@ -92,9 +92,28 @@ ctrl.series.forEach((item) => {
 ```
 
 Utilizando o código acima podemos definir cores de acordo com a média.
-![](/assets/img/K6VI7qsEm_ad344462b7483843b7b7d02f33632869.png)
+![](/assets/img/K6VI7qsEm_c6d42e447e724cdceec696f13e7dec96.png)
+
+Sendo o formato da query o mesmo do WorldMap:
+![](/assets/img/K6VI7qsEm_e5c972187e75ca5550e9c6fb0b68dd9d.png)
+
 
 Dessa forma podemos obter algo do tipo:
 ![](/assets/img/K6VI7qsEm_8484d15468ec99f6a30cc5342a08b037.png)
+
+# FlowCharting
+
+O projeto do flowcharting também está opensource no github [aqui](https://github.com/algenty/grafana-flowcharting).
+
+Flowcharting baseia seus diagramas no formato da ferramenta online Draw.io
+![](/assets/img/K6VI7qsEm_d8cfd6e71dd94a9132cc87db8db331f8.png)
+*Image de https://www.youtube.com/watch?v=ZEXubfaUBco* 
+
+Nele montamos o diagrama do layout desejado e exportamos em XML.
+
+![](/assets/img/K6VI7qsEm_1604e7426a4ffcd28885421fd3b8be2f.png)
+
+O arquivo utilizado acima pode ser encontrado [aqui](/assets/files/K6VI7qsEm_brazil_drawio_fmt.xml).
+
 
 
