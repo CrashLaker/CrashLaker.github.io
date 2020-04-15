@@ -22,9 +22,29 @@ Dito isso, nesse post irei explorar os seguintes plugins:
 * SVG Panel
 * FlowCharting
 
+![](/assets/img/K6VI7qsEm_232e704438721d874643265677f64469.png)
+
+![](/assets/img/K6VI7qsEm_d08a93a0064aea80382db02948b8e870.png)
 
 
 
 | WorldMap | SVG Panel | FlowCharting |
 |:--------:|:---------:|:------------:|
-|   Text   | ![](/assets/img/K6VI7qsEm_0ac53c9badb7ad154b35ba74400e9bca.png)    |     Text     |
+| ![](/uploads/upload_86f4a66fa3fdb5ed4d67ab30db88763b.png)| ![](/uploads/upload_d08a93a0064aea80382db02948b8e870.png)    |   ![](/assets/img/K6VI7qsEm_1dd18282d55cfe06847b983f37924ac8.png)|
+     
+     
+Vamos começar.
+
+# WorldMap Plugin
+https://grafana.com/grafana/plugins/grafana-worldmap-panel/installation
+
+![](/assets/img/K6VI7qsEm_85972442ac4a3d1eb5357df23cd09a62.png)
+*Retirado de https://grafana.com/grafana/plugins/grafana-worldmap-panel*
+
+WorldMap Plugin é um tipo de mapa que já carrega o Mapa Mundi e os locais são configurados à partir de coordenadas **latitude** e **longitude**.
+
+![](/assets/img/K6VI7qsEm_07b18e17b4d71128e31ae937263059f6.png)
+
+
+
+
