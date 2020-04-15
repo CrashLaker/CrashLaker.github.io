@@ -34,6 +34,7 @@ Dito isso, nesse post irei explorar os seguintes plugins:
      
      
 Vamos começar.
+> Se os arquivos em anexo no post não abrirem o mesmo conteúdo está disponível no meu blog em .
 
 # WorldMap Plugin
 https://grafana.com/grafana/plugins/grafana-worldmap-panel/installation
@@ -57,6 +58,33 @@ e os pontos irão aparecer no mapa:
 ![](/assets/img/K6VI7qsEm_f8b4d412b082ff8c7d6ee26b88dcb724.png)
 
 
+# SVG Panel
 
+SVG Panel é outra forma de se obter um mapa já que com SVG podemos desenhar qualquer forma geométrica. [Mais informações sobre aqui](https://www.w3schools.com/graphics/svg_circle.asp).
+
+A utilização desse painel é um pouco mais complexa pois envolve o conhecimento de SVG e javascript.
+
+Para o SVG panel é preciso primeiro encontrar o mapa do Brasil em formato SVG. Para isso uma simples busca no google por "brasil svg" já nos traz o que precisamos. Por exemplo esse [aqui](https://github.com/LucasBassetti/mapa-brasil-svg).
+
+![](/assets/img/K6VI7qsEm_32fdf9205ea40b5ad9c2114e2e70d474.png)
+
+A versão que estou utilizando pode ser encontrada [aqui](/assets/files/K6VI7qsEm_brasil-svg-panel.svg).
+
+Em seguida podemos utilizar o seguinte código em javascript para configurar a transição de cores.
+
+![](/assets/img/K6VI7qsEm_39e5252f9185e726c14a09ede61cb1ee.png)
+
+```javascript
+var s = Snap(svgnode);
+
+var paths = s.selectAll('path')
+var colors = ['#9acd32', '#cccccc', '#ff0000', '#ffd700', '#48d1cc', '#ffa500']
+paths.forEach((elem) => {
+    elem.attr('style', 'fill: '+colors[Math.floor(Math.random() * Math.floor(colors.length))])
+})
+```
+
+Dessa forma podemos obter algo do tipo:
+![](/assets/img/K6VI7qsEm_8484d15468ec99f6a30cc5342a08b037.png)
 
 
