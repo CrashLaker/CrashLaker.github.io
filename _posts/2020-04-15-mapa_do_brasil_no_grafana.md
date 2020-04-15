@@ -22,12 +22,6 @@ Dito isso, nesse post irei explorar os seguintes plugins:
 * SVG Panel
 * FlowCharting
 
-![](/assets/img/K6VI7qsEm_232e704438721d874643265677f64469.png)
-
-![](/assets/img/K6VI7qsEm_d08a93a0064aea80382db02948b8e870.png)
-
-
-
 | WorldMap | SVG Panel | FlowCharting |
 |:--------:|:---------:|:------------:|
 | ![](/uploads/upload_86f4a66fa3fdb5ed4d67ab30db88763b.png)| ![](/uploads/upload_d08a93a0064aea80382db02948b8e870.png)    |   ![](/assets/img/K6VI7qsEm_1dd18282d55cfe06847b983f37924ac8.png)|
@@ -115,5 +109,36 @@ Nele montamos o diagrama do layout desejado e exportamos em XML.
 
 O arquivo utilizado acima pode ser encontrado [aqui](/assets/files/K6VI7qsEm_brazil_drawio_fmt.xml).
 
+![](/assets/img/K6VI7qsEm_aed3bb593241adef122f2b7a509472ec.png)
+
+Para o mapa funcionar no flowcharting 3 passos são necessários:
+1. Adicionar o XML
+2. Mapear os itens do XML (adicionar um ID)
+3. Mapear os **Alias** obtidos pela Query aos **IDs** configurados em **2**
+
+Vamos aos passos.
+
+### Passo 1.
+Copiando o conteúdo do XML na caixa ilustrada por **1** na imagem acima.
+
+### Passo 2.
+Desça até encontrar "Graph inspect Id" e assimile os ids.
+![](/assets/img/K6VI7qsEm_cf33e017818efc1041b53adaf3e20751.png)
+
+### Passo 3.
+![](/assets/img/K6VI7qsEm_2ab69f59807e48f0d15635fcd72e1820.png)
+
+Faça isso para cada estado e no final será algo do tipo.
+
+![](/assets/img/K6VI7qsEm_690a4d16c0d819053497a7e7e4c4522c.png)
+
+# Transições 
+
+Transições de cores a cada atualização também funciona.
+
+![](/assets/img/K6VI7qsEm_flowcharting-brasil-transition.gif)
+
+![](/assets/img/K6VI7qsEm_svg-panel-brasil-transition.gif)
 
 
+Obrigado!
