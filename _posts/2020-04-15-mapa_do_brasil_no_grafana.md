@@ -142,10 +142,14 @@ Transições de cores a cada atualização também funciona.
 # Conclusão
 As formas de configuracão de tecnologias dos 3 plugins são muito diferentes um do outro.
 Como sempre se um trouxer maior flexibilidade de customização será, também, mais complexo.
-A tabela abaixo ex
+A tabela abaixo categoriza os processos seguidos onde **configuração** descreve o trabalho de customização em configurar métricas, mudança de cores, etc.
 
-| Plugin   | Dificuldade | Configuracão | Conhecimento |
-| -------- | ----------- | --- | ---- |
-| WorldMap | Mais fácil dos três  | Manual | Longitude, Latitude  |
+| Plugin   | Dificuldade         | Configuracão | Conhecimento        |
+| -------- | ------------------- | ------------ | ------------------- |
+| WorldMap | Básico | Manual       | Longitude, Latitude, Grafana |
+| SVG Panel | Avançado  | Pode ser 100% automático | SVG, HTML DOM, Javascript, Grafana  |
+| Flowcharting | Intermediário  | Manual | Draw.io, Grafana |
+
+Lembrando que o foco do flowcharting volta-se para diagramas de rede, componentes Cloud, plantas baixa de construções. Recomendo uma visita à página do [projeto](https://github.com/algenty/grafana-flowcharting).
 
 Obrigado!
