@@ -76,13 +76,23 @@ Em seguida podemos utilizar o seguinte código em javascript para configurar a t
 
 ```javascript
 var s = Snap(svgnode);
-
-var paths = s.selectAll('path')
-var colors = ['#9acd32', '#cccccc', '#ff0000', '#ffd700', '#48d1cc', '#ffa500']
-paths.forEach((elem) => {
-    elem.attr('style', 'fill: '+colors[Math.floor(Math.random() * Math.floor(colors.length))])
+const media = arr => arr.reduce((a,b) => a+b, 0)/arr.length
+ctrl.series.forEach((item) => {
+    let minha_media = media(item.datapoints.map((d) => d[0]))
+    let color
+    if (minha_media < 30) {
+        color = '#ffe1e0'
+    }else if (minha_media < 60){
+        color = '#eb4d55'
+    }else {
+        color = '#d0021b'
+    }
+    s.select('path[state="'+item.alias+'"]').attr('style', 'fill: '+color)
 })
 ```
+
+Utilizando o código acima podemos definir cores de acordo com a média.
+![](/assets/img/K6VI7qsEm_ad344462b7483843b7b7d02f33632869.png)
 
 Dessa forma podemos obter algo do tipo:
 ![](/assets/img/K6VI7qsEm_8484d15468ec99f6a30cc5342a08b037.png)
