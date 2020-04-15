@@ -43,7 +43,19 @@ https://grafana.com/grafana/plugins/grafana-worldmap-panel/installation
 
 WorldMap Plugin é um tipo de mapa que já carrega o Mapa Mundi e os locais são configurados à partir de coordenadas **latitude** e **longitude**.
 
-![](/assets/img/K6VI7qsEm_07b18e17b4d71128e31ae937263059f6.png)
+![](/assets/img/K6VI7qsEm_220a4c3005ad195c4b1bcbd2fe224512.png)
+
+Em **1** centralizamos o Brasil no centro do mapa e em **2** precisamos oferecer ao painel quais os locais em [**latitude**, **longitude**] cada métrica estamos nos referindo.
+
+O arquivo em **2** pode ser encontrado [aqui](https://gist.githubusercontent.com/isaqueprofeta/c9e4178a10e029ad9bb42bdd9dafb2b6/raw/443622ed4cc4886567d16dbea3603f40d0cf2a1a/capitais.json) oferecido pelo [Isaque Profeta](https://github.com/isaqueprofeta).
+
+Em seguida é preciso correlacionar o campo "key" no arquivo.
+
+![](/assets/img/K6VI7qsEm_241b8c44544ff87b1dce7ab06a3ee288.png)
+
+e os pontos irão aparecer no mapa:
+![](/assets/img/K6VI7qsEm_f8b4d412b082ff8c7d6ee26b88dcb724.png)
+
 
 
 
