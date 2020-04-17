@@ -26,3 +26,6 @@ start = datetime.datetime(2020,3,9,9)
 end = datetime.datetime(2020,3,9,18)
 rs = col.find({"timestamp": {"$gte": start, "$lte": end}}).sort("timestamp")
 ```
+
+Get 1 row
+`collection.find().limit(1).next()`
