@@ -29,3 +29,18 @@ rs = col.find({"timestamp": {"$gte": start, "$lte": end}}).sort("timestamp")
 
 Get 1 row
 `collection.find().limit(1).next()`
+
+
+###### Pymongo group by multiple keys
+https://stackoverflow.com/questions/22932364/mongodb-group-values-by-multiple-fields
+https://stackoverflow.com/questions/31098073/pymongo-group-by-multiple-keys?rq=1
+```python
+rs = collection.aggregate([
+    { }
+])
+```
+
+
+
+
+
