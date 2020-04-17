@@ -36,8 +36,21 @@ https://stackoverflow.com/questions/22932364/mongodb-group-values-by-multiple-fi
 https://stackoverflow.com/questions/31098073/pymongo-group-by-multiple-keys?rq=1
 ```python
 rs = collection.aggregate([
-    { }
+    { "$match": {
+        "timestamp": {
+            "$gte": start,
+            "$lte": end
+        },
+    }},
+    { "$group": {
+        "_id": {
+            "key": "$key",
+            "instance": "$instance"
+        },
+        #"count": { "$sum": 1 }
+    }}
 ])
+rs = [_ for _ in rs]
 ```
 
 
