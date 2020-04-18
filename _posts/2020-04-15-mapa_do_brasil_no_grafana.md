@@ -139,6 +139,8 @@ Transições de cores a cada atualização também funciona.
 
 ![](/assets/img/K6VI7qsEm_svg-panel-brasil-transition.gif)
 
+![](/assets/img/K6VI7qsEm_map-2update-brazil-flowcharting.gif)
+
 # Conclusão
 As formas de configuracão de tecnologias dos 3 plugins são muito diferentes um do outro.
 Como sempre se um trouxer maior flexibilidade de customização será, também, mais complexo.
@@ -150,5 +152,12 @@ A tabela abaixo categoriza os processos seguidos onde **configuração** descrev
 Lembrando que o foco do flowcharting volta-se para diagramas de rede, componentes Cloud, plantas baixa de construções. Recomendo uma visita à página do [projeto](https://github.com/algenty/grafana-flowcharting).
 
 Link para o mapa: https://grafana.com/grafana/dashboards/12082.
+
+Link para mapa2:
+https://grafana.com/grafana/dashboards/12092
+
+Appendix:
+[Mapa Brasil v2](http://docs.localshi.com///datag/all//brazil-map-only.xml)
+[Mapa Brasil v2 + Painel](http://docs.localshi.com///datag/all//map-brazil-scaleok-panel.xml)
 
 Obrigado!
