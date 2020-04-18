@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Tags
 ---
 
@@ -10,7 +10,7 @@ title: Tags
 <div class="tags">
   <ul class="label">
     {% for tag in site.tags %}
-    <li>
+    <li style='float:left;'>
       <a href="#{{ tag[0] }}">
         <span>{{ tag[0] }}</span>
         <span class="count">{{ tag[1] | size }}</span>
@@ -18,6 +18,7 @@ title: Tags
     </li>
     {% endfor %}
   </ul>
+  <hr style="clear:both;width:100%;">
 
   {% for tag in site.tags %}
     <h2 id="{{ tag[0] }}">
