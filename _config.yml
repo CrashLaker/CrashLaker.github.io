@@ -37,7 +37,7 @@ urls:
     - text: About Me
       url: /about/
     - text: Tags
-      url: /tags/
+      url: /tags
     - text: My Projects
       url: /projects/
     #- text: XML Feed
