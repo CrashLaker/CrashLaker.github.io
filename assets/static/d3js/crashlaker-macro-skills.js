@@ -1,34 +1,40 @@
 (function (){
-var width = 500, height = 400
+var width = 365, height = 300
 var svg = d3.select('#macro-skills')
             .attr('width', width)
             .attr('height', height)
+
+var x = d3.scaleLinear().domain([0,500]).range([0,365])
+var y = d3.scaleLinear().domain([0,500]).range([0,365])
+
+var ratio = 365/500
 
 var numNodes = 100
 var green = '#73d13d'
 var orange = '#ffa940'
 var red = '#ff4d4f'
 var blue = '#40a9ff'
+var d_fontsize = 14
 var nodes = [
-    {radius: 55, color: green, label: "Data Viz", group: 1}, // radius, color, text
-    {radius: 55, color: green, label: 'Data\nEngineer', group: 1}, // radius, color, text
-    {radius: 35, color: green, label: 'Data\nScience', group: 1}, // radius, color, text
-    {radius: 35, color: orange, label: 'Solutions\nArchitect', group: 2}, // radius, color, text
-    {radius: 55, color: orange, label: 'Infrastructure\nRHEL', group: 2}, // radius, color, text
-    {radius: 55, color: orange, label: 'Sysadmin', group: 2}, // radius, color, text
-    {radius: 55, color: orange, label: 'Monitoring', group: 2}, // radius, color, text
-    {radius: 35, color: orange, label: 'AWS', group: 2}, // radius, color, text
-    {radius: 55, color: red, label: 'FullStack\nDeveloper', group: 3}, // radius, color, text
-    {radius: 35, color: red, label: 'Devops', group: 3}, // radius, color, text
-    {radius: 55, color: blue, label: 'Parallel\nDistributed\nComputing', group: 4}, // radius, color, text
-    {radius: 75, color: blue, label: 'High Performance\nComputing', group: 4}, // radius, color, text
+    {radius: ratio*55, color: green, label: "Data Viz", group: 1}, // radius, color, text
+    {radius: ratio*55, color: green, label: 'Data\nEngineer', group: 1}, // radius, color, text
+    {radius: ratio*35, color: green, label: 'Data\nScience', group: 1}, // radius, color, text
+    {radius: ratio*35, fontsize: 12, color: orange, label: 'Solutions\nArchitect', group: 2}, // radius, color, text
+    {radius: ratio*55, color: orange, label: 'Infrastructure\nRHEL', group: 2}, // radius, color, text
+    {radius: ratio*55, color: orange, label: 'Sysadmin', group: 2}, // radius, color, text
+    {radius: ratio*55, color: orange, label: 'Monitoring', group: 2}, // radius, color, text
+    {radius: ratio*35, color: orange, label: 'AWS', group: 2}, // radius, color, text
+    {radius: ratio*55, color: red, label: 'FullStack\nDeveloper', group: 3}, // radius, color, text
+    {radius: ratio*35, color: red, label: 'Devops', group: 3}, // radius, color, text
+    {radius: ratio*55, color: blue, label: 'Parallel\nDistributed\nComputing', group: 4}, // radius, color, text
+    {radius: ratio*75, color: blue, label: 'High Performance\nComputing', group: 4}, // radius, color, text
 ]
 
 var group = {
-    1: [340,270], // data viz
-    2: [130,270], // infrastructure
-    3: [160,140], // dev
-    4: [300,140], // hpc
+    1: [x(340),220], // data viz
+    2: [x(130),200], // infrastructure
+    3: [x(160),90], // dev
+    4: [x(300),90], // hpc
 }
 
 
@@ -81,16 +87,18 @@ function ticked() {
         let v = d3.select(this)
                     .append('text')
                     .attr('x', 0)
-                    .attr('y', -10)
+                    .attr('y', -10*ratio)
                     .style('text-anchor', 'middle')
-                    .style('font', '16px sans-serif')
+                    .style('font', d_fontsize+'px sans-serif')
         let strarr = (d.label.includes('\n')) ? d.label.split('\n') : [d.label]
+        let fontsize = (d.fontsize != undefined) ? d.fontsize : d_fontsize
         if (strarr.length > 1)
-            v.attr('y', -8*(strarr.length))
+            v.attr('y', -(fontsize/2)*(strarr.length))
         for (let part of strarr){
             v.append('tspan')
                 .attr('x', 0)
                 .attr('dy', '1em')
+                .attr('style', 'font: '+fontsize+'px sans-serif')
                 .text(part)
         }
     })

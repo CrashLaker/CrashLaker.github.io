@@ -6,6 +6,25 @@ layout: default
 <div id="home">
   <h3>Blog</h3>
   <hr />
+    <table>
+        <tr>
+            <td style="font:16px sans-serif; text-align:center;font-weight:bold;">Macro Skills</td>
+            <td style="font:16px sans-serif; text-align:center;font-weight:bold;">Micro Skills</td>
+        </tr>
+        <tr>
+            <td>
+                <svg id="macro-skills"></svg>
+            </td>
+            <td>
+                <svg id="micro-skills"></svg>
+            </td>
+        </tr>
+    </table>
+
+    <!--<script src="/assets/static/d3js/crashlaker-front.js"></script>-->
+    <script type="text/javascript" src="//unpkg.com/d3@5.7.0/dist/d3.js"></script> 
+    <script src="/assets/static/d3js/crashlaker-macro-skills.js"></script>
+    <script src="/assets/static/d3js/crashlaker-micro-skills.js"></script>
   <ol class="posts">
     {% for post in paginator.posts %}
       <li><a href="{{ post.url }}">{{ post.title }}</a> &raquo; <i><span>{{ post.date | date_to_string }}</span></i></li>
