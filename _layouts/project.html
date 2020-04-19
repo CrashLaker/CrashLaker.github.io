@@ -28,7 +28,7 @@ layout: default
             <div class="project-img bordered" style="background-image: url('/static/projects/{{ i.image }}');"></div>
             -->
           <a href="{{ i.image }}" class="thickbox">
-            <div class="project-img bordered" style="background-image: url('{{ i.image }}');"></div>
+            <div class="project-img bordered" style="background-size: contain; background-image: url('{{ i.image }}');"></div>
           </a>
           {% assign p_url = nil %}
           {% for pr in p_array %}
