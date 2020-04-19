@@ -190,8 +190,8 @@ function betterTab(cm) {
 </style>
 ```
 
-![](/assets/img/_pZqBxwuB_9e3db235f49759db63120a8cfd2c49d5.png)
+![](/assets/img/crashunderscorepZqBxwuB_9e3db235f49759db63120a8cfd2c49d5.png)
 */home/coder/project/dopad/node_modules/codemirror/keymap/vim.js*
 
-![](/assets/img/_pZqBxwuB_e6c660726c68fd880004e827115afcf2.png)
+![](/assets/img/crashunderscorepZqBxwuB_e6c660726c68fd880004e827115afcf2.png)
 */home/coder/project/dopad/node_modules/codemirror/keymap/vim.js*
