@@ -2,7 +2,7 @@
 var label = {
     'Blog': '/blog',
     'Projects': '/projects',
-    'Experience': '#experience',
+    'About me': '/about',
     'Resume': '/resume'
 }
 
