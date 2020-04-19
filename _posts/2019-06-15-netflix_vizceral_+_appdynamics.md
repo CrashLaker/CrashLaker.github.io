@@ -54,6 +54,9 @@ And we can also add it to your Grafana dashboard as shown [here](https://twitter
 
 ![](/assets/img/cc7uX6xya_d9b1cd951e18e4b788d6e543849c0a93.png)
 
+[![](http://img.youtube.com/vi/sRNGxdOXGCU/0.jpg)](http://www.youtube.com/watch?v=sRNGxdOXGCU)
+
+
 That’s all!
 Some useful resources:
 * https://github.com/adrianco/go-vizceral
