@@ -14,4 +14,5 @@ tags:  [d3js, dashboard, realtime, monitoring]
 
 ![](/assets/img/VUXUUEGz-_5cb25f619d3ea7db29643c74ac754f64.png)
 
+![](/assets/img/VUXUUEGz-_b71b771767cc6f629007538485f5eb24.png)
 
