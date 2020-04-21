@@ -19,4 +19,12 @@ findoldfiles=$(find -t f -name "*.tar.gz" -mtime +8) # all files older than 8day
 ssh machine 'cd /root && tar -czf - folder1 folder2' > ${backupfolder}${datenow}.tgz
 ```
 
-###
+### PostgreSQL
+```bash
+COMPOSE_INTERACTIVE_NO_CLI=1 docker-compose exec database pg_dump <db> -U <user>
+```
+
+### MongoDB
+```bash
+docker run --rm -v /data/mongodb_backup:/data mongo:3.6-xenial mongodump --host $mongodbip -d <database> --gzip -o /data/$datetoday
+```
