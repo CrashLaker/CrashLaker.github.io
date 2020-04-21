@@ -11,7 +11,7 @@ date: "2019-05-05"
 
 Some quick cheat sheet on date performing date translations in python
 
-![](/assets/img/_v3Qu4uCX_77cda0ed70de8d4b348eeccec08f164d.png)
+![](/assets/img/crashunderscorev3Qu4uCX_77cda0ed70de8d4b348eeccec08f164d.png)
 *Source: [Tryfoto](https://www.tryfoto.com/photo/3577/clock-background)*
 
 Dealing with dates from different sources is always a nightmare specially when you’re dealing with date timestamps from a bunch of different sources and architectures.

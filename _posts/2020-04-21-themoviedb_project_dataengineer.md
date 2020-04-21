@@ -117,8 +117,7 @@ wget http://192.168.31.78///datag/all//hive-jdbc-standalone.jar -O /opt/spark/ja
 ```
 
 ## PySpark
-
-```python3
+```python
 from pyspark import SparkConf
 from pyspark.sql import SparkSession
 from pyspark.sql import Row
