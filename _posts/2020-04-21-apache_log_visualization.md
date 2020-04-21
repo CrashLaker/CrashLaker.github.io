@@ -2,7 +2,7 @@
 layout: post
 title: "Apache Log Visualization"
 comments: true
-date: "2020-04-21 19:55:14.722000+00:00"
+date: "2020-04-21 20:41:24.197000+00:00"
 categories:  [datavis]
 tags:  [apache, logs]
 ---

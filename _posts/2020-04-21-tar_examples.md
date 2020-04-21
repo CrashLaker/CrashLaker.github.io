@@ -18,4 +18,3 @@ $ tar cvzf - /var/www/html | ssh vivek@server1.cyberciti.biz "dd of=/backups/www
 $ ssh vivek@box2 "cat /backups/www.tar.gz" | tar xvzf -
 $ tar cvjf - * | ssh root@home.nas02 "(cd /dest/; tar xjf - )"
 ```
-

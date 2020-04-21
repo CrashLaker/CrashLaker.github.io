@@ -13,3 +13,10 @@ dateyesterday=$(date -d "1 day ago" '+%Y_%m_%d')
 datetoday=$(date +'%Y_%m_%d') # +%F = %Y-%m-%d
 findoldfiles=$(find -t f -name "*.tar.gz" -mtime +8) # all files older than 8days 1w
 ```
+
+### SSH+TAR Backup
+```bash
+ssh machine 'cd /root && tar -czf - folder1 folder2' > ${backupfolder}${datenow}.tgz
+```
+
+###
