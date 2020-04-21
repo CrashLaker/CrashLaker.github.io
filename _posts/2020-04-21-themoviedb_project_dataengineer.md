@@ -117,6 +117,7 @@ wget http://192.168.31.78///datag/all//hive-jdbc-standalone.jar -O /opt/spark/ja
 ```
 
 ## PySpark
+
 ```python3
 from pyspark import SparkConf
 from pyspark.sql import SparkSession
@@ -156,7 +157,8 @@ yum -y install python36 python36-pip python36-devel gcc gcc-c++
 
 
 ## Results
-![](/assets/img/0-35ynhUx_f6e529aa662cf49f508f2354c7810ecc.png)
+![](/assets/img/0-35ynhUx_7efe49ed29409e0cca599fd49cf97b35.png)
+
 
 ![](/assets/img/0-35ynhUx_3db0e151f63afa9ebbf0513ad0bdc645.png)
 
