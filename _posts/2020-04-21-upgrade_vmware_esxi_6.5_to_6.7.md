@@ -55,6 +55,7 @@ esxcli network firewall ruleset set -e false -r httpClient
 ## Known caveats
 
 **no space left on device**
+https://communities.vmware.com/thread/560543
 ```bash
 $ esxcli software profile update -d https://hostupdate.vmw
 are.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml -p ESXi-6.7.0-201808040
