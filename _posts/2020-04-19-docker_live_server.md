@@ -11,13 +11,14 @@ tags:  [live-server]
 
 https://hub.docker.com/r/duaneleem/live-server/
 
-```
+```bash
 custom_nameport="cname:8080"
+folder=""
 container_name=$(echo $custom_nameport | cut -d: -f1)
 container_port=$(echo $custom_nameport | cut -d: -f2)
 docker run -dit \
     --name $container_name \
     -p $container_port:8080 \
-    -v "/path/to/local/webapp/contents":"/usr/src/app" \
+    -v "$folder":"/usr/src/app" \
     duaneleem/live-server:1.0
 ```
