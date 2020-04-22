@@ -7,8 +7,11 @@ date: "2020-04-21 23:32:01.421000+00:00"
 
 https://miketabor.com/how-to-upgrade-esxi-6-5-to-esxi-6-7/
 
-`esxcli software sources profile list --depot=https://hostupdate.vmware.com/software/VUM/PRODUC
-TION/main/vmw-depot-index.xml | grep 6.7.0-2019`
+```bash
+esxcli software sources profile list \
+--depot=https://hostupdate.vmware.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml \
+| grep 6.7.0-2019
+```
 
 ```
 ESXi-6.7.0-20191104001-no-tools   VMware, Inc.  PartnerSupported
@@ -47,6 +50,11 @@ esxcli network firewall ruleset set -e false -r httpClient
 
 `reboot`
 
+![](/assets/img/Ju8TVCWqQ_48d19b8d33486e1a79c2d27efad78e93.png)
+
+## Known caveats
+
+**no space left on device**
 ```bash
 $ esxcli software profile update -d https://hostupdate.vmw
 are.com/software/VUM/PRODUCTION/main/vmw-depot-index.xml -p ESXi-6.7.0-201808040
