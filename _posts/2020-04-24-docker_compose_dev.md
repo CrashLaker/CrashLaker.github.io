@@ -9,9 +9,9 @@ tags:  [docker-compose, docker]
 
 
 
+Dockerfile
 
-
-```dockerfile=
+```docker=
 version: '3.1'
 services:
     web:
