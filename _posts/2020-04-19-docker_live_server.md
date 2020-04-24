@@ -34,7 +34,9 @@ docker run -dit \
 
 
 <details>
-<summary>php-apache-hpa-external.yml</summary>
+<summary>
+php-apache-hpa-external.yml
+</summary>
    
 ```yaml
 apiVersion: autoscaling/v2beta1
@@ -55,5 +57,4 @@ spec:
         metricName: my_queue
         targetValue: 10
 ```
-    
 </details>
