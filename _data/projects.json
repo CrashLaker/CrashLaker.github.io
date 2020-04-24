@@ -2,11 +2,12 @@
 	{
 		"slug": "brazil-realtime-dashboard-covid19",
 		"name": "Brazil Covid19 RealTime",
-		"image": "https://crashlaker.github.io/assets/img/VUXUUEGz-_5cb25f619d3ea7db29643c74ac754f64.png",
+		"image": "https://crashlaker.github.io/assets/img/VUXUUEGz-_covid-thumb.gif",
 		"url": "https://crashlaker.github.io/projects/2020/04/19/brazil_states_real_time_covid_19_monitoring.html",
 		"date": "Apr 2020",
 		"tags": ["D3js", "Scrapping", "Datavis", "ETL"],
-        "position": "unset"
+        "position": "center",
+        "size": "cover"
 	},
 	{
 		"slug": "themoviedb-project-dataengineer",
@@ -15,6 +16,7 @@
 		"url": "https://crashlaker.github.io/projects/2020/04/21/themoviedb_project_dataengineer.html",
 		"date": "Apr 2020",
 		"tags": ["Scrapping", "Datavis", "ETL", "BigData"],
-        "position": "center"
+        "position": "center",
+        "size": "cover"
 	}
 ]
