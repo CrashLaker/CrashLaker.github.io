@@ -22,3 +22,30 @@ docker run -dit \
     -v "$folder":"/usr/src/app" \
     duaneleem/live-server:1.0
 ```
+
+
+
+<details>
+<summary>php-apache-hpa-external.yml</summary>
+   
+```yaml
+apiVersion: autoscaling/v2beta1
+kind: HorizontalPodAutoscaler
+metadata:
+    name: php-apache
+spec:
+    scaleTargetRef:
+        #apiVersion: extensions/v1beta1
+        apiVersion: apps/v1beta1
+        kind: Deployment
+        name: php-apache
+    minReplicas: 2
+    maxReplicas: 30
+    metrics:
+    - type: External
+      external:
+        metricName: my_queue
+        targetValue: 10
+```
+    
+</details>
