@@ -10,11 +10,12 @@ tags:  [development, lambda, aws]
 
 
 ```bash
+cd /root/layer
 mkdir -p python/lib/python3.7/site-packages/
 cd python/lib/python3.7/site-packages/     
 pip3 install -t . pyarrow==0.12.1 pandas   
-cd ../../../..
-zip -r layer.zip .
+cd /root
+zip -r layer.zip layer
 ```
 
 Upload to S3
