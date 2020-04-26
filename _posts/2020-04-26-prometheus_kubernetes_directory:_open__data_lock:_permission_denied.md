@@ -13,8 +13,7 @@ tags:  [kubernetes, helm, linux]
 https://github.com/helm/charts/issues/15742#issuecomment-517012778
 
 
-`kubectl logs  prometheus-server-746f5c479b-cx7dj -c prometheus-server
-`
+`kubectl logs  prometheus-server-746f5c479b-cx7dj -c prometheus-server`
 **directory: open /data/lock: permission denied**
 
 
