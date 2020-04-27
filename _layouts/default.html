@@ -109,11 +109,7 @@ layout: compress
         ga('send', 'pageview');
       </script>
     {% endif %}
-    <script>
-      function resizeIframe(obj) {
-        obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
-      }
-    </script>
+    <script src="/static/js/iframe-resizer.js"></script>
     <style>
         img + em {
          display: block;
