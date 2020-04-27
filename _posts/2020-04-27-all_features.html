@@ -1,0 +1,543 @@
+---
+layout: post
+title: "All features"
+comments: true
+date: "2020-04-27 12:39:32.978000+00:00"
+---
+
+
+
+
+<div id="doc" class="markdown-body container-fluid"><h1 id="Features">Features</h1><h2 id="Introduction">Introduction</h2><p><i class="fa fa-file-text"></i> <strong>CodiMD</strong> is a real-time, multi-platform collaborative markdown note editor.<br>
+This means that you can write notes with other people on your <strong>desktop</strong>, <strong>tablet</strong> or even on the <strong>phone</strong>.<br>
+You can sign-in via multiple auth providers like <strong>Facebook</strong>, <strong>Twitter</strong>, <strong>GitHub</strong> and many more on the <a href="/" target="_blank" rel="noopener"><em>homepage</em></a>.</p><p>If you experience any <em>issues</em>, feel free to report it on <a href="https://github.com/codimd/server/issues" target="_blank" rel="noopener"><strong>GitHub</strong></a>.<br>
+Or meet us on <a href="https://riot.im/app/#/room/#codimd:matrix.org" target="_blank" rel="noopener"><strong>Matrix.org</strong></a> for dev-talk and interactive help.<br>
+<strong>Thank you very much!</strong></p><h2 id="Workspace">Workspace</h2><h3 id="Modes">Modes</h3><h4 id="Desktop-amp-Tablet">Desktop &amp; Tablet</h4><p><i class="fa fa-eye fa-fw"></i> View: See only the result.<br>
+<i class="fa fa-columns fa-fw"></i> Both: See editor and result at the same time.<br>
+<i class="fa fa-pencil fa-fw"></i> Edit: See only the editor.</p><h4 id="Mobile">Mobile</h4><p><i class="fa fa-eye fa-fw"></i> View: See only the result.<br>
+<i class="fa fa-pencil fa-fw"></i> Edit: See only the editor.</p><h3 id="Night-Mode">Night Mode</h3><p>When you are tired of a white screen and like a night mode, click on the little moon <i class="fa fa-moon-o"></i> and turn on the night view of CodiMD.</p><p>The editor view, which is in night mode by default, can also be toggled between night and day view using the the little sun<i class="fa fa-sun-o fa-fw"></i>.</p><h3 id="Image-Upload">Image Upload</h3><p>You can upload an image simply by clicking on the upload button <i class="fa fa-upload"></i>.<br>
+Alternatively, you can <strong>drag-n-drop</strong> an image into the editor. Even <strong>pasting</strong> images is possible!<br>
+This will automatically upload the image to <strong><a href="http://imgur.com" target="_blank" rel="noopener">imgur</a></strong>, <strong><a href="https://aws.amazon.com/s3/" target="_blank" rel="noopener">Amazon S3</a></strong>, <strong><a href="https://minio.io" target="_blank" rel="noopener">Minio</a></strong> or the <strong>local filesystem</strong> (depending on the instance’s configuration), nothing to worry about. <img class="emoji" alt=":tada:" src="https://cdnjs.cloudflare.com/ajax/libs/emojify.js/1.1.0/images/basic/tada.png"></p><p><img src="https://i.imgur.com/9cgQVqD.png" alt="imgur"></p><h3 id="Share-Notes">Share Notes</h3><p>If you want to share an <strong>editable</strong> note, just copy the URL.<br>
+If you want to share a <strong>read-only</strong> note, simply press the publish button <i class="fa fa-share-square-o"></i> and copy the URL.</p><h3 id="Save-a-Note">Save a Note</h3><p>Currently, you can save to <strong>Dropbox</strong> <i class="fa fa-dropbox"></i> (depending on the instance’s configuration) or save a Markdown <i class="fa fa-file-text"></i>, <abbr title="Hyper Text Markup Language">HTML</abbr> or raw <abbr title="Hyper Text Markup Language">HTML</abbr> <i class="fa fa-file-code-o"></i> file locally.</p><h3 id="Import-Notes">Import Notes</h3><p>Similarly to the <em>save</em> feature, you can also import a Markdown file from <strong>Dropbox</strong> <i class="fa fa-dropbox"></i> (depending on the instance’s configuration), or import content from your <strong>clipboard</strong> <i class="fa fa-clipboard"></i>, which can parse some <abbr title="Hyper Text Markup Language">HTML</abbr>. <img class="emoji" alt=":smiley:" src="https://cdnjs.cloudflare.com/ajax/libs/emojify.js/1.1.0/images/basic/smiley.png"></p><h3 id="Permissions">Permissions</h3><p>It is possible to change the access permission of a note through the little button on the top right of the view.<br>
+There are four possible options:</p><table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:center">Owner read/write</th>
+<th style="text-align:center">Signed-in read</th>
+<th style="text-align:center">Signed-in write</th>
+<th style="text-align:center">Guest read</th>
+<th style="text-align:center">Guest write</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><span class="text-nowrap"><i class="fa fa-leaf fa-fw"></i> <strong>Freely</strong></span></td>
+<td style="text-align:center">✔</td>
+<td style="text-align:center">✔</td>
+<td style="text-align:center">✔</td>
+<td style="text-align:center">✔</td>
+<td style="text-align:center">✔</td>
+</tr>
+<tr>
+<td style="text-align:left"><span class="text-nowrap"><i class="fa fa-pencil fa-fw"></i> <strong>Editable</strong></span></td>
+<td style="text-align:center">✔</td>
+<td style="text-align:center">✔</td>
+<td style="text-align:center">✔</td>
+<td style="text-align:center">✔</td>
+<td style="text-align:center">✖</td>
+</tr>
+<tr>
+<td style="text-align:left"><span class="text-nowrap"><i class="fa fa-id-card fa-fw"></i> <strong>Limited</strong></span></td>
+<td style="text-align:center">✔</td>
+<td style="text-align:center">✔</td>
+<td style="text-align:center">✔</td>
+<td style="text-align:center">✖</td>
+<td style="text-align:center">✖</td>
+</tr>
+<tr>
+<td style="text-align:left"><span class="text-nowrap"><i class="fa fa-lock fa-fw"></i> <strong>Locked</strong></span></td>
+<td style="text-align:center">✔</td>
+<td style="text-align:center">✔</td>
+<td style="text-align:center">✖</td>
+<td style="text-align:center">✔</td>
+<td style="text-align:center">✖</td>
+</tr>
+<tr>
+<td style="text-align:left"><span class="text-nowrap"><i class="fa fa-umbrella fa-fw"></i> <strong>Protected</strong></span></td>
+<td style="text-align:center">✔</td>
+<td style="text-align:center">✔</td>
+<td style="text-align:center">✖</td>
+<td style="text-align:center">✖</td>
+<td style="text-align:center">✖</td>
+</tr>
+<tr>
+<td style="text-align:left"><span class="text-nowrap"><i class="fa fa-hand-stop-o fa-fw"></i> <strong>Private</strong></span></td>
+<td style="text-align:center">✔</td>
+<td style="text-align:center">✖</td>
+<td style="text-align:center">✖</td>
+<td style="text-align:center">✖</td>
+<td style="text-align:center">✖</td>
+</tr>
+</tbody>
+</table><p><strong>Only the owner of the note can change the note’s permissions.</strong></p><h3 id="Embed-a-Note">Embed a Note</h3><p>Notes can be embedded as follows:</p><pre><code class="xml hljs"><span class="hljs-tag">&lt;<span class="hljs-name">iframe</span> <span class="hljs-attr">width</span>=<span class="hljs-string">"100%"</span> <span class="hljs-attr">height</span>=<span class="hljs-string">"500"</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://demo.codimd.io/features"</span> <span class="hljs-attr">frameborder</span>=<span class="hljs-string">"0"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">iframe</span>&gt;</span>
+</code></pre><h3 id="Slide-Mode"><a href="./slide-example" target="_blank" rel="noopener">Slide Mode</a></h3><p>You can use a special syntax to organize your note into slides.<br>
+After that, you can use the <strong><a href="./slide-example" target="_blank" rel="noopener">Slide Mode</a></strong> <i class="fa fa-tv"></i> to make a presentation.<br>
+Visit the above link for details.</p><p>To switch the editor into slide mode, set the <a href="./yaml-metadata#type" target="_blank" rel="noopener">document type</a> to <code>slide</code>.</p><h2 id="View">View</h2><h3 id="Autogenerated-Table-of-Contents">Autogenerated Table of Contents</h3><p>You can look at the bottom right section of the view area, there is a <em>ToC</em> button <i class="fa fa-bars"></i>.<br>
+Pressing that button will show you a current <em>Table of Contents</em>, and will highlight which section you’re at.<br>
+ToCs support up to <strong>three header levels</strong>.</p><h3 id="Permalink">Permalink</h3><p>Every header will automatically add a permalink on the right side.<br>
+You can hover and click <i class="fa fa-chain"></i> to anchor on it.</p><h2 id="Edit">Edit</h2><h3 id="Editor-Modes">Editor Modes</h3><p>You can look in the bottom right section of the editor area, there you’ll find a button with <code>SUBLIME</code> on it.<br>
+When you click it, you can select 3 editor modes, which will also define your shortcut keys:</p><ul>
+<li><a href="https://codemirror.net/demo/sublime.html" target="_blank" rel="noopener">Sublime</a> (default)</li>
+<li><a href="https://codemirror.net/demo/emacs.html" target="_blank" rel="noopener">Emacs</a></li>
+<li><a href="https://codemirror.net/demo/vim.html" target="_blank" rel="noopener">Vim</a></li>
+</ul><h3 id="Auto-Complete">Auto-Complete</h3><p>This editor provides full auto-complete hints in markdown.</p><ul>
+<li>Emojis: type <code>:</code> to show hints.</li>
+<li>Code blocks: type <code>```</code>, followed by another character to show syntax highlighting suggestions.</li>
+<li>Headers: type <code>#</code> to show hint.</li>
+<li>Referrals: type <code>[]</code> to show hint.</li>
+<li>Externals: type <code>{}</code> to show hint.</li>
+<li>Images: type <code>!</code> to show hint.</li>
+</ul><h3 id="Title">Title</h3><p>The first <strong>level 1 heading</strong> (e.g. <code># Title</code>) will be used as the note title.</p><h3 id="Tags">Tags</h3><p>Using tags as follows, the specified tags will show in your <strong>history</strong>.</p><h6 id="tags-features-cool-updated">tags: <code>features</code> <code>cool</code> <code>updated</code></h6><h3 id="YAML-Metadata"><a href="./yaml-metadata" target="_blank" rel="noopener">YAML Metadata</a></h3><p>You can provide advanced note information to set the browser behavior (visit above link for details):</p><ul>
+<li>robots: set web robots meta</li>
+<li>lang: set browser language</li>
+<li>dir: set text direction</li>
+<li>breaks: set to use line breaks</li>
+<li>GA: set to use Google Analytics</li>
+<li>disqus: set to use Disqus</li>
+<li>slideOptions: setup slide mode options</li>
+</ul><h3 id="Table-of-Contents">Table of Contents</h3><p>Use the syntax <code>[TOC]</code> to embed a table of contents into your note.</p><p></p><div class="toc"><ul>
+<li><a href="#Features" title="Features">Features</a><ul>
+<li><a href="#Introduction" title="Introduction">Introduction</a></li>
+<li><a href="#Workspace" title="Workspace">Workspace</a><ul>
+<li><a href="#Modes" title="Modes">Modes</a></li>
+<li><a href="#Night-Mode" title="Night Mode">Night Mode</a></li>
+<li><a href="#Image-Upload" title="Image Upload">Image Upload</a></li>
+<li><a href="#Share-Notes" title="Share Notes">Share Notes</a></li>
+<li><a href="#Save-a-Note" title="Save a Note">Save a Note</a></li>
+<li><a href="#Import-Notes" title="Import Notes">Import Notes</a></li>
+<li><a href="#Permissions" title="Permissions">Permissions</a></li>
+<li><a href="#Embed-a-Note" title="Embed a Note">Embed a Note</a></li>
+<li><a href="#Slide-Mode" title="Slide Mode">Slide Mode</a></li>
+</ul>
+</li>
+<li><a href="#View" title="View">View</a><ul>
+<li><a href="#Autogenerated-Table-of-Contents" title="Autogenerated Table of Contents">Autogenerated Table of Contents</a></li>
+<li><a href="#Permalink" title="Permalink">Permalink</a></li>
+</ul>
+</li>
+<li><a href="#Edit" title="Edit">Edit</a><ul>
+<li><a href="#Editor-Modes" title="Editor Modes">Editor Modes</a></li>
+<li><a href="#Auto-Complete" title="Auto-Complete">Auto-Complete</a></li>
+<li><a href="#Title" title="Title">Title</a></li>
+<li><a href="#Tags" title="Tags">Tags</a></li>
+<li><a href="#YAML-Metadata" title="YAML Metadata">YAML Metadata</a></li>
+<li><a href="#Table-of-Contents" title="Table of Contents">Table of Contents</a></li>
+<li><a href="#Emoji" title="Emoji">Emoji</a></li>
+<li><a href="#ToDo-List" title="ToDo List">ToDo List</a></li>
+<li><a href="#Code-Block" title="Code Block">Code Block</a></li>
+<li><a href="#Blockquote-Tags" title="Blockquote Tags">Blockquote Tags</a></li>
+<li><a href="#Externals" title="Externals">Externals</a></li>
+<li><a href="#MathJax" title="MathJax">MathJax</a></li>
+<li><a href="#Diagrams" title="Diagrams">Diagrams</a></li>
+<li><a href="#Alert-Area" title="Alert Area">Alert Area</a></li>
+<li><a href="#Typography" title="Typography">Typography</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div><p></p><h3 id="Emoji">Emoji</h3><p>You can type any emoji like this <img class="emoji" alt=":smile:" src="https://cdnjs.cloudflare.com/ajax/libs/emojify.js/1.1.0/images/basic/smile.png"> <img class="emoji" alt=":smiley:" src="https://cdnjs.cloudflare.com/ajax/libs/emojify.js/1.1.0/images/basic/smiley.png"> <img class="emoji" alt=":cry:" src="https://cdnjs.cloudflare.com/ajax/libs/emojify.js/1.1.0/images/basic/cry.png"> <img class="emoji" alt=":wink:" src="https://cdnjs.cloudflare.com/ajax/libs/emojify.js/1.1.0/images/basic/wink.png"></p><blockquote>
+<p>See full emoji list <a href="http://www.emoji-cheat-sheet.com/" target="_blank" rel="noopener">here</a>.</p>
+</blockquote><h3 id="ToDo-List">ToDo List</h3><ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled"><label></label>ToDos
+<ul>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled="disabled"><label></label>Buy some salad</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled"><label></label>Brush teeth</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" checked="" disabled="disabled"><label></label>Drink some water</li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled"><label></label><strong>Click my box</strong> and see the source code, if you’re allowed to edit!</li>
+</ul>
+</li>
+</ul><h3 id="Code-Block">Code Block</h3><p>We support many programming languages, use the auto complete function to see the entire list.</p><pre><code class="javascript hljs"><div class="wrapper"><div class="gutter linenumber"><span data-linenumber="1"></span>
+<span data-linenumber="2"></span>
+<span data-linenumber="3"></span>
+<span data-linenumber="4"></span>
+<span data-linenumber="5"></span>
+<span data-linenumber="6"></span>
+<span data-linenumber="7"></span>
+<span data-linenumber="8"></span>
+<span data-linenumber="9"></span>
+<span data-linenumber="10"></span>
+<span data-linenumber="11"></span>
+<span data-linenumber="12"></span>
+<span data-linenumber="13"></span>
+<span data-linenumber="14"></span>
+<span data-linenumber="15"></span></div><div class="code"><span class="hljs-keyword">var</span> s = <span class="hljs-string">"JavaScript syntax highlighting"</span>;
+alert(s);
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">$initHighlight</span>(<span class="hljs-params">block, cls</span>) </span>{
+  <span class="hljs-keyword">try</span> {
+    <span class="hljs-keyword">if</span> (cls.search(<span class="hljs-regexp">/\bno\-highlight\b/</span>) != <span class="hljs-number">-1</span>)
+      <span class="hljs-keyword">return</span> process(block, <span class="hljs-literal">true</span>, <span class="hljs-number">0x0F</span>) +
+             <span class="hljs-string">' class=""'</span>;
+  } <span class="hljs-keyword">catch</span> (e) {
+    <span class="hljs-comment">/* handle exception */</span>
+  }
+  <span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span> / <span class="hljs-number">2</span>; i &lt; classes.length; i++) {
+    <span class="hljs-keyword">if</span> (checkCondition(classes[i]) === <span class="hljs-literal">undefined</span>)
+      <span class="hljs-keyword">return</span> <span class="hljs-regexp">/\d+[\s/]/g</span>;
+  }
+}
+</div></div></code></pre><p>If you want <strong>line numbers</strong>, type <code>=</code> after specifying the code block languagues.<br>
+Also, you can specify the start line number.<br>
+Like below, the line number starts from 101:</p><pre><code class="javascript hljs"><div class="wrapper"><div class="gutter linenumber"><span data-linenumber="101"></span>
+<span data-linenumber="102"></span>
+<span data-linenumber="103"></span>
+<span data-linenumber="104"></span>
+<span data-linenumber="105"></span>
+<span data-linenumber="106"></span>
+<span data-linenumber="107"></span>
+<span data-linenumber="108"></span>
+<span data-linenumber="109"></span>
+<span data-linenumber="110"></span>
+<span data-linenumber="111"></span>
+<span data-linenumber="112"></span>
+<span data-linenumber="113"></span>
+<span data-linenumber="114"></span>
+<span data-linenumber="115"></span></div><div class="code"><span class="hljs-keyword">var</span> s = <span class="hljs-string">"JavaScript syntax highlighting"</span>;
+alert(s);
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">$initHighlight</span>(<span class="hljs-params">block, cls</span>) </span>{
+  <span class="hljs-keyword">try</span> {
+    <span class="hljs-keyword">if</span> (cls.search(<span class="hljs-regexp">/\bno\-highlight\b/</span>) != <span class="hljs-number">-1</span>)
+      <span class="hljs-keyword">return</span> process(block, <span class="hljs-literal">true</span>, <span class="hljs-number">0x0F</span>) +
+             <span class="hljs-string">' class=""'</span>;
+  } <span class="hljs-keyword">catch</span> (e) {
+    <span class="hljs-comment">/* handle exception */</span>
+  }
+  <span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span> / <span class="hljs-number">2</span>; i &lt; classes.length; i++) {
+    <span class="hljs-keyword">if</span> (checkCondition(classes[i]) === <span class="hljs-literal">undefined</span>)
+      <span class="hljs-keyword">return</span> <span class="hljs-regexp">/\d+[\s/]/g</span>;
+  }
+}
+</div></div></code></pre><p>Or you might want to continue the previous code block’s line number, use <code>=+</code>:</p><pre><code class="javascript hljs"><div class="wrapper"><div class="gutter linenumber continue"><span data-linenumber="116"></span>
+<span data-linenumber="117"></span></div><div class="code"><span class="hljs-keyword">var</span> s = <span class="hljs-string">"JavaScript syntax highlighting"</span>;
+alert(s);
+</div></div></code></pre><p>Somtimes you have a super long text without breaks. It’s time to use <code>!</code> to wrap your code:</p><pre><code class="wrap hljs">When you’re a carpenter making a beautiful chest of drawers, you’re not going to use a piece of plywood on the back.
+</code></pre><h3 id="Blockquote-Tags">Blockquote Tags</h3><blockquote style="border-left-color: rgb(144, 123, 247);">
+<p>Using the syntax below to specifiy your <strong>name, time and color</strong> to vary the blockquotes.<br>
+<small><i class="fa fa-user"></i> ChengHan Wu <i class="fa fa-clock-o"></i> Sun, Jun 28, 2015 9:59 PM</small> <span class="color" data-color="#907bf7"></span></p>
+<blockquote style="border-left-color: red;">
+<p>Even support nested blockquotes!<br>
+<small><i class="fa fa-user"></i> Max Mustermann <i class="fa fa-clock-o"></i> Sun, Jun 28, 2015 9:47 PM</small> <span class="color" data-color="red"></span></p>
+</blockquote>
+</blockquote><h3 id="Externals">Externals</h3><h4 id="YouTube">YouTube</h4><p></p><div class="youtube" data-videoid="aqz-KE-bpKQ"><iframe frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" src="https://www.youtube.com/embed/aqz-KE-bpKQ"></iframe></div><p></p><h4 id="Vimeo">Vimeo</h4><p></p><div class="vimeo" data-videoid="124148255"><iframe frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" src="https://player.vimeo.com/video/124148255"></iframe></div><p></p><h4 id="Gist">Gist</h4><p><code data-gist-id="schacon/4277" style="display: block;"></code></p><h4 id="SlideShare">SlideShare</h4><p></p><div class="slideshare" data-slideshareid="briansolis/26-disruptive-technology-trends-2016-2018-56796196"><div class="inner" style="padding-bottom: 83.3724%;"><iframe src="https://www.slideshare.net/slideshow/embed_code/key/zTckhjEe9nT5j8" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen=""> </iframe></div><div style="margin-bottom:5px"> <strong> <a href="https://www.slideshare.net/briansolis/26-disruptive-technology-trends-2016-2018-56796196" title="26 Disruptive &amp; Technology Trends 2016 - 2018" target="_blank">26 Disruptive &amp; Technology Trends 2016 - 2018</a> </strong> from <strong><a href="https://www.slideshare.net/briansolis" target="_blank">Brian Solis</a></strong> </div></div><p></p><h4 id="PDF">PDF</h4><p><strong>Caution: this might be blocked by your browser if not using an <code>https</code> URL.</strong><br>
+</p><div class="pdf" data-pdfurl="https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf"><div class="pdfobject-container"><embed class="pdfobject" src="https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf" type="application/pdf" style="overflow: auto; width: 100%; height: 400px;"></div></div><p></p><h3 id="MathJax">MathJax</h3><p>You can render <em>LaTeX</em> mathematical expressions using <strong>MathJax</strong>, as on <a href="http://math.stackexchange.com/" target="_blank" rel="noopener">math.stackexchange.com</a>:</p><p>The <em>Gamma function</em> satisfying <span class="mathjax"><span class="MathJax_Preview" style="color: inherit;"></span><script type="math/tex">\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N</script></span> is via the Euler integral</p><p><span class="mathjax"><span class="MathJax_Preview">
+x = {-b \pm \sqrt{b^2-4ac} \over 2a}.
+</span><script type="math/tex; mode=display">
+x = {-b \pm \sqrt{b^2-4ac} \over 2a}.
+</script></span></p><p><span class="mathjax"><span class="MathJax_Preview">
+\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
+</span><script type="math/tex; mode=display">
+\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
+</script></span></p><blockquote>
+<p>More information about <strong>LaTeX</strong> mathematical expressions <a href="http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference" target="_blank" rel="noopener">here</a>.</p>
+</blockquote><h3 id="Diagrams">Diagrams</h3><h4 id="UML-Sequence-Diagrams">UML Sequence Diagrams</h4><p>You can render sequence diagrams like this:</p><pre class="sequence-diagram"><svg height="353" version="1.1" width="603.5234375" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="overflow: hidden; position: relative; top: -0.34375px;" viewBox="0 0 603.5234375 353" preserveAspectRatio="xMidYMid meet"><desc style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Created with Raphaël 2.3.0</desc><defs style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><path stroke-linecap="round" d="M5,0 0,2.5 5,5z" id="raphael-marker-block" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><marker id="raphael-marker-endblock55-objxpzit" markerHeight="5" markerWidth="5" orient="auto" refX="2.5" refY="2.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><use xlink:href="#raphael-marker-block" transform="rotate(180 2.5 2.5) scale(1,1)" stroke-width="1.0000" fill="#000000" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></use></marker><marker id="raphael-marker-endblock55-objlqtme" markerHeight="5" markerWidth="5" orient="auto" refX="2.5" refY="2.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><use xlink:href="#raphael-marker-block" transform="rotate(180 2.5 2.5) scale(1,1)" stroke-width="1.0000" fill="#000000" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></use></marker><marker id="raphael-marker-endblock55-objo5crc" markerHeight="5" markerWidth="5" orient="auto" refX="2.5" refY="2.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"><use xlink:href="#raphael-marker-block" transform="rotate(180 2.5 2.5) scale(1,1)" stroke-width="1.0000" fill="#000000" stroke="none" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></use></marker></defs><rect x="145.4140625" y="20" width="66.609375" height="39" rx="0" ry="0" fill="#ffffff" stroke="#000000" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></rect><text x="155.8125" y="39.5" text-anchor="start" font-family="Andale Mono, monospace" font-size="16px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: start; font-family: &quot;Andale Mono&quot;, monospace; font-size: 16px;"><tspan dy="5.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Alice</tspan></text><rect x="145.4140625" y="294" width="66.609375" height="39" rx="0" ry="0" fill="#ffffff" stroke="#000000" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></rect><text x="155.8125" y="313.5" text-anchor="start" font-family="Andale Mono, monospace" font-size="16px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: start; font-family: &quot;Andale Mono&quot;, monospace; font-size: 16px;"><tspan dy="5.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Alice</tspan></text><path fill="none" stroke="#000000" d="M178.71875,59L178.71875,294" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path><rect x="385.1015625" y="20" width="47.296875" height="39" rx="0" ry="0" fill="#ffffff" stroke="#000000" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></rect><text x="395" y="39.5" text-anchor="start" font-family="Andale Mono, monospace" font-size="16px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: start; font-family: &quot;Andale Mono&quot;, monospace; font-size: 16px;"><tspan dy="5.5" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Bob</tspan></text><rect x="385.1015625" y="294" width="47.296875" height="39" rx="0" ry="0" fill="#ffffff" stroke="#000000" stroke-width="2" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></rect><text x="395" y="313.5" text-anchor="start" font-family="Andale Mono, monospace" font-size="16px" stroke="none" fill="#000000" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0); text-anchor: start; font-family: &quot;Andale Mono&quot;, monospace; font-size:
+
+<!-- Generated by graphviz version 2.40.1 (20161225.0304)
+ -->
+<!-- Title: hierarchy Pages: 1 -->
+<svg width="525pt" height="188pt" viewBox="0.00 0.00 524.58 188.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 184)">
+<title>hierarchy</title>
+<polygon fill="#ffffff" stroke="transparent" points="-4,4 -4,-184 520.5839,-184 520.5839,4 -4,4"></polygon>
+<!-- Headteacher -->
+<g id="node1" class="node">
+<title>Headteacher</title>
+<polygon fill="none" stroke="#ff0000" points="319.9797,-180 211.2091,-180 211.2091,-144 319.9797,-144 319.9797,-180"></polygon>
+<text text-anchor="middle" x="265.5944" y="-157.8" font-family="Courier,monospace" font-size="14.00" fill="#000000">Headteacher</text>
+</g>
+<!-- Deputy1 -->
+<g id="node2" class="node">
+<title>Deputy1</title>
+<polygon fill="none" stroke="#ff0000" points="155.8849,-108 81.3039,-108 81.3039,-72 155.8849,-72 155.8849,-108"></polygon>
+<text text-anchor="middle" x="118.5944" y="-85.8" font-family="Courier,monospace" font-size="14.00" fill="#000000">Deputy1</text>
+</g>
+<!-- Headteacher&#45;&gt;Deputy1 -->
+<g id="edge1" class="edge">
+<title>Headteacher-&gt;Deputy1</title>
+<path fill="none" stroke="#0000ff" stroke-dasharray="5,2" d="M228.5001,-143.8314C209.1018,-134.3302 185.1774,-122.6121 164.6082,-112.5374"></path>
+<polygon fill="#0000ff" stroke="#0000ff" points="165.9422,-109.2935 155.422,-108.038 162.863,-115.5799 165.9422,-109.2935"></polygon>
+</g>
+<!-- Deputy2 -->
+<g id="node3" class="node">
+<title>Deputy2</title>
+<polygon fill="none" stroke="#ff0000" points="302.8849,-108 228.3039,-108 228.3039,-72 302.8849,-72 302.8849,-108"></polygon>
+<text text-anchor="middle" x="265.5944" y="-85.8" font-family="Courier,monospace" font-size="14.00" fill="#000000">Deputy2</text>
+</g>
+<!-- Headteacher&#45;&gt;Deputy2 -->
+<g id="edge2" class="edge">
+<title>Headteacher-&gt;Deputy2</title>
+<path fill="none" stroke="#0000ff" stroke-dasharray="5,2" d="M265.5944,-143.8314C265.5944,-136.131 265.5944,-126.9743 265.5944,-118.4166"></path>
+<polygon fill="#0000ff" stroke="#0000ff" points="269.0945,-118.4132 265.5944,-108.4133 262.0945,-118.4133 269.0945,-118.4132"></polygon>
+</g>
+<!-- BusinessManager -->
+<g id="node4" class="node">
+<title>BusinessManager</title>
+<polygon fill="none" stroke="#ff0000" points="516.5734,-108 374.6154,-108 374.6154,-72 516.5734,-72 516.5734,-108"></polygon>
+<text text-anchor="middle" x="445.5944" y="-85.8" font-family="Courier,monospace" font-size="14.00" fill="#000000">BusinessManager</text>
+</g>
+<!-- Headteacher&#45;&gt;BusinessManager -->
+<g id="edge3" class="edge">
+<title>Headteacher-&gt;BusinessManager</title>
+<path fill="none" stroke="#0000ff" stroke-dasharray="5,2" d="M311.016,-143.8314C335.3039,-134.1162 365.3866,-122.0831 390.9464,-111.8592"></path>
+<polygon fill="#0000ff" stroke="#0000ff" points="392.5145,-115.0016 400.4994,-108.038 389.9148,-108.5023 392.5145,-115.0016"></polygon>
+</g>
+<!-- Teacher1 -->
+<g id="node5" class="node">
+<title>Teacher1</title>
+<polygon fill="none" stroke="#ff0000" points="83.2834,-36 -.0946,-36 -.0946,0 83.2834,0 83.2834,-36"></polygon>
+<text text-anchor="middle" x="41.5944" y="-13.8" font-family="Courier,monospace" font-size="14.00" fill="#000000">Teacher1</text>
+</g>
+<!-- Deputy1&#45;&gt;Teacher1 -->
+<g id="edge4" class="edge">
+<title>Deputy1-&gt;Teacher1</title>
+<path fill="none" stroke="#0000ff" stroke-dasharray="5,2" d="M99.164,-71.8314C89.8624,-63.1337 78.574,-52.5783 68.4658,-43.1265"></path>
+<polygon fill="#0000ff" stroke="#0000ff" points="70.7133,-40.4363 61.0185,-36.1628 65.9323,-45.5493 70.7133,-40.4363"></polygon>
+</g>
+<!-- Teacher2 -->
+<g id="node6" class="node">
+<title>Teacher2</title>
+<polygon fill="none" stroke="#ff0000" points="238.2834,-36 154.9054,-36 154.9054,0 238.2834,0 238.2834,-36"></polygon>
+<text text-anchor="middle" x="196.5944" y="-13.8" font-family="Courier,monospace" font-size="14.00" fill="#000000">Teacher2</text>
+</g>
+<!-- Deputy1&#45;&gt;Teacher2 -->
+<g id="edge5" class="edge">
+<title>Deputy1-&gt;Teacher2</title>
+<path fill="none" stroke="#0000ff" stroke-dasharray="5,2" d="M138.2771,-71.8314C147.6995,-63.1337 159.1345,-52.5783 169.374,-43.1265"></path>
+<polygon fill="#0000ff" stroke="#0000ff" points="171.9439,-45.5175 176.918,-36.1628 167.196,-40.3738 171.9439,-45.5175"></polygon>
+</g>
+<!-- ITManager -->
+<g id="node7" class="node">
+<title>ITManager</title>
+<polygon fill="none" stroke="#ff0000" points="491.1827,-36 400.0061,-36 400.0061,0 491.1827,0 491.1827,-36"></polygon>
+<text text-anchor="middle" x="445.5944" y="-13.8" font-family="Courier,monospace" font-size="14.00" fill="#000000">ITManager</text>
+</g>
+<!-- BusinessManager&#45;&gt;ITManager -->
+<g id="edge6" class="edge">
+<title>BusinessManager-&gt;ITManager</title>
+<path fill="none" stroke="#0000ff" stroke-dasharray="5,2" d="M445.5944,-71.8314C445.5944,-64.131 445.5944,-54.9743 445.5944,-46.4166"></path>
+<polygon fill="#0000ff" stroke="#0000ff" points="449.0945,-46.4132 445.5944,-36.4133 442.0945,-46.4133 449.0945,-46.4132"></polygon>
+</g>
+</g>
+</svg>
+</pre><p>More information about <strong>graphviz</strong> syntax <a href="http://www.tonyballantyne.com/graphs.html" target="_blank" rel="noopener">here</a></p><h4 id="Mermaid">Mermaid</h4><pre class="mermaid" data-processed="true"><svg id="mermaid-1588009389865" width="100%" xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 0 696 196"><style>#mermaid-1588009389865 .label{font-family:'trebuchet ms', verdana, arial;font-family:var(--mermaid-font-family);color:#333}#mermaid-1588009389865 .label text{fill:#333}#mermaid-1588009389865 .node rect,#mermaid-1588009389865 .node circle,#mermaid-1588009389865 .node ellipse,#mermaid-1588009389865 .node polygon,#mermaid-1588009389865 .node path{fill:#ECECFF;stroke:#9370db;stroke-width:1px}#mermaid-1588009389865 .node .label{text-align:center}#mermaid-1588009389865 .node.clickable{cursor:pointer}#mermaid-1588009389865 .arrowheadPath{fill:#333}#mermaid-1588009389865 .edgePath .path{stroke:#333;stroke-width:1.5px}#mermaid-1588009389865 .edgeLabel{background-color:#e8e8e8;text-align:center}#mermaid-1588009389865 .cluster rect{fill:#ffffde;stroke:#aa3;stroke-width:1px}#mermaid-1588009389865 .cluster text{fill:#333}#mermaid-1588009389865 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:'trebuchet ms', verdana, arial;font-family:var(--mermaid-font-family);font-size:12px;background:#ffffde;border:1px solid #aa3;border-radius:2px;pointer-events:none;z-index:100}#mermaid-1588009389865 .actor{stroke:#ccf;fill:#ECECFF}#mermaid-1588009389865 text.actor{fill:#000;stroke:none}#mermaid-1588009389865 .actor-line{stroke:grey}#mermaid-1588009389865 .messageLine0{stroke-width:1.5;stroke-dasharray:'2 2';stroke:#333}#mermaid-1588009389865 .messageLine1{stroke-width:1.5;stroke-dasharray:'2 2';stroke:#333}#mermaid-1588009389865 #arrowhead{fill:#333}#mermaid-1588009389865 .sequenceNumber{fill:#fff}#mermaid-1588009389865 #sequencenumber{fill:#333}#mermaid-1588009389865 #crosshead path{fill:#333 !important;stroke:#333 !important}#mermaid-1588009389865 .messageText{fill:#333;stroke:none}#mermaid-1588009389865 .labelBox{stroke:#ccf;fill:#ECECFF}#mermaid-1588009389865 .labelText{fill:#000;stroke:none}#mermaid-1588009389865 .loopText{fill:#000;stroke:none}#mermaid-1588009389865 .loopLine{stroke-width:2;stroke-dasharray:'2 2';stroke:#ccf}#mermaid-1588009389865 .note{stroke:#aa3;fill:#fff5ad}#mermaid-1588009389865 .noteText{fill:black;stroke:none;font-family:'trebuchet ms', verdana, arial;font-family:var(--mermaid-font-family);font-size:14px}#mermaid-1588009389865 .activation0{fill:#f4f4f4;stroke:#666}#mermaid-1588009389865 .activation1{fill:#f4f4f4;stroke:#666}#mermaid-1588009389865 .activation2{fill:#f4f4f4;stroke:#666}#mermaid-1588009389865 .mermaid-main-font{font-family:"trebuchet ms", verdana, arial;font-family:var(--mermaid-font-family)}#mermaid-1588009389865 .section{stroke:none;opacity:0.2}#mermaid-1588009389865 .section0{fill:rgba(102,102,255,0.49)}#mermaid-1588009389865 .section2{fill:#fff400}#mermaid-1588009389865 .section1,#mermaid-1588009389865 .section3{fill:#fff;opacity:0.2}#mermaid-1588009389865 .sectionTitle0{fill:#333}#mermaid-1588009389865 .sectionTitle1{fill:#333}#mermaid-1588009389865 .sectionTitle2{fill:#333}#mermaid-1588009389865 .sectionTitle3{fill:#333}#mermaid-1588009389865 .sectionTitle{text-anchor:start;font-size:11px;text-height:14px;font-family:'trebuchet ms', verdana, arial;font-family:var(--mermaid-font-family)}#mermaid-1588009389865 .grid .tick{stroke:#d3d3d3;opacity:0.8;shape-rendering:crispEdges}#mermaid-1588009389865 .grid .tick text{font-family:'trebuchet ms', verdana, arial;font-family:var(--mermaid-font-family)}#mermaid-1588009389865 .grid path{stroke-width:0}#mermaid-1588009389865 .today{fill:none;stroke:red;stroke-width:2px}#mermaid-1588009389865 .task{stroke-width:2}#mermaid-1588009389865 .taskText{text-anchor:middle;font-family:'trebuchet ms', verdana, arial;font-family:var(--mermaid-font-family)}#mermaid-1588009389865 .taskText:not([font-size]){font-size:11px}#mermaid-1588009389865 .taskTextOutsideRight{fill:#000;tex
+
+:root { --mermaid-font-family: "trebuchet ms", verdana, arial;}</style><style>#mermaid-1588009389865 {
+    color: rgb(51, 51, 51);
+    font: 13.6px / 19.72px "trebuchet ms", verdana, arial;
+  }</style><g></g><g class="grid" transform="translate(75, 146)" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle"><path class="domain" stroke="currentColor" d="M0.5,-111V0.5H546.5V-111"></path><g class="tick" opacity="1" transform="translate(44.5,0)"><line stroke="currentColor" y2="-111"></line><text fill="#000" y="3" dy="1em" stroke="none" font-size="10" style="text-anchor: middle;">2014-01-05</text></g><g class="tick" opacity="1" transform="translate(120.5,0)"><line stroke="currentColor" y2="-111"></line><text fill="#000" y="3" dy="1em" stroke="none" font-size="10" style="text-anchor: middle;">2014-01-12</text></g><g class="tick" opacity="1" transform="translate(196.5,0)"><line stroke="currentColor" y2="-111"></line><text fill="#000" y="3" dy="1em" stroke="none" font-size="10" style="text-anchor: middle;">2014-01-19</text></g><g class="tick" opacity="1" transform="translate(273.5,0)"><line stroke="currentColor" y2="-111"></line><text fill="#000" y="3" dy="1em" stroke="none" font-size="10" style="text-anchor: middle;">2014-01-26</text></g><g class="tick" opacity="1" transform="translate(349.5,0)"><line stroke="currentColor" y2="-111"></line><text fill="#000" y="3" dy="1em" stroke="none" font-size="10" style="text-anchor: middle;">2014-02-02</text></g><g class="tick" opacity="1" transform="translate(426.5,0)"><line stroke="currentColor" y2="-111"></line><text fill="#000" y="3" dy="1em" stroke="none" font-size="10" style="text-anchor: middle;">2014-02-09</text></g><g class="tick" opacity="1" transform="translate(502.5,0)"><line stroke="currentColor" y2="-111"></line><text fill="#000" y="3" dy="1em" stroke="none" font-size="10" style="text-anchor: middle;">2014-02-16</text></g></g><g><rect x="0" y="48" width="658.5" height="24" class="section section0"></rect><rect x="0" y="72" width="658.5" height="24" class="section section0"></rect><rect x="0" y="96" width="658.5" height="24" class="section section1"></rect><rect x="0" y="120" width="658.5" height="24" class="section section1"></rect></g><g><rect id="a1" rx="3" ry="3" x="75" y="50" width="327" height="20" transform-origin="238.5px 60px" class="task task0"></rect><rect id="task1" rx="3" ry="3" x="402" y="74" width="219" height="20" transform-origin="511.5px 84px" class="task task0"></rect><rect id="task2" rx="3" ry="3" x="195" y="98" width="131" height="20" transform-origin="260.5px 108px" class="task task1"></rect><rect id="task3" rx="3" ry="3" x="326" y="122" width="262" height="20" transform-origin="457px 132px" class="task task1"></rect><text id="a1-text" font-size="11" x="238.5" y="63.5" text-height="20" class="taskText taskText0 width-33.15625">A task</text><text id="task1-text" font-size="11" x="511.5" y="87.5" text-height="20" class="taskText taskText0 width-67.8125">Another task</text><text id="task2-text" font-size="11" x="260.5" y="111.5" text-height="20" class="taskText taskText1 width-57.53125">Task in sec</text><text id="task3-text" font-size="11" x="457" y="135.5" text-height="20" class="taskText taskText1 width-67.8125">Another task</text></g><g><text dy="0em" x="10" y="74" class="sectionTitle sectionTitle0"><tspan alignment-baseline="central" x="10">Section</tspan></text><text dy="0em" x="10" y="122" class="sectionTitle sectionTitle1"><tspan alignment-baseline="central" x="10">Another</tspan></text></g><g class="today"><line x1="25265" x2="25265" y1="25" y2="171" class="today"></line></g><text x="348" y="25" class="titleText">A Gantt Diagram</text></svg></pre><p>More information about <strong>mermaid</strong> syntax <a href="http://knsv.github.io/mermaid" target="_blank" rel="noopener">here</a></p><h4 id="Abc-Music-Notation">Abc Music Notation</h4><pre class="abc"><svg height="460.63874999999996" version="1.1" width="770.0000000000002" xmlns="http://www.w3.org/2000/svg" style="overflow: hidden; position: relative; top: -0.328125px;" viewBox="0 0 770.0000000000002 460.63874999999996" preserveAspectRatio="xMidYMid meet"><path fill="#000000" stroke="none" d="M15,407.72624999999994L755.0000000000002,407.72624999999994L755.00000000000
+<p>Yes <img class="emoji" alt=":tada:" src="https://cdnjs.cloudflare.com/ajax/libs/emojify.js/1.1.0/images/basic/tada.png"></p>
+</div><div class="alert alert-info">
+<p>This is a message <img class="emoji" alt=":mega:" src="https://cdnjs.cloudflare.com/ajax/libs/emojify.js/1.1.0/images/basic/mega.png"></p>
+</div><div class="alert alert-warning">
+<p>Watch out <img class="emoji" alt=":zap:" src="https://cdnjs.cloudflare.com/ajax/libs/emojify.js/1.1.0/images/basic/zap.png"></p>
+</div><div class="alert alert-danger">
+<p>Oh No! <img class="emoji" alt=":fire:" src="https://cdnjs.cloudflare.com/ajax/libs/emojify.js/1.1.0/images/basic/fire.png"></p>
+</div><h3 id="Typography">Typography</h3><h4 id="Headers">Headers</h4><pre><code class="markdown hljs"><span class="hljs-section"># h1 Heading</span>
+<span class="hljs-section">## h2 Heading</span>
+<span class="hljs-section">### h3 Heading</span>
+<span class="hljs-section">#### h4 Heading</span>
+<span class="hljs-section">##### h5 Heading</span>
+<span class="hljs-section">###### h6 Heading</span>
+</code></pre><h4 id="Horizontal-Rules">Horizontal Rules</h4><hr><hr><hr><h4 id="Typographic-Replacements">Typographic Replacements</h4><p>Enable typographer option to see result.</p><p>© © ® ® ™ ™ § § ±</p><p>test… test… test… test?.. test!..</p><p>!!! ??? ,</p><p>Remarkable – awesome</p><p>“Smartypants, double quotes”</p><p>‘Smartypants, single quotes’</p><h4 id="Emphasis">Emphasis</h4><p><strong>This is bold text</strong></p><p><strong>This is bold text</strong></p><p><em>This is italic text</em></p><p><em>This is italic text</em></p><p><s>Deleted text</s></p><p>lu<sub>lala</sub></p><p>Superscript: 19<sup>th</sup></p><p>Subscript: H<sub>2</sub>O</p><p><ins>Inserted text</ins></p><p><mark>Marked text</mark></p><h4 id="Blockquotes">Blockquotes</h4><blockquote>
+<p>Blockquotes can also be nested…</p>
+<blockquote>
+<p>…by using additional greater-than signs right next to each other…</p>
+<blockquote>
+<p>…or with spaces between arrows.</p>
+</blockquote>
+</blockquote>
+</blockquote><h4 id="Lists">Lists</h4><h5 id="Unordered">Unordered</h5><ul>
+<li>Create a list by starting a line with <code>+</code>, <code>-</code>, or <code>*</code></li>
+<li>Sub-lists are made by indenting 2 spaces:
+<ul>
+<li>Marker character change forces new list start:
+<ul>
+<li>Ac tristique libero volutpat at</li>
+</ul>
+<ul>
+<li>Facilisis in pretium nisl aliquet</li>
+</ul>
+<ul>
+<li>Nulla volutpat aliquam velit</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Very easy!</li>
+</ul><h5 id="Ordered">Ordered</h5><ol>
+<li>
+<p>Lorem ipsum dolor sit amet</p>
+</li>
+<li>
+<p>Consectetur adipiscing elit</p>
+</li>
+<li>
+<p>Aenean commodo ligula eget dolor</p>
+</li>
+<li>
+<p><strong>You can use sequential numbers…</strong></p>
+</li>
+<li>
+<p><strong>…or keep all the numbers as <code>1.</code></strong></p>
+</li>
+<li>
+<p>Aenean massa</p>
+</li>
+<li>
+<p>Cum sociis natoque penatibus</p>
+</li>
+<li>
+<p>Magnis dis parturient montes</p>
+</li>
+<li>
+<p>Nascetur ridiculus mus</p>
+</li>
+<li>
+<p>Donec quam felis</p>
+</li>
+</ol><p>Start numbering with offset:</p><ol start="57">
+<li>foo</li>
+<li>bar</li>
+</ol><h4 id="Code">Code</h4><p>Inline <code>code</code></p><p>Indented code</p><pre><code>// Some comments
+line 1 of code
+line 2 of code
+line 3 of code
+</code></pre><p>Block code “fences”</p><pre><code>Sample text here...
+</code></pre><p>Syntax highlighting</p><pre><code class="js hljs"><span class="hljs-keyword">var</span> foo = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">bar</span>) </span>{
+  <span class="hljs-keyword">return</span> bar++;
+};
+
+<span class="hljs-built_in">console</span>.log(foo(<span class="hljs-number">5</span>));
+</code></pre><h4 id="Tables">Tables</h4><table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>data</td>
+<td>path to data files to supply the data that will be passed into templates.</td>
+</tr>
+<tr>
+<td>engine</td>
+<td>engine to be used for processing templates. Handlebars is the default.</td>
+</tr>
+<tr>
+<td>ext</td>
+<td>extension to be used for dest files.</td>
+</tr>
+</tbody>
+</table><p>Right aligned columns</p><table>
+<thead>
+<tr>
+<th style="text-align:right">Option</th>
+<th style="text-align:right">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">data</td>
+<td style="text-align:right">path to data files to supply the data that will be passed into templates.</td>
+</tr>
+<tr>
+<td style="text-align:right">engine</td>
+<td style="text-align:right">engine to be used for processing templates. Handlebars is the default.</td>
+</tr>
+<tr>
+<td style="text-align:right">ext</td>
+<td style="text-align:right">extension to be used for dest files.</td>
+</tr>
+</tbody>
+</table><p>Left aligned columns</p><table>
+<thead>
+<tr>
+<th style="text-align:left">Option</th>
+<th style="text-align:left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">data</td>
+<td style="text-align:left">path to data files to supply the data that will be passed into templates.</td>
+</tr>
+<tr>
+<td style="text-align:left">engine</td>
+<td style="text-align:left">engine to be used for processing templates. Handlebars is the default.</td>
+</tr>
+<tr>
+<td style="text-align:left">ext</td>
+<td style="text-align:left">extension to be used for dest files.</td>
+</tr>
+</tbody>
+</table><p>Center aligned columns</p><table>
+<thead>
+<tr>
+<th style="text-align:center">Option</th>
+<th style="text-align:center">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">data</td>
+<td style="text-align:center">path to data files to supply the data that will be passed into templates.</td>
+</tr>
+<tr>
+<td style="text-align:center">engine</td>
+<td style="text-align:center">engine to be used for processing templates. Handlebars is the default.</td>
+</tr>
+<tr>
+<td style="text-align:center">ext</td>
+<td style="text-align:center">extension to be used for dest files.</td>
+</tr>
+</tbody>
+</table><h4 id="Links">Links</h4><p><a href="https://demo.codimd.org" target="_blank" rel="noopener">link text</a><br>
+<a href="https://nodeca.github.io/pica/demo/" title="title text!" target="_blank" rel="noopener">link with title</a><br>
+Autoconverted link <a href="https://github.com/nodeca/pica" target="_blank" rel="noopener">https://github.com/nodeca/pica</a></p><h4 id="Images">Images</h4><p><img src="https://octodex.github.com/images/minion.png" alt="Minion"></p><p>With a title:<br>
+<img src="https://octodex.github.com/images/stormtroopocat.jpg" alt="Stormtroopocat" title="The Stormtroopocat"></p><p>Like links, images also have a footnote style syntax with a reference later in the document defining the URL location:<br>
+<img src="https://octodex.github.com/images/dojocat.jpg" alt="Dojocat" title="The Dojocat"></p><p>Show the image with given size:<br>
+<img src="https://octodex.github.com/images/minion.png" alt="Minion" width="200" height="200"></p><h4 id="Footnotes">Footnotes</h4><p>Footnote 1 link<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>.<br>
+Footnote 2 link<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>.<br>
+Inline footnote<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup> definition.<br>
+Duplicated footnote reference<sup class="footnote-ref"><a href="#fn2" id="fnref2:1">[2:1]</a></sup>.</p><h4 id="Definition-Lists">Definition Lists</h4><dl>
+<dt>Term 1</dt>
+<dd>
+<p>Definition 1<br>
+with lazy continuation.</p>
+</dd>
+<dt>Term 2 with <em>inline markup</em></dt>
+<dd>
+<p>Definition 2</p>
+<pre><code>  { some code, part of Definition 2 }
+</code></pre>
+<p>Third paragraph of definition 2.</p>
+</dd>
+</dl><p><em>Compact style:</em></p><dl>
+<dt>Term 1</dt>
+<dd>Definition 1</dd>
+<dt>Term 2</dt>
+<dd>Definition 2a</dd>
+<dd>Definition 2b</dd>
+</dl><h4 id="Abbreviations">Abbreviations</h4><p>This is an <abbr title="Hyper Text Markup Language">HTML</abbr> abbreviation example.<br>
+It converts “<abbr title="Hyper Text Markup Language">HTML</abbr>”, but keeps intact partial entries like “xxxHTMLyyy” and so on.</p><hr class="footnotes-sep"><section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>Footnote <strong>can have markup</strong><br>
+and multiple paragraphs. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>Footnote text. <a href="#fnref2" class="footnote-backref">↩︎</a> <a href="#fnref2:1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p>Text of inline footnote <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section></div>
