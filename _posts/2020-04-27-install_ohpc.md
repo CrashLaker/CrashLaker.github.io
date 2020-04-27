@@ -16,7 +16,7 @@ Simple
 ```bash
 yum -y install http://build.openhpc.community/OpenHPC:/1.3/updates/CentOS_7/x86_64/ohpc-release-1.3-2.el7.x86_64.rpm
 #yum -y install ohpc-base
-yum -y instal lmod-ohpc
+yum -y install lmod-ohpc
 yum -y install gnu8-compilers-ohpc
 yum -y install openmpi3-gnu8-ohpc openblas-gnu8-ohpc
 ```
