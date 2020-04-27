@@ -25,3 +25,7 @@ bundle install
 jekyll serve -l
 ```
 
+or 
+
+`docker exec -dit jekyll bash -c "cd /folder; bundle install;nohup jekyll serve -l > /dev/null 2>&1"`
+
