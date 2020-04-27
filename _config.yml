@@ -52,7 +52,6 @@ paginate_path: "/page/:num/"
 markdown: kramdown
 #kramdown:
 #    parse_block_html: true
-highlighter: rouge
 
 # More › http://kramdown.gettalong.org/quickref.html
 # Options › http://kramdown.gettalong.org/options.html
