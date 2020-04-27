@@ -17,7 +17,7 @@ https://github.com/davidjbradshaw/iframe-resizer
 
 Parent
 
-```htmlmixed=
+```html
 <iframe id="myIframe" style="border:none;" src="data:text/html;charset=utf-8,{}"></iframe>
 <script>
 iFrameResize({{ log: true, enablePublicMethods: true }}, '#myIframe')
@@ -25,6 +25,6 @@ iFrameResize({{ log: true, enablePublicMethods: true }}, '#myIframe')
 ```
 
 Inside Iframe
-```htmlmixed=
+```html
 <script type="text/javascript" src="https://crashlaker.github.io/static/js/iframe-resize-content.js"></script>
 ```
