@@ -28,7 +28,10 @@ date: "2020-04-27 12:39:32.978000+00:00"
 "Hidden" block support :tada: 
 ---
 
-<details><summary>Show me the secret!</summary>the secret!</details>
+<details>
+<summary>Show me the secret!</summary>
+the secret!
+</details>
 
 
 `<figure>`-element support :tada: 
