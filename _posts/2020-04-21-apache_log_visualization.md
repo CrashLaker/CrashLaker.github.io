@@ -10,6 +10,9 @@ tags:  [apache, logs]
 
 
 
+Logstalgia
+
+{%youtube YlZIp9xDl3U %}
 
 [![](http://img.youtube.com/vi/YlZIp9xDl3U/0.jpg)](http://www.youtube.com/watch?v=YlZIp9xDl3U)
 
