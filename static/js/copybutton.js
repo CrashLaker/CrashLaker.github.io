@@ -6,11 +6,13 @@ const copyToClipboard = str => {
   document.execCommand('copy');
   document.body.removeChild(el);
 };
-$('pre').each(function (){
-    let button = $('<button>', { style: 'font-size:12px;position:absolute;top:0;right:-40px;z-index:10;'} ).text('copy');
-    let txt = this.innerText;
-    button.get(0).addEventListener('click', function (){
-        copyToClipboard(txt);
+setTimeout(() => {
+    $('pre').each(function (){
+        let button = $('<button>', { style: 'font-size:12px;position:absolute;top:0;right:-40px;z-index:10;'} ).text('copy');
+        let txt = this.innerText;
+        button.get(0).addEventListener('click', function (){
+            copyToClipboard(txt);
+        });
+        $(this).parent().prepend(button);
     });
-    $(this).parent().prepend(button);
-});
+},1000)
