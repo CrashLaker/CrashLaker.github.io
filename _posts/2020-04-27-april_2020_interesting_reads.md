@@ -14,4 +14,6 @@ categories:  [monthly-awesome]
 * https://zerodha.tech/blog/infra-monitoring-at-zerodha/
 * https://eloquentjavascript.net/
 * https://zserge.com/posts/tmux/
+* https://gist.github.com/eerien/2974887f3fab071c11a0
+    selenium zabbix rectangular screenshot mail send
 * 
