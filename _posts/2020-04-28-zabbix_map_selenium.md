@@ -10,6 +10,7 @@ tags:  [selenium, zabbix, screenshot]
 
 
 
+Python script
 
 ```python
 ZABBIX_USERNAME = "Admin"
