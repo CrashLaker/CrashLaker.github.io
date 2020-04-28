@@ -13,4 +13,5 @@ categories:  [monthly-awesome]
 
 * https://zerodha.tech/blog/infra-monitoring-at-zerodha/
 * https://eloquentjavascript.net/
+* https://zserge.com/posts/tmux/
 * 
