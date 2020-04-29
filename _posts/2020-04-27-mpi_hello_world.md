@@ -63,5 +63,22 @@ int main(int argc, char** argv) {
     // Finalize the MPI environment.
     MPI_Finalize();
 }
+```
 
+**Interesting**
+1. https://stackoverflow.com/questions/20633008/open-mpi-ranks-are-not-in-order
+Many mpi implementations will let you prefix the output with the rank of that process. then you can sort it after the fact. In MPICH, this is --prepend-rank or -l. In OpenMPI it is --tag-output
+```bash
+mpirun --tag-output --allow-run-as-root --oversubscribe --hostfile hostfile -np 11 --host controller,controller,controller,gateway,gateway,gateway,gateway,server1,server2,server3,server4 ./a.out
+[1,0]<stdout>:Hello world from processor controller, rank 0 out of 11 processors
+[1,1]<stdout>:Hello world from processor controller, rank 1 out of 11 processors
+[1,2]<stdout>:Hello world from processor controller, rank 2 out of 11 processors
+[1,3]<stdout>:Hello world from processor gateway, rank 3 out of 11 processors
+[1,4]<stdout>:Hello world from processor gateway, rank 4 out of 11 processors
+[1,6]<stdout>:Hello world from processor gateway, rank 6 out of 11 processors
+[1,5]<stdout>:Hello world from processor gateway, rank 5 out of 11 processors
+[1,7]<stdout>:Hello world from processor server1, rank 7 out of 11 processors
+[1,8]<stdout>:Hello world from processor server1, rank 8 out of 11 processors
+[1,9]<stdout>:Hello world from processor server1, rank 9 out of 11 processors
+[1,10]<stdout>:Hello world from processor server1, rank 10 out of 11 processors
 ```
