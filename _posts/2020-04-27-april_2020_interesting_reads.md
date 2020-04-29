@@ -15,5 +15,6 @@ categories:  [monthly-awesome]
 * https://eloquentjavascript.net/
 * https://zserge.com/posts/tmux/
 * https://gist.github.com/eerien/2974887f3fab071c11a0
-    selenium zabbix rectangular screenshot mail send
+    * selenium zabbix rectangular screenshot mail send
+* https://learnk8s.io/real-time-dashboard
 * 
