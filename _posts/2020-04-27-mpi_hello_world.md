@@ -26,32 +26,39 @@ mpirun --allow-run-as-root --oversubscribe -n 2 main
 ```c
 #include <mpi.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <pthread.h>
+
+#define VERBOSE 1
+char hostname[1000];
+#define VB(a) if (VERBOSE) { printf("[%s] ", hostname); printf a ; fflush(stdout); }
+
 
 int main(int argc, char** argv) {
+
+    int provided;
     // Initialize the MPI environment
     MPI_Init(NULL, NULL);
+    //MPI_Init_thread( 0, 0, MPI_THREAD_MULTIPLE, &provided );
+    //VB(("provided %d\n", provided)); // 3
 
     // Get the number of processes
-    int world_size;
-    MPI_Comm_size(MPI_COMM_WORLD, &world_size);
+    int size;
+    MPI_Comm_size(MPI_COMM_WORLD, &size);
 
     // Get the rank of the process
-    int world_rank;
-    MPI_Comm_rank(MPI_COMM_WORLD, &world_rank);
+    int rank;
+    MPI_Comm_rank(MPI_COMM_WORLD, &rank);
 
     // Get the name of the processor
-    char processor_name[MPI_MAX_PROCESSOR_NAME];
     int name_len;
-    MPI_Get_processor_name(processor_name, &name_len);
+    MPI_Get_processor_name(hostname, &name_len);
 
     // Print off a hello world message
     printf("Hello world from processor %s, rank %d out of %d processors\n",
-           processor_name, world_rank, world_size);
-
-    printf("Init Recv\n");
-    int a;
-    MPI_Recv(&a, 1, MPI_INT, 1, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
-    printf("ok\n");
+           hostname, rank, size);
 
     // Finalize the MPI environment.
     MPI_Finalize();
