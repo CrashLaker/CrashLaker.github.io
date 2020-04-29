@@ -16,6 +16,13 @@ Hello world from processor docker, rank 1 out of 2 processors
 Init Recv
 ```
 
+```bash
+#!/bin/bash
+
+mpicc main.c -o main
+mpirun --allow-run-as-root --oversubscribe -n 2 main
+```
+
 ```c
 #include <mpi.h>
 #include <stdio.h>
