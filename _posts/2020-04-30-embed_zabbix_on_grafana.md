@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Embed Zabbix to Grafana"
+title: "Embed Zabbix on Grafana"
 comments: true
 date: "2020-04-30 00:24:01.252000+00:00"
 categories:  [monitoring]
@@ -46,3 +46,7 @@ http {
     include /etc/nginx/conf.d/*.conf;
 }
 ```
+
+https://www.zabbix.com/forum/zabbix-troubleshooting-and-problems/52470-cant-load-zabbix-pages-in-iframe-anymore
+https://community.grafana.com/t/zabbix-map-on-grafana/993/11
+https://stackoverflow.com/questions/47405597/x-frame-options-in-nginx-to-allow-all-domains
