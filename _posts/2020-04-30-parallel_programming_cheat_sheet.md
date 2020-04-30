@@ -40,23 +40,23 @@ for (j = 0; j < size; j++){
 ## MPI_Send static array
 ```c
 int table[100];
+...
+int i,j;
 
- 21     int i,j;
- 20
- 19     if (rank == 0){
- 18         for (i = 0 ; i < 100; i++){
- 17             table[i] = i;
- 16         }
- 15         MPI_Send(&table, 100, MPI_INT, 1, 0, MPI_COMM_WORLD);
- 14     }
- 13
- 12     if (rank == 1){
- 11         MPI_Status status;
- 10         MPI_Recv(&table, 100, MPI_INT, 0, 0, MPI_COMM_WORLD, &status);
-  9         for (i = 0 ; i < 100; i++){
-  8             printf("%d\n", table[i]);
-  7         }
-  6     }
+if (rank == 0){
+    for (i = 0 ; i < 100; i++){
+        table[i] = i;
+    }
+    MPI_Send(&table, 100, MPI_INT, 1, 0, MPI_COMM_WORLD);
+}
+
+if (rank == 1){
+    MPI_Status status;
+    MPI_Recv(&table, 100, MPI_INT, 0, 0, MPI_COMM_WORLD, &status);
+    for (i = 0 ; i < 100; i++){
+        printf("%d\n", table[i]);
+    }
+}
 ```
 
 
