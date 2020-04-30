@@ -17,7 +17,8 @@ folder=""
 container_name=$(echo $custom_nameport | cut -d: -f1)
 container_port=$(echo $custom_nameport | cut -d: -f2)
 docker run -dit \
-    --name $container_name \
+    --name live-server-$container_name \
+    --restart always \
     -p $container_port:8080 \
     -v "$folder":"/usr/src/app" \
     duaneleem/live-server:1.0
