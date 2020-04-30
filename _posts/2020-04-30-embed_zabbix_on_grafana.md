@@ -18,6 +18,9 @@ add_header X-Frame-Options "ALLOWALL";
 add_header Content-Security-Policy "script-src 'self' 'unsafe-inline' 'unsafe-eval' *; object-src 'self'";
 ```
 
+One might also want to auto login. Beware this hardcodes user auth:
+`https://<zabbixserver>/zabbix/index.php?name=<user>&password=<password>&enter=Sign%20in&request=zabbix.php%3Faction%3Dproblem.view%26ddreset%3D1`
+
 ```bash
 docker run -dit --name zabbix-proxy  \
     -v <path>/nginx.conf:/etc/nginx/nginx.conf \
