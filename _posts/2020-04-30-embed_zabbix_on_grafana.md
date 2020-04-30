@@ -18,6 +18,14 @@ add_header X-Frame-Options "ALLOWALL";
 add_header Content-Security-Policy "script-src 'self' 'unsafe-inline' 'unsafe-eval' *; object-src 'self'";
 ```
 
+```bash
+docker run -dit --name zabbix-proxy  \
+    -v <path>/nginx.conf:/etc/nginx/nginx.conf \
+    -p 8881:80 \
+    nginx
+```
+
+**nginx.conf**
 ```nginx
 http {
     include       /etc/nginx/mime.types;
