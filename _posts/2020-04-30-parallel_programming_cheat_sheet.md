@@ -13,18 +13,29 @@ tags:  [cheat-sheet, parallel-programming, c, pthreads, mpi, openmp]
 ## Spawn a Single Thread
 ```c
 pthread_t tid;
-if (pthread_create(&tid, NULL, thread_f, NULL)){
+if (pthread_create(&tid, NULL, bar, NULL)){
     printf("Cannot create thread %d\n",i);
     exit(1);
 }
 
-void thread_f(){
+void bar(){
 
 }
 ```
 
 ## Pthread loop spawn
-
+```c
+int size = 100;
+tid=(pthread_t *) calloc(size,sizeof(pthread_t));
+for (j = 0; j < size; j++){
+    int *arg = malloc(sizeof(*arg));
+    *arg = j;
+    if (pthread_create(&tid[j], NULL, foo, arg)){
+        printf("Cannot create thread %d\n",i);
+        exit(1);
+    }
+}
+```
 
 
 
