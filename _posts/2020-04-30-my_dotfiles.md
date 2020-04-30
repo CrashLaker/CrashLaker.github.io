@@ -9,6 +9,12 @@ tags:  [vim]
 
 
 
+
+<details>
+<summary>
+.vimrc    
+</summary>
+    
 {% raw %}
 ```vim
 set nocompatible              " be iMproved, required
@@ -118,5 +124,4 @@ let g:go_fmt_options = ''
 let g:go_fmt_autosave = 0
 ```
 {% endraw %}
-
-
+</details>
