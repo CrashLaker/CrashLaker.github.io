@@ -56,5 +56,7 @@ http {
 ```
 
 https://www.zabbix.com/forum/zabbix-troubleshooting-and-problems/52470-cant-load-zabbix-pages-in-iframe-anymore
+
 https://community.grafana.com/t/zabbix-map-on-grafana/993/11
+
 https://stackoverflow.com/questions/47405597/x-frame-options-in-nginx-to-allow-all-domains
