@@ -9,7 +9,7 @@ tags:  [vim]
 
 
 
-{ %raw }
+{% raw %}
 ```vim
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -117,4 +117,6 @@ let g:go_fmt_fail_silently = 1
 let g:go_fmt_options = ''
 let g:go_fmt_autosave = 0
 ```
-{ %endraw }
+{% endraw %}
+
+
