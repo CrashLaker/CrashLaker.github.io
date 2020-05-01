@@ -28,6 +28,8 @@ social:
     #  link: "#"
     - icon: fa-github
       link: "https://github.com/crashlaker"
+    - icon: fa-medium
+      link: "https://medium.com/@crashlaker"
 
 share:
   twitter_username: github.io
