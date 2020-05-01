@@ -8,9 +8,8 @@ tags:  [python, jupyterlab]
 ---
 
 
-
-            <style>
-            /*!
+<style>
+/*!
 *
 * Twitter Bootstrap
 *
@@ -13014,8 +13013,8 @@ ul.typeahead-list  > li > a.pull-right {
 .highlight .vi { color: #19177C } /* Name.Variable.Instance */
 .highlight .vm { color: #19177C } /* Name.Variable.Magic */
 .highlight .il { color: #666666 } /* Literal.Number.Integer.Long */
-            </style>
-            <div class="cell border-box-sizing code_cell rendered">
+</style>
+<div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
@@ -13214,5 +13213,3 @@ ul.typeahead-list  > li > a.pull-right {
 </div>
  
 
-
-            
