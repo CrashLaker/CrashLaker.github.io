@@ -11,7 +11,7 @@ tags:  [bash, makefile]
 
 https://unix.stackexchange.com/questions/270778/how-to-write-exactly-bash-scripts-into-makefiles
 
-```makefile
+```bash
 name="apache-zabbix"
 
 define runsh =
