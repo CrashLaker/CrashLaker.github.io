@@ -19,4 +19,5 @@ categories:  [monthly-awesome]
 * https://learnk8s.io/real-time-dashboard
 * https://kasvith.me/posts/how-we-created-a-realtime-patient-monitoring-system-with-go-and-vue/
 * https://blog.scottlogic.com/2020/05/01/rendering-one-million-points-with-d3.html
+* https://ferd.ca/awk-in-20-minutes.html
 * 
