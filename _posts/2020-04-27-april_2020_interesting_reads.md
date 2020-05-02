@@ -20,4 +20,5 @@ categories:  [monthly-awesome]
 * https://kasvith.me/posts/how-we-created-a-realtime-patient-monitoring-system-with-go-and-vue/
 * https://blog.scottlogic.com/2020/05/01/rendering-one-million-points-with-d3.html
 * https://ferd.ca/awk-in-20-minutes.html
+* https://www.reddit.com/r/dataisbeautiful/comments/gc4mbi/oc_visualizations_of_movies_in_one_figure/
 * 
