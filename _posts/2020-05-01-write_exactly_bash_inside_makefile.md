@@ -14,18 +14,35 @@ https://unix.stackexchange.com/questions/270778/how-to-write-exactly-bash-script
 ```bash
 name="apache-zabbix"
 
+define conf =
+<VirtualHost *:80>
+    ProxyRequests off
+    ProxyPreserveHost On
+
+    <Location />
+        ProxyPass http://192.168.31.78:8880/
+        ProxyPassReverse http://192.168.31.78:8880/
+                Header always unset X-Frame-Options
+                Header set X-Frame-Options "ALLOWALL"
+        Order allow,deny
+        Allow from all
+    </Location>
+</VirtualHost>
+endef
+
 define runsh =
         docker rm -f $(name); true
         docker run -dit --name $(name) \
-                -p 8088:8080 \
-                -v /root2/apache-zabbix/virtual.conf:/usr/local/apache2/conf/extra/proxy-html.conf \
-                httpd:2.4 bash -c "
-                        sed -i 's,Listen 80,Listen 8080,g' conf/httpd.conf
-                        sed -i 's,#LoadModule proxy_http_module modules/mod_proxy_html.so,LoadModule proxy_http_module modules/mod_proxy_html.so,g' conf/httpd.conf
-                        sed -i 's,#LoadModule proxy_module modules/mod_proxy.so,LoadModule proxy_module modules/mod_proxy.so,g' conf/httpd.conf
-                        sed -i 's,#LoadModule xml2enc_module modules/mod_xml2enc.so,LoadModule xml2enc_module modules/mod_xml2enc.so,g' conf/httpd.conf
-                        httpd-foreground"
+                -p 8088:80 \
+                centos bash -c "
+                        yum check-update;
+                        yum -y install httpd
+                        cat > /etc/httpd/conf.d/virtual.conf <<EOF
+                        $(conf)
+                        EOF
+                        httpd -DFOREGROUND"
 endef
+
 
 run:
         $(runsh)
@@ -36,6 +53,8 @@ login:
 logs:
         docker logs $(name)
 
+test:
+        curl http://localhost:8088/
 
 .ONESHELL:
 ```
