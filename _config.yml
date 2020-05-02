@@ -37,11 +37,11 @@ share:
 
 urls:
     - text: About Me
-      url: /about/
-    - text: Tags
-      url: /tags
+      url: /about
     - text: My Projects
       url: /projects/
+    - text: Tags
+      url: /tags
     #- text: XML Feed
     #  url: /feed.xml
 
