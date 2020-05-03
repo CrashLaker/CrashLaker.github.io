@@ -23,7 +23,14 @@ tags:  [kubernetes, cka]
         * [ ] ![][Book] Kubernetes in the Enterprise (Michael Elder, Jake Kitchener, Dr. Brad Topol)
     
 #### Books
-- [ ] 
+
+
+| Cover | Title |
+| -------- | -------- |
+| ![](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTGJp9B-Zi16D5Nqd9S7HVI2ooGEOyXaSpBZGyVcmC5Sy48qfgY&usqp=CAU)     |  Kubernetes Operators - Jason Dobies, Josua Wood | 
+| ![](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTGJp9B-Zi16D5Nqd9S7HVI2ooGEOyXaSpBZGyVcmC5Sy48qfgY&usqp=CAU)     |  Kubernetes Operators - Jason Dobies, Josua Wood | 
+
+  
 
 
 
