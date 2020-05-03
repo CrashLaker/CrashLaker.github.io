@@ -48,6 +48,31 @@ void *foo(void *arg){
 }
 ```
 
+## Pthread passing more than 1 argument
+```c
+int main(){
+    int size = 100;
+    tid=(pthread_t *) calloc(size,sizeof(pthread_t));
+    for (j = 0; j < size; j++){
+        int *arg = malloc(sizeof(*arg));
+        *arg = j;
+        if (pthread_create(&tid[j], NULL, foo, arg)){
+            printf("Cannot create thread %d\n",i);
+            exit(1);
+        }
+    }
+    for (j = 0; j < size; j++){
+        pthread_join(tid[j], NULL);
+    }
+}
+
+void *foo(void *arg){
+    int tid;
+    tid=*((int*) arg);
+    printf("threadid %d spawned\n", tid);
+}
+```
+
 ## MPI_Send static array
 ```c
 int table[100];
