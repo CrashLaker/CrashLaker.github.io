@@ -25,4 +25,5 @@ categories:  [monthly-awesome]
 * https://slim.computer/ply-uist-2018/#/title-slide
 * https://github.com/sbis04/video_trimmer
     * flutter video trimmer
+* https://binarydebt.wordpress.com/2018/10/14/intel-virtualisation-how-vt-x-kvm-and-qemu-work-together/
 * 
