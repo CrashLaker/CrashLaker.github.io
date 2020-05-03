@@ -24,6 +24,29 @@ int main() {
 
 
 ```bash
-gcc main.c -o main
-./main
+gcc hello.c -o hello
+./hello
+```
+
+```bash
+cat > hello.c <<EOF
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main() {
+    
+    
+    printf("Hello World\n");
+    return 0;
+}
+EOF
+
+
+cat > cmd <<EOF
+gcc hello.c -o hello
+./hello
+EOF
+
+chmod +x cmd
 ```
