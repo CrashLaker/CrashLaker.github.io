@@ -23,13 +23,11 @@ tags:  [kubernetes, cka]
         * [ ] ![][Book] Kubernetes in the Enterprise (Michael Elder, Jake Kitchener, Dr. Brad Topol)
     
 #### Books
+- [ ] Kubernetes Operators - Jason Dobies, Joshua Wood
+- [ ] Getting Started with Istio Service Mesh - Rahul Sharma, Avinash Singh
+- [ ] The DevOps 2.5 Toolkit_ Monitoring, Logging, and Auto-Scaling Kubernetes_ Making Resilient, Self-Adaptive, And Autonomous Kubernetes Clusters-Packt - Viktor Farcic
 
 
-|                                                          Cover                                                           | Title                                           |
-|:------------------------------------------------------------------------------------------------------------------------:| ----------------------------------------------- |
-| ![](/uploads/upload_afe2243ac1be9353fdde9b37c4b81869.png =x200) | Kubernetes Operators - Jason Dobies, Josua Wood |
-|                             ![](/uploads/upload_503efb48acff17d14bf9e4e3c854c2e0.png =x200)                              | Kubernetes Operators - Jason Dobies, Josua Wood |
-|                             ![](/uploads/upload_503efb48acff17d14bf9e4e3c854c2e0.png =x200)                              | Kubernetes Operators - Jason Dobies, Josua Wood |
 
   
 
