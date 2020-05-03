@@ -25,10 +25,11 @@ tags:  [kubernetes, cka]
 #### Books
 
 
-| Cover | Title |
-| -------- | -------- |
-| ![](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTGJp9B-Zi16D5Nqd9S7HVI2ooGEOyXaSpBZGyVcmC5Sy48qfgY&usqp=CAU)     |  Kubernetes Operators - Jason Dobies, Josua Wood | 
-| ![](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTGJp9B-Zi16D5Nqd9S7HVI2ooGEOyXaSpBZGyVcmC5Sy48qfgY&usqp=CAU)     |  Kubernetes Operators - Jason Dobies, Josua Wood | 
+|                                                          Cover                                                           | Title                                           |
+|:------------------------------------------------------------------------------------------------------------------------:| ----------------------------------------------- |
+| ![](/uploads/upload_afe2243ac1be9353fdde9b37c4b81869.png =x200) | Kubernetes Operators - Jason Dobies, Josua Wood |
+|                             ![](/uploads/upload_503efb48acff17d14bf9e4e3c854c2e0.png =x200)                              | Kubernetes Operators - Jason Dobies, Josua Wood |
+|                             ![](/uploads/upload_503efb48acff17d14bf9e4e3c854c2e0.png =x200)                              | Kubernetes Operators - Jason Dobies, Josua Wood |
 
   
 
