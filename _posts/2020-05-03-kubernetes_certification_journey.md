@@ -23,9 +23,13 @@ tags:  [kubernetes, cka]
         * [ ] ![][Book] Kubernetes in the Enterprise (Michael Elder, Jake Kitchener, Dr. Brad Topol)
     
 #### Books
-- [ ] Kubernetes Operators - Jason Dobies, Joshua Wood
-- [ ] Getting Started with Istio Service Mesh - Rahul Sharma, Avinash Singh
-- [ ] The DevOps 2.5 Toolkit_ Monitoring, Logging, and Auto-Scaling Kubernetes_ Making Resilient, Self-Adaptive, And Autonomous Kubernetes Clusters-Packt - Viktor Farcic
+- [ ] Kubernetes Operators (2020) - Jason Dobies, Joshua Wood
+- [ ] Getting Started with Istio Service Mesh (2020) - Rahul Sharma, Avinash Singh
+- [ ] The DevOps 2.5 Toolkit (2019) _ Monitoring, Logging, and Auto-Scaling Kubernetes_ Making Resilient, Self-Adaptive, And Autonomous Kubernetes Clusters-Packt - Viktor Farcic
+- [ ] Cloud Native DevOps with Kubernetes - OReilly Media (2019) - John Arundel, Juntin Domingus
+- [ ] Kubernetes Up & Running  - Dive into the Future of Infrastructure - OReilly (2019) - Brendan Burns, Joe Beda, Kelsey Hightower
+- [ ] Cloud Native Containers, Functions, Data, and Kubernetes (2019) - Boris Scholl, Trent Swanson, Peter Jausovec
+
 
 
 
