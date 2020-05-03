@@ -48,15 +48,21 @@ void *foo(void *arg){
 }
 ```
 
-## Pthread passing more than 1 argument
+## Pthread passing more than 1 argument (multiple arguments)
 ```c
+struct arg_struct{
+    int arg1;
+    int arg2;
+};
+
 int main(){
     int size = 100;
     tid=(pthread_t *) calloc(size,sizeof(pthread_t));
     for (j = 0; j < size; j++){
-        int *arg = malloc(sizeof(*arg));
-        *arg = j;
-        if (pthread_create(&tid[j], NULL, foo, arg)){
+        struct arg_struct_args;
+        args.arg1 = 1;
+        args.arg2 = i;
+        if (pthread_create(&tid[j], NULL, foo, (void*) &args)){
             printf("Cannot create thread %d\n",i);
             exit(1);
         }
@@ -67,9 +73,9 @@ int main(){
 }
 
 void *foo(void *arg){
-    int tid;
-    tid=*((int*) arg);
-    printf("threadid %d spawned\n", tid);
+    struct arg_struct *args = (struct arg_struct *) arg;
+    int a = args->arg1;
+    int b = args->arg2;
 }
 ```
 
