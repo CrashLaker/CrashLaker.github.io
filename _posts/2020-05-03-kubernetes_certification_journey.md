@@ -17,10 +17,10 @@ tags:  [kubernetes, cka]
             * [ ]https://www.edx.org/course/introduction-to-kubernetes#!
         * [ ] https://linuxacademy.com/linux/training/course/name/cloud-native-certified-kubernetes-administrator-cka
         * [ ] https://www.udemy.com/certified-kubernetes-administrator-with-practice-tests/
-        * [ ] https://github.com/kelseyhightower/kubernetes-the-hard-way
-        * [ ] [Book] Kubernetes Up&Running (Kelsey Hightower, Brendan Burns, Joe Beda)
-        * [ ] [Book] Managing Kubernetes (Brendan Burns, Craig Tracey)
-        * [ ] [Book] Kubernetes in the Enterprise (Michael Elder, Jake Kitchener, Dr. Brad Topol)
+        * [ ] ![][lab] https://github.com/kelseyhightower/kubernetes-the-hard-way
+        * [ ] ![][Book] Kubernetes Up&Running (Kelsey Hightower, Brendan Burns, Joe Beda)
+        * [ ] ![][Book] Managing Kubernetes (Brendan Burns, Craig Tracey)
+        * [ ] ![][Book] Kubernetes in the Enterprise (Michael Elder, Jake Kitchener, Dr. Brad Topol)
     
 #### Books
 - [ ] 
@@ -29,7 +29,22 @@ tags:  [kubernetes, cka]
 
 
 
-[book]: 
+[book]: https://cdn1.iconfinder.com/data/icons/windows8_icons_iconpharm/26/book.png
+[lab]: https://cdn1.iconfinder.com/data/icons/windows8_icons_iconpharm/26/test_tube.png
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+****
 
 
