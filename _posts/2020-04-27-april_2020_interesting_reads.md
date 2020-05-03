@@ -23,4 +23,6 @@ categories:  [monthly-awesome]
 * https://www.reddit.com/r/dataisbeautiful/comments/gc4mbi/oc_visualizations_of_movies_in_one_figure/
 * https://twitter.com/matthen2/status/1255765846720311296
 * https://slim.computer/ply-uist-2018/#/title-slide
+* https://github.com/sbis04/video_trimmer
+    * flutter video trimmer
 * 
