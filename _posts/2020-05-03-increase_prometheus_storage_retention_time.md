@@ -10,6 +10,8 @@ tags:  [docker, prometheus]
 
 
 
+`--storage.tsdb.retention.time=1y`
+
 ```bash
 docker rm -f prom
 docker run -dit --restart always \
