@@ -30,6 +30,12 @@ tags:  [kubernetes, cka]
 - [ ] Kubernetes Up & Running  - Dive into the Future of Infrastructure - OReilly (2019) - Brendan Burns, Joe Beda, Kelsey Hightower
 - [ ] Cloud Native Containers, Functions, Data, and Kubernetes (2019) - Boris Scholl, Trent Swanson, Peter Jausovec
 
+#### Courses
+- [ ] https://www.udemy.com/course/docker-swarm-mastery/
+- [ ] https://www.udemy.com/course/production-ready-kubernetes-setup-for-cicd-devops-project/
+- [ ] https://www.udemy.com/course/learn-devops-the-complete-kubernetes-course/
+- [ ] https://www.udemy.com/course/docker-mastery/
+
 
 
 
