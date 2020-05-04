@@ -27,4 +27,23 @@ categories:  [monthly-awesome]
     * flutter video trimmer
 * https://binarydebt.wordpress.com/2018/10/14/intel-virtualisation-how-vt-x-kvm-and-qemu-work-together/
 * https://blog.darknedgy.net/technology/2020/05/02/0/
+* https://blog.scottlogic.com/2019/05/28/drawing-2d-charts-with-webgl.html
 * 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*****************
