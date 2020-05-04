@@ -31,6 +31,7 @@ categories:  [monthly-awesome]
 * https://medium.com/better-programming/diagrams-diagram-as-code-56fec222cdf6
 * https://blog.bitsrc.io/11-javascript-charts-and-data-visualization-libraries-for-2018-f01a283a5727
 * https://towardsdatascience.com/email-automation-with-python-72c6da5eef5
+* https://nativescript-vue.org/
 * 
 
 
