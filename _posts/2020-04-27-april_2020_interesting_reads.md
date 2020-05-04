@@ -28,6 +28,8 @@ categories:  [monthly-awesome]
 * https://binarydebt.wordpress.com/2018/10/14/intel-virtualisation-how-vt-x-kvm-and-qemu-work-together/
 * https://blog.darknedgy.net/technology/2020/05/02/0/
 * https://blog.scottlogic.com/2019/05/28/drawing-2d-charts-with-webgl.html
+* https://medium.com/better-programming/diagrams-diagram-as-code-56fec222cdf6
+* https://blog.bitsrc.io/11-javascript-charts-and-data-visualization-libraries-for-2018-f01a283a5727
 * 
 
 
