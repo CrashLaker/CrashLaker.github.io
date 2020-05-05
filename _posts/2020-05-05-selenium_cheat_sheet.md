@@ -11,10 +11,10 @@ tags:  [selenium]
 
 
 ### Take screenshot
-**Chrome**
+**Chrome**  
 `driver.save_screenshot("filename.png")`
 
-**Firefox**
+**Firefox**  
 `driver.get_screenshot_as_file("filename.png")`
 
 
@@ -23,6 +23,6 @@ https://stackoverflow.com/questions/21322116/using-selenium-in-python-to-click-s
 `browser.find_element_by_css_selector("input[type='radio'][value='SRF']").click()`
 
 ### Use in lambda 
-Working fine
+Working fine  
 https://medium.com/@manivannan_data/python-selenium-on-aws-lambda-b4b9de44b8e1
 https://github.com/ManivannanMurugavel/selenium-python-aws-lambda
