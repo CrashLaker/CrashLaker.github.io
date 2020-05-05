@@ -12,3 +12,5 @@ tags:  [grafana, plugin, flowcharting]
 ![](/assets/img/IoCcpSAGs_kubeflow5.gif)
 
 ![](/assets/img/IoCcpSAGs_graphviz.gif)
+
+![](/assets/img/IoCcpSAGs_brazil-map-flowcharting.gif)
