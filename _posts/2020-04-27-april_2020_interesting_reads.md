@@ -35,6 +35,7 @@ categories:  [monthly-awesome]
 * http://fabiensanglard.net/cuda/index.html
 * http://matt.might.net/articles/best-programming-languages/
 * https://cssgrid-generator.netlify.app/
+* https://blog.ipswitch.com/how-to-create-an-ec2-instance-with-python
 * 
 
 
