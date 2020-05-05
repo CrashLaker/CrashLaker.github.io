@@ -33,6 +33,7 @@ categories:  [monthly-awesome]
 * https://towardsdatascience.com/email-automation-with-python-72c6da5eef5
 * https://nativescript-vue.org/
 * http://fabiensanglard.net/cuda/index.html
+* http://matt.might.net/articles/best-programming-languages/
 * 
 
 
