@@ -36,6 +36,7 @@ categories:  [monthly-awesome]
 * http://matt.might.net/articles/best-programming-languages/
 * https://cssgrid-generator.netlify.app/
 * https://blog.ipswitch.com/how-to-create-an-ec2-instance-with-python
+* https://github.com/ratiw/vuetable-2-tutorial
 * 
 
 
