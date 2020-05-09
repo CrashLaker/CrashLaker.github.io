@@ -20,7 +20,7 @@ pip3 install psycopg2
 ### CentOS
 ```bash
 yum check-update
-yum install -y postgres postgres-devel gcc
+yum install -y postgres postgresql-devel gcc python3-devel
 pip3 install psycopg2
 ``` 
 
