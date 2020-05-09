@@ -9,6 +9,24 @@ tags:  [python, cryptography]
 
 
 
+```bash
+#!/bin/bash
+
+zip="layer-password.zip"
+pfolder="python/lib/python3.7/site-packages"
+
+docker run --rm \
+    -v `pwd`:/local \
+    python:3.7 bash -c "
+        apt update && apt install -y zip
+        ls /local
+        mkdir /layer
+        cd /layer
+        mkdir -p $pfolder
+        pip3 install -t $pfolder cryptography requests
+        zip -r /local/$zip .
+    "
+```
 
 ```python
 import json
