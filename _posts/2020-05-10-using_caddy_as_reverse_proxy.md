@@ -8,3 +8,8 @@ tags:  [caddy, reverse-proxy]
 ---
 
 
+https://www.reddit.com/r/selfhosted/comments/gdftii/caddy_2_the_reverse_proxywebserver_with_automatic/
+
+```
+
+```
