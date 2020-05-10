@@ -10,6 +10,8 @@ tags:  [caddy, reverse-proxy]
 
 https://www.reddit.com/r/selfhosted/comments/gdftii/caddy_2_the_reverse_proxywebserver_with_automatic/
 
+
+### Example
 ```
 book.{$MY_DOMAIN} {
     reverse_proxy bookstack:80
@@ -24,3 +26,17 @@ grafana.{$MY_DOMAIN} {
 }
 ```
 
+
+### Basic Auth
+
+```
+caddy hash-password <yourpassword>
+```
+```
+url {
+    basicauth {
+        <username> <hashedpassword>
+    }
+    reverse_proxy <hostname:port>
+}
+```
