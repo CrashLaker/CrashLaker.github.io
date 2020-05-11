@@ -40,7 +40,7 @@ categories:  [monthly-awesome]
 * https://github.com/erluxman/awesomefluttertips
 * Parquet
     * https://www.youtube.com/watch?v=fcPzcooWrIY
-    *  https://www.youtube.com/watch?v=H_dLfHETO0g
+    * https://www.youtube.com/watch?v=H_dLfHETO0g
     * https://www.youtube.com/watch?v=X4YHGKj3V5M
 
 
