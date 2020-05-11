@@ -19,6 +19,8 @@ tags:  [sa, solutions-architect, aws, certification]
     * [ ] AWS Certified Solutions Architect Study Guide: Associate SAA-C01 Exam - Ben Piper, David Clinton
     * [ ] 
     
+![](/assets/img/rDqfARrva_a0fea7841842258041b9bc289a7d94cd.png)
+
     
 ![](/assets/img/rDqfARrva_e8f8d412948b658652e37217fe898dc5.png)
 https://aws.amazon.com/certification/coming-soon/
