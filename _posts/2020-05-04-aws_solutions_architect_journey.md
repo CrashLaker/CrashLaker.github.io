@@ -11,9 +11,10 @@ tags:  [sa, solutions-architect, aws, certification]
 
 
 Must:
-* AWS Re:Invent Videos
-* AWS Documentation
-    * FAQ - EC2, S3, VPC
+* https://medium.com/@devopslearning/my-road-to-aws-certified-solution-architect-394676f15680
+    * AWS Re:Invent Videos
+    * AWS Documentation
+        * FAQ - EC2, S3, VPC
 
 * Useful
     * [ ] https://medium.com/@stephane.maarek/whats-new-for-aws-certified-solutions-architect-associate-saa-c02-43774095662
