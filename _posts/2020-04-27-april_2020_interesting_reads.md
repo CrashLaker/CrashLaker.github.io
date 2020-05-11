@@ -38,7 +38,10 @@ categories:  [monthly-awesome]
 * https://blog.ipswitch.com/how-to-create-an-ec2-instance-with-python
 * https://github.com/ratiw/vuetable-2-tutorial
 * https://github.com/erluxman/awesomefluttertips
-*  
+* Parquet
+    * https://www.youtube.com/watch?v=fcPzcooWrIY
+    *  https://www.youtube.com/watch?v=H_dLfHETO0g
+    * https://www.youtube.com/watch?v=X4YHGKj3V5M
 
 
 
