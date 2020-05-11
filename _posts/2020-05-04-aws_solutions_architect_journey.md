@@ -10,6 +10,10 @@ tags:  [sa, solutions-architect, aws, certification]
 
 
 
+Must:
+* AWS Re:Invent Videos
+* AWS Documentation
+    * FAQ - EC2, S3, VPC
 
 * Useful
     * [ ] https://medium.com/@stephane.maarek/whats-new-for-aws-certified-solutions-architect-associate-saa-c02-43774095662
