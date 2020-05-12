@@ -10,6 +10,9 @@ tags:  [grafana, boomtable]
 
 
 
+
+## View 1
+![](/assets/img/ccCVjEzLx_a0ac81a8314eb60b4ce76d7d7dcca8de.png)
 ```python
 row = [
     {"target": f"status.Download Speed.. {dl_speed[1]}/s"                  , "datapoints": [[dl_speed[0], ds]]},
@@ -34,6 +37,43 @@ row = [
 Thresholds: 10000
 Transform: `_2_ _value_ _3_`
 
-![](/assets/img/ccCVjEzLx_a0ac81a8314eb60b4ce76d7d7dcca8de.png)
 ![](/assets/img/ccCVjEzLx_5985338c5bd01d6aff02e05533cd69fd.png)
+
+
+
+## View2
+![](/assets/img/ccCVjEzLx_ee4f727ef91dc70f9b1319a42a41d512.png)
+```python
+ds = dfrom.timestamp()*1000
+color = lambda x: "green_" if x < 50 else "yellow_" if x < 70 else "red_"
+grow = []
+colsize = 4
+for i in range(30):
+    for j in range(colsize):
+        row = i
+        col = j
+        vpsname = "VPS{0:03d}".format((colsize*j)+i+1)
+        cpu = random.randint(1,100)
+        cpu_color = color(cpu)
+        cpu_label = f"{cpu}% _fa-microchip_,{cpu_color}"
+        mem = random.randint(1,100)
+        mem_color = color(mem)
+        mem_label = f"{mem}% _fa-battery-three-quarters_,{mem_color}"
+        disk_labels = []
+        for z in range(random.randint(1,4)):
+            disk = random.randint(1,100)
+            disk_color = color(disk)
+            disk_label = f"{disk}% _fa-database_,{disk_color}"
+            disk_labels.append(disk_label)
+        disk_labels = " ".join(disk_labels)
+
+        grow.append({
+            "target": f"status{row}.{col}.{vpsname}: {cpu_label} | {mem_label} | {disk_labels}",
+            "datapoints": [[0,ds]]
+        })
+row  = grow
+```
+
+![](/assets/img/ccCVjEzLx_7792e82c5f8633a3c5c62bd1411f3ddf.png)
+
 
