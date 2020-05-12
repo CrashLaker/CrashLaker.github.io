@@ -76,4 +76,38 @@ row  = grow
 
 ![](/assets/img/ccCVjEzLx_7792e82c5f8633a3c5c62bd1411f3ddf.png)
 
+**html also works**
+
+![](/assets/img/ccCVjEzLx_d2df1498894a92f467f2f2f4e6f59412.png)
+
+```python
+ds = dfrom.timestamp()*1000
+color = lambda x: "green_" if x < 50 else "yellow_" if x < 70 else "red_"
+grow = []
+colsize = 8
+for i in range(20):
+    for j in range(colsize):
+        row = i
+        col = j
+        vpsname = "<strong>VPS{0:03d}</strong>".format((colsize*j)+i+1)
+        cpu = random.randint(1,100)
+        cpu_color = color(cpu)
+        cpu_label = f"{cpu}% _fa-microchip_,{cpu_color}"
+        mem = random.randint(1,100)
+        mem_color = color(mem)
+        mem_label = f"{mem}% _fa-battery-three-quarters_,{mem_color}"
+        disk_labels = []
+        for z in range(random.randint(1,4)):
+            disk = random.randint(1,100)
+            disk_color = color(disk)
+            disk_label = f"{disk}% _fa-database_,{disk_color}"
+            disk_labels.append(disk_label)
+        disk_labels = " ".join(disk_labels)
+
+        grow.append({
+            "target": f"status{row}.{col}.{vpsname}<br>{cpu_label} | {mem_label} <br> {disk_labels}",
+            "datapoints": [[0,ds]]
+        })
+row  = grow
+```
 
