@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Creating InstanceProfiles with Lambda"
+title: "RunInstance with InstanceProfiles in Lambda"
 comments: true
 date: "2020-05-11 02:10:56.915000+00:00"
 categories:  [aws]
