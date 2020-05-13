@@ -24,4 +24,5 @@ categories:  [monthly-awesome]
     * https://www.youtube.com/watch?v=fcPzcooWrIY
     * https://www.youtube.com/watch?v=H_dLfHETO0g
     * https://www.youtube.com/watch?v=X4YHGKj3V5M
-* 
+* https://www.definit.co.uk/2020/02/certified-kubernetes-administrator-cka-exam-experience/
+* https://dev.to/topitguy/hey-everyone-coursera-is-offering-100-courses-at-0-until-31st-of-july-4323

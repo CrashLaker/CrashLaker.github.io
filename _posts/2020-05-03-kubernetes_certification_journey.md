@@ -21,7 +21,8 @@ tags:  [kubernetes, cka]
         * [ ] ![][Book] Kubernetes Up&Running (Kelsey Hightower, Brendan Burns, Joe Beda)
         * [ ] ![][Book] Managing Kubernetes (Brendan Burns, Craig Tracey)
         * [ ] ![][Book] Kubernetes in the Enterprise (Michael Elder, Jake Kitchener, Dr. Brad Topol)
-    
+    - [ ] https://www.definit.co.uk/2020/02/certified-kubernetes-administrator-cka-exam-experience/
+  
 #### Books
 - [ ] Kubernetes Operators (2020) - Jason Dobies, Joshua Wood
 - [ ] Getting Started with Istio Service Mesh (2020) - Rahul Sharma, Avinash Singh
@@ -35,6 +36,8 @@ tags:  [kubernetes, cka]
 - [ ] https://www.udemy.com/course/production-ready-kubernetes-setup-for-cicd-devops-project/
 - [ ] https://www.udemy.com/course/learn-devops-the-complete-kubernetes-course/
 - [ ] https://www.udemy.com/course/docker-mastery/
+- [ ] https://www.redhat.com/en/services/training/all-courses-exams
+    - [ ] https://www.redhat.com/en/services/training/do101-introduction-openshift-applications
 
 
 
