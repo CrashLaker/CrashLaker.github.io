@@ -39,3 +39,30 @@ if __name__ == '__main__':
     #    rs = c.get("/")
     #    print(rs.data)
 ```
+
+
+### Query params to dict
+```python
+from flask import Flask, jsonify, request
+
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+    all_args = request.args.to_dict()
+    return jsonify(all_args)
+```
+https://stackoverflow.com/questions/24292766/how-to-process-get-query-string-with-flask
+
+### Post to dict
+```python
+from flask import Flask, jsonify, request
+
+app = Flask(__name__)
+
+@app.route("/", methods=["POST"])
+def hello():
+    req = request.json
+    return jsonify(all_args)
+```
+https://stackoverflow.com/questions/20001229/how-to-get-posted-json-in-flask
