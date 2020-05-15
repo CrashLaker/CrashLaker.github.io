@@ -149,6 +149,7 @@ savefig(gdf)
 ![](/assets/img/OxR2VOaAe_df9d6e8d6277853f8c409f650385c659.png)
 
 
-
+### Bar plot from pandas
+![](/assets/img/OxR2VOaAe_e299411a974203f3c72f81352f9dd6ea.png)
 
 
