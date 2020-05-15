@@ -33,4 +33,5 @@ categories:  [monthly-awesome]
     * https://sourceforge.net/projects/win32diskimager/
     * http://download.friendlyarm.com/nanopineo2
     * https://drive.google.com/drive/folders/1dSgApCtkjeyjr4l1nl3FrvVQmMbGwP13
+* http://agdr.org/2020/05/14/Polyglot-Makefiles.html
 * 
