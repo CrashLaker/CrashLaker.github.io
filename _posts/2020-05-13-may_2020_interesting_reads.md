@@ -27,4 +27,10 @@ categories:  [monthly-awesome]
 * https://www.definit.co.uk/2020/02/certified-kubernetes-administrator-cka-exam-experience/
 * https://dev.to/topitguy/hey-everyone-coursera-is-offering-100-courses-at-0-until-31st-of-july-4323
 * https://github.com/mingrammer/diagrams
+* Pi Neo2
+    * http://nanopi.io/nanopi-neo2.html
+    * http://wiki.friendlyarm.com/wiki/index.php/NanoPi_NEO2
+    * https://sourceforge.net/projects/win32diskimager/
+    * http://download.friendlyarm.com/nanopineo2
+    * https://drive.google.com/drive/folders/1dSgApCtkjeyjr4l1nl3FrvVQmMbGwP13
 * 
