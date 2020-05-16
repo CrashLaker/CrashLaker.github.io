@@ -18,5 +18,15 @@
 		"tags": ["Scrapping", "Datavis", "ETL", "BigData"],
         "position": "center",
         "size": "cover"
+	},
+	{
+		"slug": "calendar-ticket-monitoring-dashboard",
+		"name": "Calendar Ticket Monitor",
+		"image": "https://crashlaker.github.io/assets/img/KNea0YJnH_6b4b9aef28db2ec7a5c162852e807c10.png",
+		"url": "https://crashlaker.github.io/projects/2020/05/16/calendar_monitor_dashboard.html",
+		"date": "Oct 2019",
+		"tags": ["Scrapping", "Datavis", "ETL", "SOAP", "Python"],
+        "position": "center",
+        "size": "cover"
 	}
 ]
