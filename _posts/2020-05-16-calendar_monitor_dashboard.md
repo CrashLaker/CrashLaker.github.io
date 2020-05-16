@@ -23,6 +23,8 @@ Tech stack:
 * UI - Microsoft Windows Bootstrap ([Winstrap](https://github.com/winjs/winstrap))
 
 Architecture Diagram:
+![](/assets/img/KNea0YJnH_e250052e49d006c8b968bfad5481b111.png)
+
 
 
 
