@@ -4,7 +4,7 @@ title: "Calendar Monitor Dashboard"
 comments: true
 date: "2020-05-16 16:29:53.014000+00:00"
 categories:  [projects]
-tags:  [monitoring, dashboard, etl]
+tags:  [monitoring, dashboard, etl, vuejs, grafana, viserjs, flask, winstrap]
 ---
 
 
@@ -15,12 +15,15 @@ tags:  [monitoring, dashboard, etl]
 
 Description: Ticket monitoring for teams
 Tech stack:
-* Python/Flask - ETL
+* Python/Flask - ETL (Soap/REST)
 * SQL Server
 * VueJS
 * Grafana
 * ViserJS
 * UI - Microsoft Windows Bootstrap ([Winstrap](https://github.com/winjs/winstrap))
+
+Architecture Diagram:
+
 
 
 ![](/assets/img/KNea0YJnH_6b4b9aef28db2ec7a5c162852e807c10.png)
