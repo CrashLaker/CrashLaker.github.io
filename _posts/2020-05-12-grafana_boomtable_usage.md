@@ -112,7 +112,7 @@ row  = grow
 ```
 
 ### View 3
-![](/assets/img/ccCVjEzLx_d80b6f60d90e1c5a1d150bada622fbbd.png)
+![](/assets/img/ccCVjEzLx_f8671faa99338abf23465b23379401f3.png)
 
 ```python
 icons = {

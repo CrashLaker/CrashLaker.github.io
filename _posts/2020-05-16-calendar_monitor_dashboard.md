@@ -32,5 +32,5 @@ Architecture Diagram:
 
 
 Test on Grafana:
-![](/assets/img/KNea0YJnH_8b04eab3aea1b6967a3b62f28aa775dd.png)
+![](/assets/img/KNea0YJnH_2c3d8f6198908cfca2ddaea0774e6441.png)
 
