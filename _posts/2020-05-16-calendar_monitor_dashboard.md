@@ -29,3 +29,8 @@ Architecture Diagram:
 
 
 ![](/assets/img/KNea0YJnH_6b4b9aef28db2ec7a5c162852e807c10.png)
+
+
+Test on Grafana:
+![](/assets/img/KNea0YJnH_8b04eab3aea1b6967a3b62f28aa775dd.png)
+
