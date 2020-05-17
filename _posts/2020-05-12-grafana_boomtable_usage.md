@@ -111,3 +111,78 @@ for i in range(20):
 row  = grow
 ```
 
+### View 3
+![](/assets/img/ccCVjEzLx_d80b6f60d90e1c5a1d150bada622fbbd.png)
+
+```python
+icons = {
+        "start": f"<img style='' src='https://cdn2.iconfinder.com/data/icons/crystalproject/Open-Office-Icons/stock_about-16.png'/>",
+        "fail": f"<img style='' src='https://cdn2.iconfinder.com/data/icons/crystalproject/Open-Office-Icons/stock_stop-16.png'/>",
+        "meeting": f"<img style='' src='https://cdn2.iconfinder.com/data/icons/crystalproject/16x16/actions/k_alarm.png'/>",
+        "coffee": f"<img style='' src='https://cdn2.iconfinder.com/data/icons/crystalproject/16x16/actions/yahoo_tea.png'/>",
+        "done": f"<img style='width:15px;' src='https://cdn2.iconfinder.com/data/icons/crystalproject/32x32/actions/ok.png'/>",
+}
+yearselect = 2020
+monthselect = 5
+month = calendar(yearselect, monthselect)
+today = datetime.datetime(*datetime.datetime.now().timetuple()[:3])
+print("today", today)
+weekname = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday ", "Sunday"]
+month = [weekname, *month]
+d = "|"
+for rid, r in enumerate(month):
+    for cid, c in enumerate(r):
+        print(c)
+        daylabel = c if c != 0 or rid == 0 else ''
+        listitems = ""
+        if c != 0:
+            if yearselect == today.year and monthselect == today.month and c == today.day:
+                dayhtml = f"<span style='border-radius:10px;padding:3px;color:black;background-color: #69c0ff;'>{daylabel}</span>"
+            else:
+                dayhtml = f"<span>{daylabel}</span>"
+            listitems = "\n".join([
+                    f"<li>{idx+1}. {icons[job]} {job}</li>"
+                    for idx,job in enumerate(random.sample(list(icons.keys()), random.randint(1,3)))
+            ])
+        bottomborder = ""
+        if rid == len(month)-1:
+            bottomborder = "border-bottom:1px solid #cecece;"
+        if rid != 0:
+            box = f"""
+                <div style='width:140px;height:100px;display:flex;flex-direction:column;border-top:1px solid #cecece;padding-top:2px;{bottom    border}'>
+                    <div style='width:100%;text-align:right;'>
+                        {dayhtml}
+                    </div>
+                    <ul style='list-style:none;'>
+                        {listitems}
+                    </ul>
+                </div>
+            """
+        else:
+            box = f"<div style='text-align:center;'>{daylabel}</div>"
+        grow.append({
+            "target": f"status{rid}{d}{cid}{d}{box}",
+            "datapoints": [[random.randint(0,1),ds]]
+        })
+
+row  = grow
+```
+
+Gen calendar code
+```python
+def calendar(yearid, monthid):
+    #yearid = 2020
+    #monthid = 5
+    dstart = datetime.datetime(yearid,monthid,1)
+    month = [[0]*7]
+    weekid = 0
+    while dstart.month == monthid and dstart.year == yearid:
+        weekday = dstart.weekday()
+        if weekday == 0 and month[weekid][-1] != 0:
+            month.append([0]*7)
+            weekid += 1
+        day = dstart.day
+        month[weekid][weekday] = day
+        dstart = dstart + datetime.timedelta(days=1)
+    return month
+```
