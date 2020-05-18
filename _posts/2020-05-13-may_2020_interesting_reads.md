@@ -36,4 +36,5 @@ categories:  [monthly-awesome]
 * http://agdr.org/2020/05/14/Polyglot-Makefiles.html
 * https://dev.to/codingunicorn/unpack-arrays-with-destructuring-4jcc
 * https://grafana.com/tutorials/
+* https://dev.to/aurelievache/understanding-kubernetes-part-26-deployment-rolling-update-511h
 * 
