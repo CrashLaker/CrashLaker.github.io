@@ -37,4 +37,5 @@ categories:  [monthly-awesome]
 * https://dev.to/codingunicorn/unpack-arrays-with-destructuring-4jcc
 * https://grafana.com/tutorials/
 * https://dev.to/aurelievache/understanding-kubernetes-part-26-deployment-rolling-update-511h
+* https://www.youtube.com/watch?v=9mRIc6NpR6Y&feature=youtu.be&t=2223&mkt_tok=eyJpIjoiTTJNME5URTJPRFprTkdZMSIsInQiOiJcLzFPVzFxVFRpWnhSOEdtbzBGMnR2Q0ZsQ3BjcGlMTFhoMEZVbktaSXpzOGN0emwxako3YnM5Y25QRGZyUzBhKzVNMm1TU25lamkzQUxBZUYxcU9zMHBTbXRDdllHUnF1d1hsUjFGVHU5UVJMZ3o1cFJFZmxrUzJJV0xHRXJkaUcifQ%3D%3D
 * 
