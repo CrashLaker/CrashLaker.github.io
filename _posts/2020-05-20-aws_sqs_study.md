@@ -7,3 +7,6 @@ categories:  [certification]
 tags:  [sqs]
 ---
 
+
+
+Notes from Stephane Maarek's both **Ultimate AWS Certified Developer Associate** 
