@@ -20,6 +20,10 @@ Notes from Stephane Maarek's both
 * Horizontal scaling in terms of number of consumers
 * Can have duplicate messages (at least once delivery, occasionally)
 * Can have out of order messages (best effort ordering)
+* LImitation of 256KB per message sent
+
+![](/assets/img/l8pHayZMY_2ba95e2f1ca914db0c70eff2b6ad458d.png)
+
 
 
 
