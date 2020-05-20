@@ -24,6 +24,8 @@ Notes from Stephane Maarek's both
 
 ![](/assets/img/l8pHayZMY_2ba95e2f1ca914db0c70eff2b6ad458d.png)
 
+* [Lambda Event Source Mapping SQS](https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/learn/lecture/19730528#overview)
+
 
 
 
