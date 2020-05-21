@@ -33,3 +33,15 @@ Selinux alerts:
 `setenforce 0`
 
 `getenforce`
+
+
+https://serverfault.com/questions/358324/ftp-doesnt-allow-usr-sbin-nologin-user
+
+`usermod --home=/another/path <username>`
+
+Alter `/etc/passwd/` to nologin `/sbin/nologin`
+Add `/sbin/nologin` to `/etc/shells`
+
+
+
+
