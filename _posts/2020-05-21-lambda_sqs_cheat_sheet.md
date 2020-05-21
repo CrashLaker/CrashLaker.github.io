@@ -11,7 +11,7 @@ tags:  [lambda, sqs]
 
 
 
-```python3
+```python
 import json
 import boto3
 
