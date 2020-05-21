@@ -31,3 +31,49 @@ def lambda_handler(event, context):
     
     return "ok"kj
 ```
+
+### Create from Snapshot
+```python
+import json
+import boto3
+import pprint
+
+def lambda_handler(event, context):
+    # TODO implement
+    rds = boto3.client('rds')
+    old = {'DBInstanceClass': 'db.t2.micro',
+         'DBInstanceIdentifier': 'backuptest-mysql-snapshot', 
+         'DBInstanceStatus': 'available',
+         'DBSubnetGroupName': 'cf-child-net-rdssubnetgroup-1r4yhod8mjat4',
+         'Endpoint': {'Address': '',
+                      'HostedZoneId': '',
+                      'Port': 3306},
+         'Engine': 'mysql',
+         'LicenseModel': 'general-public-license'}
+    old = {'DBInstanceClass': 'db.t2.micro',
+         'DBInstanceIdentifier': 'backupteste-pgsql-snapshot',
+         'DBInstanceStatus': 'available',
+         'DBSubnetGroupName': 'cf-child-net-rdssubnetgroup-1r4yhod8mjat4',
+         'Endpoint': {'Address': 'backupteste-pgsql.cfrwudrp3d2n.sa-east-1.rds.amazonaws.com',
+                      'HostedZoneId': 'ZLRUIUX7Z3ZF7',
+                      'Port': 5432},
+         'Engine': 'postgres',
+         'LicenseModel': 'postgresql-license'}
+    newinstance = rds.restore_db_instance_from_db_snapshot(
+        DBInstanceIdentifier=old["DBInstanceIdentifier"]+"-fromsnapshot",
+        DBSnapshotIdentifier=old["DBInstanceIdentifier"],
+        DBInstanceClass=old["DBInstanceClass"],
+        Port=old["Endpoint"]["Port"],
+        DBSubnetGroupName=old["DBSubnetGroupName"],
+        MultiAZ=False,
+        PubliclyAccessible=False,
+        LicenseModel=old["LicenseModel"],
+        AutoMinorVersionUpgrade=False,
+        #OptionGroupName=
+        #Tags
+    )
+    
+    
+    pprint.pprint(newinstance)
+    return "ok"
+```
