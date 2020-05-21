@@ -8,3 +8,16 @@ tags:  [lambda, sqs]
 ---
 
 
+
+
+
+```python3
+import json
+import boto3
+
+def lambda_handler(event, context):
+    sqs = boto3.resource('sqs')
+    queue =sqs.get_queue_by_name(QueueName='sqs-test-backup')
+    resp = queue.send_message(MessageBody='message from lambda', 
+                              MessageAttribute)
+```
