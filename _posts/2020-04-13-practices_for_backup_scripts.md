@@ -23,6 +23,14 @@ ssh machine 'cd /root && tar -czf - folder1 folder2' > ${backupfolder}${datenow}
 ```bash
 COMPOSE_INTERACTIVE_NO_CLI=1 docker-compose exec database pg_dump <db> -U <user>
 ```
+```bash
+docker run -v `pwd`:/scratch --rm postgres:11.6 bash -c "PGPASSWORD=$password pg_dump -h $hostname -U $username > /scratch/dump_postgres-$(date +%F).sql"
+```
+
+### MySQL
+```bash
+docker run -v `pwd`:/scratch --rm mysql:5.7.26 bash -c "mysqldump --all-databases -h $hostname -u $username -p $password --quick --lock-tables=false > /scratch/dump_mysql-$(date +%F).sql"
+```
 
 ### MongoDB
 ```bash
