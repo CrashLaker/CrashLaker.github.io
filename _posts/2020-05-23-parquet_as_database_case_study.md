@@ -20,3 +20,4 @@ tags:  [python, parquet]
 ### Pandas
 [How to write a partitioned Parquet file using Pandas](https://stackoverflow.com/questions/52934265/how-to-write-a-partitioned-parquet-file-using-pandas)
 
+
