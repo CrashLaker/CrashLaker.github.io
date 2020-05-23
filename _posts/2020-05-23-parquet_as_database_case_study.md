@@ -18,6 +18,8 @@ tags:  [python, parquet]
 
 [Incrementally loaded Parquet files](https://aseigneurin.github.io/2017/03/14/incrementally-loaded-parquet-files.html)
 
+[Spark predicate pushdown performance](https://stackoverflow.com/questions/51851827/spark-predicate-pushdown-performance)
+
 ### Pandas
 [How to write a partitioned Parquet file using Pandas](https://stackoverflow.com/questions/52934265/how-to-write-a-partitioned-parquet-file-using-pandas)
 
