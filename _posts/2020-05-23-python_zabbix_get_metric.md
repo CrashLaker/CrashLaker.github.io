@@ -41,4 +41,32 @@ for host in hosts:
 ```
 
 **Get Metric**
-```pyt
+```python
+def get_metric(host_id, metric, dfrom, dto):
+    dfrom = int(datetime.datetime(*dfrom).timestamp())
+    dto = int(datetime.datetime(*dto).timestamp())
+    hostitems = zapi.item.get(filter={"hostid": host_id, "name": metric})
+    t_metric = [item for item in hostitems if metric == item["name"] and item["hostid"] == host_id]
+    data = {"values": [], "timestamps": []}
+    if len(t_metric):
+        # Create a time range
+        item = t_metric.pop()
+        # Query item's history (integer) data
+        history = zapi.history.get(hostids=[host_id],
+                                   itemids=[item["itemid"]],
+                                   time_from=dfrom,
+                                   time_till=dto,
+                                   output='extend',
+                                   #limit='5000',
+                                   history=item["value_type"]
+                                   )
+        if len(history) == 0:
+            return data
+        df = pd.DataFrame(history)
+        df = df[["clock", "value"]]
+        df["value"] = df["value"].astype(float)
+        df["clock"] = df["clock"].astype(int)
+        df["clock"] = df["clock"]*1000
+        return {"values": df["value"].tolist(), "timestamps": df["clock"].tolist()}
+    return data
+```
