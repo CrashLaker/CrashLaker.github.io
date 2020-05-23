@@ -21,10 +21,14 @@ categories:  [monthly-awesome]
 * https://github.com/ratiw/vuetable-2-tutorial
 * https://github.com/erluxman/awesomefluttertips
 * Parquet
-    * https://www.youtube.com/watch?v=fcPzcooWrIY
+    * [Peter Hoffmann - Using Pandas and Dask to work with large columnar datasets in Apache Parquet
+](https://www.youtube.com/watch?v=fcPzcooWrIY)
     * [Uwe L Korn - Efficient and portable DataFrame storage with Apache Parquet
-https://www.youtube.com/watch?v=H_dLfHETO0g
-    * https://www.youtube.com/watch?v=X4YHGKj3V5M
+](https://www.youtube.com/watch?v=H_dLfHETO0g)
+    * [Irina Truong - Adapting from Spark to Dask: what to expect - PyCon 2018
+](https://www.youtube.com/watch?v=X4YHGKj3V5M)
+    * [Adapting from Spark to Dask: what to expect - Vaibhav Srivastav - PyCon.KR 2019
+](https://www.youtube.com/watch?v=tx7qTHSlHKw)
 * https://www.definit.co.uk/2020/02/certified-kubernetes-administrator-cka-exam-experience/
 * https://dev.to/topitguy/hey-everyone-coursera-is-offering-100-courses-at-0-until-31st-of-july-4323
 * https://github.com/mingrammer/diagrams
@@ -38,5 +42,6 @@ https://www.youtube.com/watch?v=H_dLfHETO0g
 * https://dev.to/codingunicorn/unpack-arrays-with-destructuring-4jcc
 * https://grafana.com/tutorials/
 * https://dev.to/aurelievache/understanding-kubernetes-part-26-deployment-rolling-update-511h
-* https://www.youtube.com/watch?v=9mRIc6NpR6Y&feature=youtu.be&t=2223&mkt_tok=eyJpIjoiTTJNME5URTJPRFprTkdZMSIsInQiOiJcLzFPVzFxVFRpWnhSOEdtbzBGMnR2Q0ZsQ3BjcGlMTFhoMEZVbktaSXpzOGN0emwxako3YnM5Y25QRGZyUzBhKzVNMm1TU25lamkzQUxBZUYxcU9zMHBTbXRDdllHUnF1d1hsUjFGVHU5UVJMZ3o1cFJFZmxrUzJJV0xHRXJkaUcifQ%3D%3D
+* [Neo4j Cloud Native + Kubernetes Manchester, April 2020 Virtual Edition
+](https://www.youtube.com/watch?v=9mRIc6NpR6Y&feature=youtu.be&t=2223&mkt_tok=eyJpIjoiTTJNME5URTJPRFprTkdZMSIsInQiOiJcLzFPVzFxVFRpWnhSOEdtbzBGMnR2Q0ZsQ3BjcGlMTFhoMEZVbktaSXpzOGN0emwxako3YnM5Y25QRGZyUzBhKzVNMm1TU25lamkzQUxBZUYxcU9zMHBTbXRDdllHUnF1d1hsUjFGVHU5UVJMZ3o1cFJFZmxrUzJJV0xHRXJkaUcifQ%3D%3D)
 * 
