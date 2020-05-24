@@ -23,3 +23,11 @@ https://stackoverflow.com/questions/15167928/implementing-horizon-charts-in-matp
 
 no margins  
 https://tex.stackexchange.com/questions/100190/how-can-i-remove-margins-when-integrating-matplotlib-plots-with-pgfplots
+
+
+no axis, margins, ticks
+https://stackoverflow.com/questions/11837979/removing-white-space-around-a-saved-image-in-matplotlib
+
+```python
+
+```
