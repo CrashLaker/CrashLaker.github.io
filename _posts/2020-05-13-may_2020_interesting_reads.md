@@ -47,4 +47,5 @@ categories:  [monthly-awesome]
 * https://github.com/ant-design-blazor/ant-design-blazor
 * https://dev.to/niveshsaharan/javascript-a-practical-guide-to-use-localstorage-and-sessionstorage-542p
 * https://brennan.io/2020/05/24/userspace-cooperative-multitasking/
+* https://dev.to/dstri26/download-a-whole-youtube-playlist-at-one-go-3331
 * 
