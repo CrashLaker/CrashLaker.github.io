@@ -45,4 +45,5 @@ categories:  [monthly-awesome]
 * [Neo4j Cloud Native + Kubernetes Manchester, April 2020 Virtual Edition
 ](https://www.youtube.com/watch?v=9mRIc6NpR6Y&feature=youtu.be&t=2223&mkt_tok=eyJpIjoiTTJNME5URTJPRFprTkdZMSIsInQiOiJcLzFPVzFxVFRpWnhSOEdtbzBGMnR2Q0ZsQ3BjcGlMTFhoMEZVbktaSXpzOGN0emwxako3YnM5Y25QRGZyUzBhKzVNMm1TU25lamkzQUxBZUYxcU9zMHBTbXRDdllHUnF1d1hsUjFGVHU5UVJMZ3o1cFJFZmxrUzJJV0xHRXJkaUcifQ%3D%3D)
 * https://github.com/ant-design-blazor/ant-design-blazor
+* https://dev.to/niveshsaharan/javascript-a-practical-guide-to-use-localstorage-and-sessionstorage-542p
 * 
