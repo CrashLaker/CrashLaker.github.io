@@ -47,19 +47,29 @@ def horizon():
     plt.margins(0,0)
     plt.gca().xaxis.set_major_locator(plt.NullLocator())
     plt.gca().yaxis.set_major_locator(plt.NullLocator())
-    fig.set_size_inches(p2i(160),p2i(30))
+    height = 20
+    fontsize = height*.666
+    fig.set_size_inches(p2i(160),p2i(height))
     maxval = 100
     layers = 4
     color = "#f5222d"
     for i in range(layers):
         plt.fill_between(range(len(y)), y-(maxval/layers)*i, alpha=0.2+(i/10)*1, color=color)
     plt.xlim(0,len(y)-1)
-    plt.ylim(min(y),maxval/layers)
+    plt.ylim(0,maxval/layers)
+    #y[-1] = 4
+    s = str(y[-1]) if y[-1] > 9 else f" {y[-1]}"
+    s = y[-1]
+    plt.text(len(y)-(1.5),4.5,s,bbox=dict(alpha=0), fontsize=fontsize, horizontalalignment='right')
+    
     return fig
 
 if __name__ == '__main__':
    app.run(host='0.0.0.0', port=12000)
 ```
+
+![](/assets/img/iVkUq-SAt_6f6afa0b2206f34a60539158026ebbe6.png)
+
 
 
 horizon  
