@@ -186,3 +186,9 @@ def calendar(yearid, monthid):
         dstart = dstart + datetime.timedelta(days=1)
     return month
 ```
+
+
+### View 4
+![](/assets/img/ccCVjEzLx_262270876c1e97d5034acfffc6ef4982.png)
+
+
