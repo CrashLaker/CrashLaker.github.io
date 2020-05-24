@@ -198,7 +198,7 @@ d = ' | '
 
 def gencols(name, metric):
     ret = []
-    t_horizon = "<img src='http://192.168.31.89:12000/plot.png?width=160&height=20&dfasdf={}'/>"
+    t_horizon = "<img src='http://url:12000/plot.png?width=160&height=20&dfasdf={}'/>"
     ret.append({
         "target": f"status_{name}{d}name{d}{name}",
         "datapoints": [[random.randint(0,1),ds]]
@@ -211,32 +211,32 @@ def gencols(name, metric):
         })
     return ret
 
-esxiimg = "<img style='margin-left:0px;margin-right:3px;height:14px;' src='http://dev.localshi.com/nfsdir    /vmware/node-esxi.png'/>"
-vmimg = "<img style='margin-left:8px;margin-right:3px;height:14px;' src='http://dev.localshi.com/nfsdir/v    mware/vm-isometric.png'/>"
-dockerimg = "<img style='margin-left:16px;margin-right:3px;height:14px;' src='http://dev.localshi.com/nfs    dir/vmware/docker-container.png'/>"
-grow = []
-metric = "cpu,mem,network,storage1,storage2,storage3,storage4".split(",")
-cols = ['<img src="http://192.168.31.89:12000/plt.png?width=200&height=30"/>']*len(metric)
-vms = [["vm{0:02d}".format(i), *cols]
-            for i in range(20)]
+    esxiimg = "<img style='margin-left:0px;margin-right:3px;height:14px;' src='http://<url>/nfsdir/vmware/node-esxi.png'/>"
+    vmimg = "<img style='margin-left:8px;margin-right:3px;height:14px;' src='http://<url>/nfsdir/vmware/vm-isometric.png'/>"
+    dockerimg = "<img style='margin-left:16px;margin-right:3px;height:14px;' src='http://<url>/nfsdir/vmware/docker-container.png'/>"
+    grow = []
+    metric = "cpu,mem,network,storage1,storage2,storage3,storage4".split(",")
+    cols = ['<img src="http://url:12000/plt.png?width=200&height=30"/>']*len(metric)
+    vms = [["vm{0:02d}".format(i), *cols]
+                for i in range(20)]
 
-t_horizon = "<img src='http://192.168.31.89:12000/plot.png?width=160&height=20&dfasdf={}'/>"
-for m in ["name", *metric]:
-    grow.append({
-        "target": f"status{d}{m}{d}{m}",
-        "datapoints": [[random.randint(0,1),ds]]
-    })
+    t_horizon = "<img src='http://url:12000/plot.png?width=160&height=20&dfasdf={}'/>"
+    for m in ["name", *metric]:
+        grow.append({
+            "target": f"status{d}{m}{d}{m}",
+            "datapoints": [[random.randint(0,1),ds]]
+        })
 
-rows = []
+    rows = []
 
-for esxi in range(3):
-    esxiname = f"{esxiimg}ESXI{esxi}"
-    grow += gencols(esxiname, metric)
-    for vm in range(random.randint(1,4)):
-        vmname = f"{vmimg}VM{esxi}{vm}"
-        grow += gencols(vmname, metric)
-        for docker in range(random.randint(0,2)):
-            dockername = f"{dockerimg}Docker{esxi}{vm}{docker}"
-            grow += gencols(dockername, metric)
+    for esxi in range(3):
+        esxiname = f"{esxiimg}ESXI{esxi}"
+        grow += gencols(esxiname, metric)
+        for vm in range(random.randint(1,4)):
+            vmname = f"{vmimg}VM{esxi}{vm}"
+            grow += gencols(vmname, metric)
+            for docker in range(random.randint(0,2)):
+                dockername = f"{dockerimg}Docker{esxi}{vm}{docker}"
+                grow += gencols(dockername, metric)
 ```
 
