@@ -18,6 +18,50 @@ setTimeout(() => {iFrameResize({ log: true, enablePublicMethods: true }, '#myIfr
 {% endraw %}
     
 
+
+```python
+from flask import Response
+from flask import Flask, request, jsonify, json, abort, redirect, url_for, render_template
+from flask_cors import CORS, cross_origin
+import matplotlib.pyplot as plt
+from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
+from matplotlib.figure import Figure
+import pandas as pd
+import numpy as np
+
+@app.route('/plot.png')
+def plot_png():
+    #fig = create_figure()
+    fig = horizon()
+    output = io.BytesIO()
+    FigureCanvas(fig).print_png(output)
+    return Response(output.getvalue(), mimetype='image/png')
+
+def horizon():
+    plt.close('all')
+    y = np.random.randint(100, size=30)
+    p2i = lambda x: x/96
+    fig = plt.figure()
+    plt.gca().set_axis_off()
+    plt.subplots_adjust(top=1,bottom=0,right=1,left=0,hspace=0,wspace=0)
+    plt.margins(0,0)
+    plt.gca().xaxis.set_major_locator(plt.NullLocator())
+    plt.gca().yaxis.set_major_locator(plt.NullLocator())
+    fig.set_size_inches(p2i(160),p2i(30))
+    maxval = 100
+    layers = 4
+    color = "#f5222d"
+    for i in range(layers):
+        plt.fill_between(range(len(y)), y-(maxval/layers)*i, alpha=0.2+(i/10)*1, color=color)
+    plt.xlim(0,len(y)-1)
+    plt.ylim(min(y),maxval/layers)
+    return fig
+
+if __name__ == '__main__':
+   app.run(host='0.0.0.0', port=12000)
+```
+
+
 horizon  
 https://stackoverflow.com/questions/15167928/implementing-horizon-charts-in-matplotlib
 
@@ -29,5 +73,12 @@ no axis, margins, ticks
 https://stackoverflow.com/questions/11837979/removing-white-space-around-a-saved-image-in-matplotlib
 
 ```python
-
+plt.gca().set_axis_off()
+plt.subplots_adjust(top = 1, bottom = 0, right = 1, left = 0, 
+            hspace = 0, wspace = 0)
+plt.margins(0,0)
+plt.gca().xaxis.set_major_locator(plt.NullLocator())
+plt.gca().yaxis.set_major_locator(plt.NullLocator())
+plt.savefig("filename.pdf", bbox_inches = 'tight',
+    pad_inches = 0)
 ```
