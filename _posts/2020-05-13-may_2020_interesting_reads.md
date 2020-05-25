@@ -48,4 +48,5 @@ categories:  [monthly-awesome]
 * https://dev.to/niveshsaharan/javascript-a-practical-guide-to-use-localstorage-and-sessionstorage-542p
 * https://brennan.io/2020/05/24/userspace-cooperative-multitasking/
 * https://dev.to/dstri26/download-a-whole-youtube-playlist-at-one-go-3331
+* https://weandthecolor.com/infographic-dashboard-templates-by-sergey-bitos-at-adobe-stock/117341
 * 
