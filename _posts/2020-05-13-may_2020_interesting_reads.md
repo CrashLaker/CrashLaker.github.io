@@ -50,4 +50,5 @@ categories:  [monthly-awesome]
 * https://dev.to/dstri26/download-a-whole-youtube-playlist-at-one-go-3331
 * https://weandthecolor.com/infographic-dashboard-templates-by-sergey-bitos-at-adobe-stock/117341
 * https://medium.com/lego-engineering/sequence-numbering-in-serverless-via-api-gateway-40e5f6c83e93
+* https://adayinthelifeof.nl/2020/05/20/aws.html
 * 
