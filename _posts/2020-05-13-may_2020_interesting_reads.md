@@ -49,4 +49,5 @@ categories:  [monthly-awesome]
 * https://brennan.io/2020/05/24/userspace-cooperative-multitasking/
 * https://dev.to/dstri26/download-a-whole-youtube-playlist-at-one-go-3331
 * https://weandthecolor.com/infographic-dashboard-templates-by-sergey-bitos-at-adobe-stock/117341
+* https://medium.com/lego-engineering/sequence-numbering-in-serverless-via-api-gateway-40e5f6c83e93
 * 

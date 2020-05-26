@@ -5,6 +5,8 @@ comments: true
 date: "2020-05-25 22:12:49.308000+00:00"
 ---
 
+https://medium.com/lego-engineering/sequence-numbering-in-serverless-via-api-gateway-40e5f6c83e93
+
 ![](/assets/img/6eiFlNauA_232f311be25260b60b6e0f3a938aafb7.png)
 
 
