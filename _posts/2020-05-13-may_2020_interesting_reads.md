@@ -52,4 +52,17 @@ categories:  [monthly-awesome]
 * https://medium.com/lego-engineering/sequence-numbering-in-serverless-via-api-gateway-40e5f6c83e93
 * https://adayinthelifeof.nl/2020/05/20/aws.html
 * https://conferences.eg.org/egev20/program/
+* [Grafana CONline: Grafana plugins](https://www.youtube.com/watch?v=4RLoHg4G9MI)
 * 
+
+
+
+
+
+
+
+
+
+
+
+***
