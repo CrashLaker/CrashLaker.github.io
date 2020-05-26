@@ -51,4 +51,5 @@ categories:  [monthly-awesome]
 * https://weandthecolor.com/infographic-dashboard-templates-by-sergey-bitos-at-adobe-stock/117341
 * https://medium.com/lego-engineering/sequence-numbering-in-serverless-via-api-gateway-40e5f6c83e93
 * https://adayinthelifeof.nl/2020/05/20/aws.html
+* https://conferences.eg.org/egev20/program/
 * 
