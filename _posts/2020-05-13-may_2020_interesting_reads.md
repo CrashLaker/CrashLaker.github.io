@@ -53,7 +53,7 @@ categories:  [monthly-awesome]
 * https://adayinthelifeof.nl/2020/05/20/aws.html
 * https://conferences.eg.org/egev20/program/
 * [Grafana CONline: Grafana plugins](https://www.youtube.com/watch?v=4RLoHg4G9MI)
-* 
+* [GrafanaCONline: Chrome browsing data to Grafana — as you browse](https://www.youtube.com/watch?v=7bPhUgy_hek)
 
 
 
