@@ -15,3 +15,9 @@ https://stackoverflow.com/questions/38227029/host-unreachable-inside-docker-cont
 ```bash
 sudo iptables -I INPUT -i docker0 -j ACCEPT
 ```
+
+
+Could also be firewalld
+```bash
+systemctl
+```
