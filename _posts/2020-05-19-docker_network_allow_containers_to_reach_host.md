@@ -19,5 +19,6 @@ sudo iptables -I INPUT -i docker0 -j ACCEPT
 
 Could also be firewalld
 ```bash
-systemctl
+systemctl stop firewalld
+systemctl disable firewalld
 ```
