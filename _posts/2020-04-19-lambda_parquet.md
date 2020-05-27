@@ -14,8 +14,8 @@ cd /root/layer
 mkdir -p python/lib/python3.7/site-packages/
 cd python/lib/python3.7/site-packages/     
 pip3 install -t . pyarrow==0.12.1 pandas   
-cd /root
-zip -r layer.zip layer
+cd /root/layer
+zip -r /root/layer.zip . 
 ```
 
 Upload to S3
