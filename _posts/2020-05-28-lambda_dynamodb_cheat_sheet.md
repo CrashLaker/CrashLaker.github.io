@@ -36,5 +36,20 @@ def lambda_handler(event, context):
 
 ### Scan Loop
 ```python
-rs = dynamodb.scan
+rs = dynamodb.scan(TableName=table, Limit=50)
+row = []
+while 'LastEvaluatedKey' in rs:
+    row.extend([_ for _ in rs['Items']])
+    rs = dynamodb.scan(TableName=table, Limit=50, ExclusiveStartKey=rs['LastEvaluatedKey'])
+```
+
+### Parse DynamoDB JSON
+
+`pip3 install dynamodb-json`
+
+```
+from dynamodb_json import json_util as json_dyn
+..
+row.extend([json_dyn.loads(_) for _ in rs['Items']])
+..
 ```
