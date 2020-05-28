@@ -21,7 +21,9 @@ dynamodb = boto3.resource('dynamodb')
 def lambda_handler(event, context):
     table = dynamodb.Table('<table name>')
     # get_item
-    table.get_item(Key='<key name>')
+    table.get_item(Key={
+        'code': 200
+    })
        
     # Put Item
     table.put_item(Item={
