@@ -20,5 +20,21 @@ dynamodb = boto3.resource('dynamodb')
 
 def lambda_handler(event, context):
     table = dynamodb.Table('<table name>')
-    table.get_item(Key=)
+    # get_item
+    table.get_item(Key='<key name>')
+       
+    # Put Item
+    table.put_item(Item={
+        'code': 200,
+        'title': 'my title',
+        'info': {
+            'more_info': 'the info'
+        }
+    })
+```
+
+
+### Scan Loop
+```python
+rs = dynamodb.scan
 ```
