@@ -8,6 +8,9 @@ tags:  [auth, flask, python, jwt]
 ---
 
 
+```bash
+pip3 install pyjwt
+```
 
 ```python
 from flask import Flask, request, jsonify, json, abort, redirect, url_for, render_template
