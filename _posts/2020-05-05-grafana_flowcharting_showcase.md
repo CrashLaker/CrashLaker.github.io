@@ -22,3 +22,6 @@ tags:  [grafana, plugin, flowcharting]
 ![](/assets/img/IoCcpSAGs_flowcharting-hexbin2.gif)
 
 ![](/assets/img/IoCcpSAGs_flowcharting-dyn-csv-v2.gif)
+
+
+![](/assets/img/IoCcpSAGs_69d29e65208e25abf6649f3dbc6890aa.png)
