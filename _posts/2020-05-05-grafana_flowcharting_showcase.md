@@ -25,3 +25,5 @@ tags:  [grafana, plugin, flowcharting]
 
 
 ![](/assets/img/IoCcpSAGs_69d29e65208e25abf6649f3dbc6890aa.png)
+
+![](/assets/img/IoCcpSAGs_335d62c24d607cb2baf40683a272ca69.png)
