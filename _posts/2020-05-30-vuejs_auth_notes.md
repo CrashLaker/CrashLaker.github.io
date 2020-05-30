@@ -9,7 +9,8 @@ tags:  [vuejs, auth, jwt, route-guards]
 
 
 Content from:
-* https://www.udemy.com/course/build-web-apps-with-vuejs-firebase/ ()
+* https://www.udemy.com/course/build-web-apps-with-vuejs-firebase/ (Shaun Pelling)
+    * 
 * https://www.udemy.com/course/vuejs-2-the-complete-guide/ (Maximilian Schwarzmüller)
 
 <details>
@@ -249,16 +250,6 @@ export default new Vuex.Store({
     }
   }
 </script>
-
-<style scoped>
-  h1, p {
-    text-align: center;
-  }
-
-  p {
-    color: red;
-  }
-</style>
 ```
 </details>
 
