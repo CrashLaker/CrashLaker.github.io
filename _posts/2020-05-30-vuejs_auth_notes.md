@@ -50,6 +50,7 @@ const routes = [
 
 export default new VueRouter({mode: 'history', routes})
 ```
+    
 </details> 
 
 <details>
@@ -78,6 +79,7 @@ export default new VueRouter({mode: 'history', routes})
   }
 </script>
 ```
+    
 </details>
 
 
@@ -226,6 +228,7 @@ export default new Vuex.Store({
   }
 })
 ```
+    
 </details>
 
 
@@ -259,6 +262,7 @@ export default new Vuex.Store({
   }
 </script>
 ```
+    
 </details>
 
 
