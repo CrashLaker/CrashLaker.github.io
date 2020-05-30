@@ -54,6 +54,8 @@ export default new VueRouter({mode: 'history', routes})
 {% endraw %} 
 </details> 
 
+*** 
+
 <details>
 <summary>
 [maximilian] App.vue tryAutoLogin
