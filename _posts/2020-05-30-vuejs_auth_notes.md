@@ -12,4 +12,39 @@ Content from:
 * https://www.udemy.com/course/vuejs-2-the-complete-guide/
 * https://www.udemy.com/course/build-web-apps-with-vuejs-firebase/
 
-![](/assets/img/kVS1lzNG7_4586e1fe98f48d0f486eb61d5e8f5100.png)
+
+### router.js
+```vuejs
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+
+import store from './store'
+
+import WelcomePage from './components/welcome/welcome.vue'
+import DashboardPage from './components/dashboard/dashboard.vue'
+import SignupPage from './components/auth/signup.vue'
+import SigninPage from './components/auth/signin.vue'
+
+Vue.use(VueRouter)
+
+const routes = [
+  { path: '/', component: WelcomePage },
+  { path: '/signup', component: SignupPage },
+  { path: '/signin', component: SigninPage },
+  {
+    path: '/dashboard',
+    component: DashboardPage,
+    beforeEnter (to, from, next) {
+      if (store.state.idToken) {
+        next()
+      } else {
+        next('/signin')
+      }
+    }
+  }
+]
+
+export default new VueRouter({mode: 'history', routes})
+```
+
+
