@@ -9,11 +9,11 @@ tags:  [vuejs, auth, jwt, route-guards]
 
 
 Content from:
-* https://www.udemy.com/course/vuejs-2-the-complete-guide/
-* https://www.udemy.com/course/build-web-apps-with-vuejs-firebase/
+* https://www.udemy.com/course/build-web-apps-with-vuejs-firebase/ ()
+* https://www.udemy.com/course/vuejs-2-the-complete-guide/ (Maximilian Schwarzmüller)
 
 <details>
-<summary>[vue js 2] router.js</summary>
+<summary>[maximilian] router.js</summary>
         
 ```vuejs
 import Vue from 'vue'
@@ -50,7 +50,7 @@ export default new VueRouter({mode: 'history', routes})
 </details> 
 
 <details>
-<summary>[Vue JS] App.vue tryAutoLogin</summary>
+<summary>[maximilian] App.vue tryAutoLogin</summary>
     
 ```vuejs
 <template>
