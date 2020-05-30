@@ -14,7 +14,8 @@ Content from:
 
 <details>
 <summary>[maximilian] router.js</summary>
-        
+
+{% raw %}
 ```vuejs
 import Vue from 'vue'
 import VueRouter from 'vue-router'
@@ -47,6 +48,7 @@ const routes = [
 
 export default new VueRouter({mode: 'history', routes})
 ```
+{% endraw %}
 </details> 
 
 <details>
@@ -73,6 +75,7 @@ export default new VueRouter({mode: 'history', routes})
   }
 </script>
 ```
+{% endraw %}
 </details>
 
 
@@ -219,6 +222,7 @@ export default new Vuex.Store({
   }
 })
 ```
+{% endraw %}
 </details>
 
 
@@ -250,6 +254,7 @@ export default new Vuex.Store({
   }
 </script>
 ```
+{% endraw %}
 </details>
 
 
