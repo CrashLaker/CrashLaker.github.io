@@ -12,8 +12,9 @@ Content from:
 * https://www.udemy.com/course/vuejs-2-the-complete-guide/
 * https://www.udemy.com/course/build-web-apps-with-vuejs-firebase/
 
-
-### [Vue JS 2] router.js
+<details>
+<summary>[vue js 2] router.js</summary>
+        
 ```vuejs
 import Vue from 'vue'
 import VueRouter from 'vue-router'
@@ -46,8 +47,11 @@ const routes = [
 
 export default new VueRouter({mode: 'history', routes})
 ```
+</details> 
 
-### [Vue JS] App.vue tryAutoLogin
+<details>
+<summary>[Vue JS] App.vue tryAutoLogin</summary>
+    
 ```vuejs
 <template>
   <div id="app">
@@ -70,4 +74,4 @@ export default new VueRouter({mode: 'history', routes})
 </script>
 </style>
 ```
-
+</details>
