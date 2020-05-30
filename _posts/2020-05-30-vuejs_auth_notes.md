@@ -53,7 +53,9 @@ export default new VueRouter({mode: 'history', routes})
 </details> 
 
 <details>
-<summary>[maximilian] App.vue tryAutoLogin</summary>
+<summary>
+[maximilian] App.vue tryAutoLogin
+</summary>
     
 ```vuejs
 <template>
@@ -81,7 +83,9 @@ export default new VueRouter({mode: 'history', routes})
 
 
 <details>
-<summary>[maximilian] store.js</summary>
+<summary>
+[maximilian] store.js
+</summary>
     
 ```vuejs
 import Vue from 'vue'
@@ -227,7 +231,9 @@ export default new Vuex.Store({
 
 
 <details>
-<summary>[maximilian] dashboard.vue</summary>
+<summary>
+[maximilian] dashboard.vue
+</summary>
     
 ```vuejs
 <template>
