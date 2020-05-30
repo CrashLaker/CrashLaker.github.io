@@ -13,7 +13,7 @@ Content from:
 * https://www.udemy.com/course/build-web-apps-with-vuejs-firebase/
 
 
-### router.js
+### [Vue JS 2] router.js
 ```vuejs
 import Vue from 'vue'
 import VueRouter from 'vue-router'
@@ -47,4 +47,27 @@ const routes = [
 export default new VueRouter({mode: 'history', routes})
 ```
 
+### [Vue JS] App.vue tryAutoLogin
+```vuejs
+<template>
+  <div id="app">
+    <app-header />
+    <router-view></router-view>
+  </div>
+</template>
+
+<script>
+  import Header from './components/header/header.vue'
+  export default {
+    name: 'app',
+    components: {
+      'app-header': Header
+    },
+    created () {
+      this.$store.dispatch('tryAutoLogin')
+    }
+  }
+</script>
+</style>
+```
 
