@@ -21,10 +21,11 @@ folder="/root/$label"
 chmod -R 777 $folder
 docker rm -f $label
 docker run -dit --name $label \
-	-p $codeserver_ide:8443 \
-	-p $codeserver_live:8080 \
-	-v $folder:/home/coder/project \
-	crashlaker/mycodeserver:v1
+        --restart always \
+        -p $codeserver_ide:8443 \
+        -p $codeserver_live:8080 \
+        -v $folder:/home/coder/project \
+        crashlaker/mycodeserver:v1
 ```
 
 
