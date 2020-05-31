@@ -17,7 +17,7 @@ codeserver_ide=$( echo $args | cut -d: -f2)
 codeserver_live=$( echo $args | cut -d: -f3)
 label="codeserver_${codeserver_name}"
 folder="/root/$label"
-[ -d $folder ] && mkdir $folder 
+[ ! -d $folder ] && mkdir $folder 
 chmod -R 777 $folder
 docker rm -f $label
 docker run -dit --name $label \
