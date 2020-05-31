@@ -58,6 +58,7 @@ export default new VueRouter({mode: 'history', routes})
 [maximilian] App.vue tryAutoLogin
 </summary>
     
+{% raw %}
 ```vuejs
 <template>
   <div id="app">
@@ -79,6 +80,7 @@ export default new VueRouter({mode: 'history', routes})
   }
 </script>
 ```
+{% endraw %}
 </details>
 
 
