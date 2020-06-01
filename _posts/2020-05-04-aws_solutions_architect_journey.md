@@ -32,7 +32,12 @@ Must:
 ### Exam preparation
 https://aws.amazon.com/certification/certified-solutions-architect-associate/
 
+https://www.aws.training/Certification
 
+![](/assets/img/rDqfARrva_eba8897faec7cdd9c4472ba51e9dedf7.png)
+
+
+*** 
 
 ![](/assets/img/rDqfARrva_a0fea7841842258041b9bc289a7d94cd.png)
 
