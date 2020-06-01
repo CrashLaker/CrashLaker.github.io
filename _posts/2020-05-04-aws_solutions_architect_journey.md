@@ -34,7 +34,13 @@ https://aws.amazon.com/certification/certified-solutions-architect-associate/
 
 https://www.aws.training/Certification
 
-![](/assets/img/rDqfARrva_eba8897faec7cdd9c4472ba51e9dedf7.png)
+![](/assets/img/rDqfARrva_fe5be56a756833b8bbf8d21ee0ab165f.png)
+
+* CTC Centro de Treinamento e Certificacao (AMP) (WBD)	1-Jun
+* 
+* InLearn Educacao Ltda (NT)	TBD
+* Green Tecnologia* (WBD)	TBD
+* InforMaker SP* - IE-Kiosk-1277	TBD
 
 
 *** 
