@@ -26,6 +26,14 @@ Must:
     * [ ] AWS Certified Solutions Architect Study Guide: Associate SAA-C01 Exam - Ben Piper, David Clinton
     * [ ] 
     
+    
+    
+
+### Exam preparation
+https://aws.amazon.com/certification/certified-solutions-architect-associate/
+
+
+
 ![](/assets/img/rDqfARrva_a0fea7841842258041b9bc289a7d94cd.png)
 
     
