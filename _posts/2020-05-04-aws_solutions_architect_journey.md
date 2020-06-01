@@ -17,7 +17,9 @@ Must:
         * FAQ - EC2, S3, VPC
 
 * Useful
-    * [ ] https://medium.com/@stephane.maarek/whats-new-for-aws-certified-solutions-architect-associate-saa-c02-43774095662
+    * [x] https://medium.com/@stephane.maarek/whats-new-for-aws-certified-solutions-architect-associate-saa-c02-43774095662
+    * https://aws.amazon.com/architecture/
+    * https://aws.amazon.com/solutions/
 * Courses
     * [ ] https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c02/
 * Books
