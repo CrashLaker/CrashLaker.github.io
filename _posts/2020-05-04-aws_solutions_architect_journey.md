@@ -23,9 +23,11 @@ Must:
 * [https://towardsdatascience.com/the-ultimate-aws-solutions-architect-certification-guide-56c21d4078ed](https://towardsdatascience.com/the-ultimate-aws-solutions-architect-certification-guide-56c21d4078ed)
     * [ACloudGuru](https://www.udemy.com/course/aws-certified-solutions-architect-associate/)
     * [Tutorials Dojo](https://portal.tutorialsdojo.com/courses/aws-certified-solutions-architect-associate-practice-exams/)
-    * [[Book] ]()
-    * []()
-    * []()
+    * [[Book] AWS Certified Developer Official Study Guide](https://www.amazon.com/Certified-Developer-Official-Study-Associate-ebook/dp/B07WYR9XN5/ref=sr_1_3?dchild=1&keywords=AWS+Certified+Developer+Official+Study+Guide&qid=1588332164&sr=8-3)
+    * Best Practices FAQ
+        * https://aws.amazon.com/fsx/windows/faqs/?nc=sn&loc=8
+    * Cheat Sheet
+        * https://tutorialsdojo.com/amazon-vpc/
 
 * Useful
     * [x] https://medium.com/@stephane.maarek/whats-new-for-aws-certified-solutions-architect-associate-saa-c02-43774095662
