@@ -10,6 +10,7 @@ tags:  [python, rq, exporter, prometheus]
 
 
 
+{% raw %}
 ```python
 from flask import Flask, request, jsonify, json, abort, redirect, url_for, render_template
 from flask_cors import CORS, cross_origin
@@ -73,6 +74,7 @@ if __name__ == '__main__':
             print(v)
 
 ```
+{% endraw %}
 
 ![](/assets/img/HButb6SHI_dabdd7dca0a04e99087c4d6f3cc8a74c.png)
 
