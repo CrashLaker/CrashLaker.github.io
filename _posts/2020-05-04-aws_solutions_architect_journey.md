@@ -15,6 +15,17 @@ Must:
     * AWS Re:Invent Videos
     * AWS Documentation
         * FAQ - EC2, S3, VPC
+* [How i cleared the AWS Solutions Architect Associate — C02 exam](https://medium.com/@yashvgec1618/how-i-cleared-the-aws-solutions-architect-associate-c02-exam-a83b5590e401)
+    * [Stephane Maarek’s Ultimate AWS Certified Solutions Architect Associate 2020](https://www.udemy.com/course/aws-certified-solutions-architect-associate-saa-c02/)
+    * [Neal Davis’s AWS Certified Solutions Architect Associate SAA-C01+SAA-C02](https://www.udemy.com/course/aws-certified-solutions-architect-associate-hands-on-labs/)
+    * [Jon Bonso’s AWS Certified Solutions Architect Associate Practice Exams](https://www.udemy.com/course/aws-certified-solutions-architect-associate-amazon-practice-exams-saa-c02/)
+    * [Whizlab’s AWS Certified Solutions Architect Associate Practice Tests](https://www.whizlabs.com/aws-solutions-architect-associate/practice-tests/)
+* [https://towardsdatascience.com/the-ultimate-aws-solutions-architect-certification-guide-56c21d4078ed](https://towardsdatascience.com/the-ultimate-aws-solutions-architect-certification-guide-56c21d4078ed)
+    * [ACloudGuru](https://www.udemy.com/course/aws-certified-solutions-architect-associate/)
+    * [Tutorials Dojo](https://portal.tutorialsdojo.com/courses/aws-certified-solutions-architect-associate-practice-exams/)
+    * [[Book] ]()
+    * []()
+    * []()
 
 * Useful
     * [x] https://medium.com/@stephane.maarek/whats-new-for-aws-certified-solutions-architect-associate-saa-c02-43774095662
