@@ -29,4 +29,16 @@ https://stackoverflow.com/questions/20331006/how-to-check-if-there-is-a-comment-
 
 ### XLSX with openpyxl
 ```python
+from openpyxl import Workbook
+from openpyxl import load_workbook
+
+wb = load_workbook("test.xlsx")
+ws = wb["Sheet1"] # or whatever sheet name
+
+for row in ws.rows:
+    for cell in row:
+        print(cell.comment)
 ```
+
+
+https://stackoverflow.com/questions/56010234/is-it-possible-to-read-excel-comments-with-pandas
