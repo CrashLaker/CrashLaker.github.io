@@ -152,4 +152,6 @@ savefig(gdf)
 ### Bar plot from pandas
 ![](/assets/img/OxR2VOaAe_e299411a974203f3c72f81352f9dd6ea.png)
 
+### Compare month's days
+![](/assets/img/OxR2VOaAe_3cf7186e7440c0eebe5a26ac24d6658d.png)
 
