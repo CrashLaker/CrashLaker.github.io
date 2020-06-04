@@ -18,3 +18,5 @@ https://stackoverflow.com/questions/56013731/how-to-update-data-from-vue-tables-
 this.$refs.vuetable.refresh()
 ```
 
+https://github.com/ratiw/vuetable-2/issues/449
+![](/assets/img/J4GiIIPga_6d5fbe36b9c93d762d0fa6290569d74a.png)
