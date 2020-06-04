@@ -16,6 +16,13 @@ tags:  [vuejs]
 npm install --save axios vue-axios
 ```
 
+```main.js
+import axios from 'axios'
+import VueAxios from 'vue-axios'
+ 
+Vue.use(VueAxios, axios)
+```
+
 ```bash
 cat > vue.config.js <<EOF
 module.exports = {
