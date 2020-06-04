@@ -10,3 +10,11 @@ tags:  [vuejs, vue-tables2]
 
 
 
+
+https://stackoverflow.com/questions/56013731/how-to-update-data-from-vue-tables-2-after-action-from-template
+
+### Force Table refresh
+```javascript
+this.$refs.vuetable.refresh()
+```
+
