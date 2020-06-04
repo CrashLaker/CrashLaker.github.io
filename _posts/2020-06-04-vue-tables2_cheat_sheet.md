@@ -10,7 +10,7 @@ tags:  [vuejs, vue-tables2]
 
 
 
-
+https://codesandbox.io/u/ratiw/sandboxes
 
 
 * With FontAwesome icons
