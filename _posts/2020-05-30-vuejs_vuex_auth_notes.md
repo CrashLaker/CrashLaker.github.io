@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Vuejs Auth Notes"
+title: "Vuejs Vuex Auth Notes"
 comments: true
 date: "2020-05-30 16:08:42.439000+00:00"
 categories:  [frontend-programming]
