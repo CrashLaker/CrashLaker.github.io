@@ -13,4 +13,5 @@ categories:  [monthly-awesome]
     * https://www.youtube.com/watch?v=6UrknowJ12o
     * bz1500xlbi
 * https://martinheinz.dev/blog/24
+* https://medium.com/serverless-transformation/what-a-typical-100-serverless-architecture-looks-like-in-aws-40f252cd0ecb
 * 
