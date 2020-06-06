@@ -15,6 +15,7 @@ Mostly for VueJs..
 
 <details>
 <summary>
+index.html 
 </summary>
     
     
@@ -42,7 +43,6 @@ Mostly for VueJs..
     <!-- built files will be auto injected -->
   </body>
 </html>
-    
 ```
 </details>
 
