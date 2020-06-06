@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "VueJs Design System Boostrap"
+title: "VueJs Design System Bootstrap"
 comments: true
 date: "2020-06-06 17:17:24.676000+00:00"
 categories:  [design-system]

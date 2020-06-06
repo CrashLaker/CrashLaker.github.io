@@ -13,6 +13,12 @@ Content from:
 * https://www.udemy.com/course/build-web-apps-with-vuejs-firebase/ (Shaun Pelling)
 * https://www.udemy.com/course/vuejs-2-the-complete-guide/ (Maximilian Schwarzmüller)
 
+
+Save to localStorage
+```javascript
+localStorage.setItem('key', 'value')
+```
+
 <details>
 <summary>
 [maximilian] router.js
