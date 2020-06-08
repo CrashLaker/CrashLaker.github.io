@@ -8,6 +8,7 @@ tags:  [selenium, firefox]
 ---
 
 
+**Install**
 ```bash
 yum -y install firefox
 pip3 install selenium
