@@ -8,7 +8,11 @@ tags:  [selenium, firefox]
 ---
 
 
-
+```bash
+yum -y install firefox
+pip3 install selenium
+# grab geckodriver from github and paste it to PATH
+```
 
 ```python
 from selenium import webdriver
