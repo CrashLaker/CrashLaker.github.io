@@ -91,6 +91,8 @@ class Parser:
             for d in obj.find_all():
                 if "section-title-text" in d.get("class", []):
                     self.thelist.append(["section", d.text])
+                elif "section-header-length" in d.get("class", []):
+                    self.thelist[-1][1] += " " + d.text
                 elif "title" in d.get("class", []):
                     self.thelist.append(["item", d.text])
 
