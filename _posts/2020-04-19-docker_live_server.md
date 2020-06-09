@@ -14,8 +14,9 @@ https://github.com/duluca/minimal-node-web-server
 ```bash
 custom_nameport="cname:8080"
 folder=""
+container_name=$(echo $custom_nameport | cut -d: -f1)
 container_port=$(echo $custom_nameport | cut -d: -f2)
-container_name="live-server-$(echo $custom_nameport | cut -d: -f1)-p${container_port}"
+container_name="live-server-${container_name}-p${container_port}"
 docker rm -f $container_name
 docker run -dit \
     --name $container_name \
