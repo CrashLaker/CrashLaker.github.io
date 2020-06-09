@@ -9,17 +9,18 @@ tags:  [live-server]
 
 
 
-https://hub.docker.com/r/duaneleem/live-server/
+https://github.com/duluca/minimal-node-web-server
 
 ```bash
 custom_nameport="cname:8080"
 folder=""
-container_name=$(echo $custom_nameport | cut -d: -f1)
 container_port=$(echo $custom_nameport | cut -d: -f2)
+container_name="live-server-$(echo $custom_nameport | cut -d: -f1)-p${container_port}"
+docker rm -f $container_name
 docker run -dit \
-    --name live-server-$container_name \
+    --name $container_name \
     --restart always \
-    -p $container_port:8080 \
-    -v "$folder":"/usr/src/app" \
-    duaneleem/live-server:1.0
+    -p $container_port:3000 \
+    -v "$folder":"/usr/src/app/public" \
+    duluca/minimal-node-web-server
 ```
