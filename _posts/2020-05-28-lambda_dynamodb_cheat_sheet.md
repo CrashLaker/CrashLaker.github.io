@@ -55,3 +55,6 @@ from dynamodb_json import json_util as json_dyn
 row.extend([json_dyn.loads(_) for _ in rs['Items']])
 ..
 ```
+
+
+### Put_item based on ConditionalExpr
