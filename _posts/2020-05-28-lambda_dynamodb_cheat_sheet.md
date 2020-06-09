@@ -57,4 +57,61 @@ row.extend([json_dyn.loads(_) for _ in rs['Items']])
 ```
 
 
-### Put_item based on ConditionalExpr
+### Put_item based on ConditionalExpression
+```python
+import json
+import boto3
+from botocore.exceptions import ClientError
+
+
+def lambda_handler(event, context):
+    # TODO implement
+    dynamodb = boto3.resource('dynamodb')
+    table = dynamodb.Table('<table>')
+    doc = {
+        'code': 200,
+        'version': 1,
+        'body': {
+            'a': 1
+        }
+    }
+    if 0:
+        table.put_item(Item={
+            **doc
+        })
+    else:
+        try:
+            doc['body']['a']= 4
+            rs = table.put_item(
+                Item = {
+                    **doc
+                },
+                ConditionExpression='version = :ver',
+                ExpressionAttributeValues={
+                    ':ver': 1
+                }
+            )
+            print(rs)
+        except ClientError as e:
+            print("exception")
+            if e.response['Error']['Code'] == "ConditionalCheckFailedException":
+                print(e.response['Error']['Message'])
+            else:
+                raise
+        
+        
+    return {
+        'statusCode': 200,
+        'body': json.dumps('Hello from Lambda!')
+    }
+
+```
+
+
+
+
+
+
+
+
+***
