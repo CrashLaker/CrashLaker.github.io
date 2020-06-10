@@ -14,4 +14,4 @@ categories:  [monthly-awesome]
     * bz1500xlbi
 * https://martinheinz.dev/blog/24
 * https://medium.com/serverless-transformation/what-a-typical-100-serverless-architecture-looks-like-in-aws-40f252cd0ecb
-* 
+* https://ncona.com/2020/06/create-diagrams-with-code-using-graphviz/
