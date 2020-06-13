@@ -37,7 +37,8 @@ long text td ellipsis
 </summary>
    
     
-    
+https://jsfiddle.net/itelmenko/no35z5kw/1/  
+![](/assets/img/J4GiIIPga_dcfc0f8dcf186e540607eea28a94258d.png)
 </details>
 
 
