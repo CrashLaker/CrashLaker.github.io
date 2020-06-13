@@ -12,6 +12,22 @@ tags:  [vuejs, vue-tables2]
 
 https://codesandbox.io/u/ratiw/sandboxes
 
+<details>
+<summary>
+pretty checkbox 
+</summary>
+
+https://codesandbox.io/s/zwvwq3o5lp?file=/src/App.vue
+![](/assets/img/J4GiIIPga_cc5c61a8ea39f124ab7c5f915f652aac.png)
+</details>  
+
+<details>
+<summary>
+    
+</summary>
+   
+    
+</details>
 
 * With FontAwesome icons
     https://codesandbox.io/s/vn87209r4y
