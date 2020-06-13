@@ -30,6 +30,17 @@ https://codesandbox.io/s/wq540wrrnw
 ![](/assets/img/J4GiIIPga_ec570317c019df1456a9a5971eff6b09.png)
 </details>
 
+
+<details>
+<summary>
+long text td ellipsis
+</summary>
+   
+    
+    
+</details>
+
+
 ***
 
 * With FontAwesome icons
