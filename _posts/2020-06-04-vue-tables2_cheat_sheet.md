@@ -23,11 +23,14 @@ https://codesandbox.io/s/zwvwq3o5lp?file=/src/App.vue
 
 <details>
 <summary>
-    
+many functions
 </summary>
    
-    
+https://codesandbox.io/s/wq540wrrnw 
+![](/assets/img/J4GiIIPga_ec570317c019df1456a9a5971eff6b09.png)
 </details>
+
+***
 
 * With FontAwesome icons
     https://codesandbox.io/s/vn87209r4y
