@@ -39,22 +39,7 @@ import pickle
 import json
 import numpy as np
 
-BUCKET_NAME = "my-bucket"
-
-# definitions, keras/tf/... imports...
-
-if __name__ == "__main__":
-  s3 = s3fs.S3FileSystem(anon=False) # mount
-  model_options = { "name": "",
-    "comment": "trained on half the dataset",
-      "params": {
-      "n_trees": 4
-    }}
-
   json.dump(model_options, s3.open(f"{BUCKET_NAME}/options_{model_options['name'] + str(np.random.randint(10000))}.json",'w'))
 
-  model = generate_baseline(model_options["params"]) # generate some base line model with whatever option we want to use.
-  model.fit(X,y)
   pickle.dump(model, s3.open(f"{BUCKET_NAME}/model_{model_options['name'] + str(np.random.randint(10000))}.pkl",'w'))
 ```
-</details>
