@@ -24,3 +24,17 @@ def listbucketkeys(bucket):
     except:
         return []
 ```
+
+
+### Write matplotlib image [link](https://stackoverflow.com/questions/31485660/python-uploading-a-plot-from-memory-to-s3-using-matplotlib-and-boto)
+```python
+img_data = io.BytesIO()
+plt.savefig(img_data, format='png')
+img_data.seek(0)
+
+s3 = boto3.resource('s3')
+bucket = s3.Bucket(BUCKET_NAME)
+bucket.put_object(Body=img_data, ContentType='image/png', Key=KEY)
+```
+
+
