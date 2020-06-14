@@ -42,6 +42,16 @@ import numpy as np
   pickle.dump(model, s3.open(f"{BUCKET_NAME}/model_{model_options['name'] + str(np.random.randint(10000))}.pkl",'w'))
 ```
 
+#### pandas to_parquet fails to save partitioned parquet to s3
+https://stackoverflow.com/questions/51711213/pandas-dataframe-to-parquet-fails-when-s3-is-the-destination/51721088
+```python
+import s3fs
+from fastparquet import write
+s3 = s3fs.S3FileSystem()
+myopen = s3.open
+write('s3://bucketname/test.parquet', dftest, compression='GZIP', open_with=myopen)
+```
+
 **Backend File-Systems**
 ```python
 import s3fs
