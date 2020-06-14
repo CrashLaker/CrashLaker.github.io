@@ -30,8 +30,6 @@ tags:  [python, parquet]
 
 ### Write to S3fs
 https://medium.com/swlh/using-s3-just-like-a-local-file-system-in-python-497737783f11
-<details>
-<summary>code</summary>
     
 ```python
 import s3fs
@@ -43,3 +41,23 @@ import numpy as np
 
   pickle.dump(model, s3.open(f"{BUCKET_NAME}/model_{model_options['name'] + str(np.random.randint(10000))}.pkl",'w'))
 ```
+
+**Backend File-Systems**
+```python
+import s3fs
+from fastparquet import ParquetFile
+s3 = s3fs.S3FileSystem()
+myopen = s3.open
+pf = ParquetFile('/mybucket/data.parquet', open_with=myopen)
+df = pf.to_pandas()
+```
+
+
+
+
+
+
+
+
+
+***
