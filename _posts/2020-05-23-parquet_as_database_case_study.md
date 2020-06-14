@@ -26,7 +26,7 @@ tags:  [python, parquet]
 ### Dask
 [dataframe.to_parquet method always appends data when partitioned](https://github.com/dask/dask/issues/5873)
 
-
+[Appending parquet file from python to s3](https://github.com/dask/fastparquet/issues/327)
 
 ### Write to S3fs
 https://medium.com/swlh/using-s3-just-like-a-local-file-system-in-python-497737783f11
