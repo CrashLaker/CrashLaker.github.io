@@ -62,6 +62,8 @@ pf = ParquetFile('/mybucket/data.parquet', open_with=myopen)
 df = pf.to_pandas()
 ```
 
+### Dask concat two dataframes + drop_duplicates
+https://www.reddit.com/r/learnpython/comments/cwidq4/dask_concat_two_dataframes_delete_duplicates/
 
 
 
