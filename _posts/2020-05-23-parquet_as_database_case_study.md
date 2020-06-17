@@ -85,6 +85,11 @@ dfs[0].sort_values("ds").to_parquet(
     index=False
 )
 
+# create partition columns
+df["year"] = df["ds"].apply(lambda x: x.timetuple().tm_year)
+df["month"] = df["ds"].apply(lambda x: x.timetuple().tm_mon)
+df["day"] = df["ds"].apply(lambda x: x.timetuple().tm_mday)
+
 # add new
 #toadd = dfs[1].sort_values("ds")
 toadd = pd.read_pickle("p2_9.pkl")
