@@ -62,6 +62,56 @@ pf = ParquetFile('/mybucket/data.parquet', open_with=myopen)
 df = pf.to_pandas()
 ```
 
+### Example code
+```python
+fastparquet.write(
+    filename="./data3",
+    data=dfs[0],
+    compression='GZIP',
+    file_scheme='hive',
+    #open_with=myopen,
+    partition_on=['year', 'month', 'day'],
+    write_index=False,
+    #mkdirs= lambda x: True # for s3fs
+)
+
+dfs[0].sort_values("ds").to_parquet(
+    fname="./data3/",
+    compression='GZIP',
+    #compression='',
+    engine='fastparquet',
+    #append=True,
+    partition_cols=['year', 'month', 'day'],
+    index=False
+)
+
+# add new
+#toadd = dfs[1].sort_values("ds")
+toadd = pd.read_pickle("p2_9.pkl")
+filters = [('ds', '>', pd.Timestamp(toadd.iloc[0]['ds'].replace(tzinfo=None))), ('ds', '<', pd.Timestamp(toadd.iloc[-1]['ds'].replace(tzinfo=None)))]
+ddf = dd.read_parquet("./data3", columns=['ds'], filters=filters, index=False)
+dup = ddf['ds'].compute()
+toadd_new = toadd[~toadd["ds"].isin(dup.tolist())]
+print("dup", len(toadd)-len(toadd_new))
+toadd_new.to_parquet(
+    fname="./data3/",
+    compression='GZIP',
+    #compression='',
+    engine='fastparquet',
+    append=True,
+    partition_cols=['year', 'month', 'day'],
+    index=False
+)
+
+#plot
+df2 = pd.read_parquet("./data3", engine='pyarrow').sort_values("ds")
+fullds = pd.date_range(start='1/1/2020', end='1/7/2020')
+fig, ax = plt.subplots()
+fig.set_size_inches(17,6)
+ax.plot(fullds.values, [0]*len(fullds), alpha=0)
+ax.plot(df2["ds"].values, df2["A"].values)
+```
+
 ### Dask concat two dataframes + drop_duplicates
 https://www.reddit.com/r/learnpython/comments/cwidq4/dask_concat_two_dataframes_delete_duplicates/
 
