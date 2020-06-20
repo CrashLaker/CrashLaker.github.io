@@ -27,6 +27,7 @@ Vue.use(VueAxios, axios)
 cat > vue.config.js <<EOF
 module.exports = {
     // options...
+    runtimeCompiler: true,
     devServer: {
         disableHostCheck: true,
         watchOptions: {
