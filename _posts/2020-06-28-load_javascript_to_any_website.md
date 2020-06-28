@@ -21,7 +21,7 @@ var s=document.createElement('script'); s.type='text/javascript'; s.src='https:/
 https://bl.ocks.org/emeeks/21f99959d48dd0d0c746
 ```javascript
 var s=document.createElement('script'); s.type='text/javascript'; s.src='https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js'; document.head.appendChild(s);
-var t=document.createElement('script'); s.type='text/javascript'; s.src='https://bl.ocks.org/emeeks/raw/21f99959d48dd0d0c746/24424becb9cea0bb2825a628e3f95931ad1916d2/d3.sankey.js'; document.head.appendChild(s);
+var t=document.createElement('script'); t.type='text/javascript'; t.src='https://bl.ocks.org/emeeks/raw/21f99959d48dd0d0c746/24424becb9cea0bb2825a628e3f95931ad1916d2/d3.sankey.js'; document.head.appendChild(t);
 
 
 ```
