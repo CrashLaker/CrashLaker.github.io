@@ -8,6 +8,7 @@ tags:  [centos, systemctl]
 ---
 
 
+`/usr/lib/systemd/system/<name>.service`
 
 ```
 [Unit]
