@@ -134,6 +134,13 @@ d['acceptSslCerts'] = True
 d['acceptInsecureCerts'] = True
 d['ignore-certificate-errors'] = True
 
+chrome_options = Options()
+chrome_options.add_argument('--headless')
+chrome_options.add_argument('--no-sandbox')
+chrome_options.add_argument('--disable-gpu')
+chrome_options.add_argument('--disable-notifications')
+chrome_options.add_argument('--ignore-certificate-errors')
+chrome_options.add_argument('--ignore-ssl-errors')
 chrome_options.add_argument('user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36')
 chrome_options.add_argument('download.default_directory=/local')
 chrome_options.add_experimental_option("prefs", {
@@ -147,6 +154,15 @@ def enable_download_headless(browser, download_dir):
     browser.command_executor._commands['send_command'] = ("POST", '/session/$sessionId/chromium/send_command')
     params = {'cmd': 'Page.setDownloadBehavior', 'params': {'behavior': 'allow', 'downloadPath': '/local'}}
     browser.execute('send_command', params)
+    
+    
+url = "<url>"
+driver.get(url)
+//driver.get_screenshot_as_file("filename.png")
+//driver.find_element_by_id('<elemid>').send_keys('<keys>')
+//driver.find_element_by_id('<elemid>').click()
+//driver.execute_script('')
+//driver.execute_script('')
 ```
 
 
