@@ -85,10 +85,69 @@ search_input = driver.find_element_by_css_selector('#main-col > div > div > div:
 search_input.click()
 ```
 
+### Lambda example
+
+https://github.com/ManivannanMurugavel/selenium-python-aws-lambda/blob/master/lambda_function.py
+
+```python3
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+import os
+
+# TODO implement
+print("Starting google.com")
+chrome_options = Options()
+chrome_options.add_argument('--headless')
+chrome_options.add_argument('--no-sandbox')
+chrome_options.add_argument('--disable-gpu')
+chrome_options.add_argument('--window-size=1280x1696')
+chrome_options.add_argument('--single-process')
+chrome_options.add_argument('--ignore-certificate-errors')
+chrome_options.add_argument('user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36')
+chrome_options.binary_location = "/usr/bin/chromium-headless"
+
+driver = webdriver.Chrome("/usr/bin/chromedriver", chrome_options=chrome_options)
+page_data = ""
+if 'url' in event.keys():
+    driver.get(event['url'])
+    page_data = driver.page_source
+    print(page_data)
+driver.close()
+return page_data
+```
 
 
+### Another Example
+```python3
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+import os
+import time
+import toil
+import traceback
+import datetime
 
+d = DesiredCapabilities.CHROME
+d['loggingPrefs'] = {'browser': 'ALL'}
+d['acceptSslCerts'] = True
+d['acceptInsecureCerts'] = True
+d['ignore-certificate-errors'] = True
 
+chrome_options.add_argument('user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36')
+chrome_options.add_argument('download.default_directory=/local')
+chrome_options.add_experimental_option("prefs", {
+    "download.default_directory": "/local",
+    "download.prompt_for_download": False,
+    "download.directory_upgrade": True,
+    "safebrowsing.enabled": False
+})
+
+def enable_download_headless(browser, download_dir):
+    browser.command_executor._commands['send_command'] = ("POST", '/session/$sessionId/chromium/send_command')
+    params = {'cmd': 'Page.setDownloadBehavior', 'params': {'behavior': 'allow', 'downloadPath': '/local'}}
+    browser.execute('send_command', params)
+```
 
 
 
