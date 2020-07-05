@@ -118,6 +118,7 @@ return page_data
 
 
 ### Another Example
+
 ```python
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -157,12 +158,12 @@ def enable_download_headless(browser, download_dir):
     
     
 url = "<url>"
-driver.get(url)
-//driver.get_screenshot_as_file("filename.png")
-//driver.find_element_by_id('<elemid>').send_keys('<keys>')
-//driver.find_element_by_id('<elemid>').click()
-//driver.execute_script('')
-//driver.execute_script('')
+#driver.get(url)
+#driver.get_screenshot_as_file("filename.png")
+#driver.find_element_by_id('<elemid>').send_keys('<keys>')
+#driver.find_element_by_id('<elemid>').click()
+#driver.execute_script('')
+#driver.execute_script('')
 ```
 
 
