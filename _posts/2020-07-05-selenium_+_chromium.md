@@ -89,7 +89,7 @@ search_input.click()
 
 https://github.com/ManivannanMurugavel/selenium-python-aws-lambda/blob/master/lambda_function.py
 
-```python3
+```python
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import os
@@ -118,7 +118,7 @@ return page_data
 
 
 ### Another Example
-```python3
+```python
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
