@@ -9,4 +9,5 @@ tags:  [python, selenium, chromium]
 
 
 
-### Download Chromium + Chromed
+### Download Chromium + Chromedriver
+
