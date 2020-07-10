@@ -107,7 +107,35 @@ def lambda_handler(event, context):
 
 ```
 
+### Scan using client
+```python
+items = []
+last_evaluated_key = None
+table_name = '<table name>'
+while True:
+    p = {'ExclusiveStartKey': last_evaluated_key} \
+        if last_evaluated_key \
+        else {}
+    rs = client.scan(**{'TableName': table_name, **p})
+    last_evaluated_key = rs.get('LastEvaluatedKey')
+    items += rs['Items']
+```
 
+### Scan using Resource
+```python
+items = []
+table_name = '<table name>'
+database = resource.Table(table_name)
+last_evaluated_key = None
+while True:
+    p = {'ExclusiveStartKey': last_evaluated_key} \
+        if last_evaluated_key \
+        else {}
+    rs = database.scan(**p)
+    last_evaluated_key = rs.get('LastEvaluatedKey')
+    items += rs['Items']
+    if not last_evaluated_key: break
+```
 
 
 
