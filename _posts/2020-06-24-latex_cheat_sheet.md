@@ -106,3 +106,25 @@ literate={á}{{\'a}}1 {à}{{`a}}1 {ã}{{~a}}1 {é}{{\'e}}1 {ê}{{^e}}1 {ë}{{"e}
 \input{chapter6}
 \input{chapter7}
 ```
+
+
+### Table
+```
+\begin{table}[]
+\centering
+\caption{Tabela de Controle}
+\begin{tabular}{|c|c|c|c|}
+\hline
+Hostname    & local\_rank & global\_rank & parent\_node \\ \hline
+Computador1 & s0          & g0           & global       \\ \hline
+Computador2 & s2          & g1           & global       \\ \hline
+Gateway     & s1          & NULL         & cluster      \\ \hline
+Gateway     & c0          & NULL         & cluster      \\ \hline
+Node01      & c1          & g2           & cluster      \\ \hline
+Node02      & c2          & g3           & cluster      \\ \hline
+Node03      & c3          & g4           & cluster      \\ \hline
+Node04      & c4          & g5           & cluster      \\ \hline
+\end{tabular}
+\label{tab:node-table}
+\end{table}
+```
