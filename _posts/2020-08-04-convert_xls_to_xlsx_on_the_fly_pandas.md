@@ -17,5 +17,13 @@ import io
 
 df = pd.read_excel("file.xls")
 output = io.BytesIO()
-df.
+df.to_excel(output)
+workbook = load_workbook(output)
+s = workbook["Sheet1"]
+
+#... work
+for row in s.iter_rows():
+    for cell in row:
+        if cell.comment:
+            print(cell.value, cell.comment.text)
 ```
