@@ -51,11 +51,11 @@ https://www.aws.training/Certification
 
 * CTC Centro de Treinamento e Certificacao (AMP) (WBD)
     * (11) 2338-3292 (presencial)
-* InLearn Educacao Ltda (NT)
+* ~~InLearn Educacao Ltda (NT)~~ (**fechou**)
     * (11) 4064-0200 (a partir dia 15/06)
 * Green Tecnologia (WBD)
     * (11) 3253-5299
-* InforMaker SP* - IE-Kiosk-1277
+* InforMaker SP* - IE-Kiosk-1277 <- **Paulista**
     * Tel.: +55 11 3020-6339 3555-1585
 
 
