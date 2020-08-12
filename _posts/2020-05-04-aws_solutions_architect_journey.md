@@ -83,26 +83,98 @@ https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-
 
 
 **1**
-![](/assets/img/rDqfARrva_15972076045f337434dfe42.png)
+![](/assets/img/rDqfARrva_15972528575f3424f9f2775.png)
 
 
 **2**
-![](/assets/img/rDqfARrva_15972074695f3373ad14caa.png)
+![](/assets/img/rDqfARrva_15972528475f3424ef87a1f.png)
 
 
 **3**
-![](/assets/img/rDqfARrva_15972074075f33736f98fb1.png)
+![](/assets/img/rDqfARrva_15972528375f3424e5d03c5.png)
 
 
 **4**
-![](/assets/img/rDqfARrva_15972073565f33733c7d0df.png)
+![](/assets/img/rDqfARrva_15972528215f3424d54a73e.png)
 
 
 **5**
-![](/assets/img/rDqfARrva_15972071955f33729b6408d.png)
+![](/assets/img/rDqfARrva_15972528075f3424c72c6cf.png)
 
 
 **6**
+![](/assets/img/rDqfARrva_15972527985f3424be5732c.png)
+
+
+**7**
+![](/assets/img/rDqfARrva_15972527875f3424b3e66fb.png)
+
+
+**8**
+![](/assets/img/rDqfARrva_15972527785f3424aaa1ba8.png)
+
+
+**9**
+![](/assets/img/rDqfARrva_15972527685f3424a071045.png)
+
+
+**10**
+![](/assets/img/rDqfARrva_15972527585f34249622f1f.png)
+
+
+**11**
+![](/assets/img/rDqfARrva_15972527455f3424893eb1e.png)
+
+
+**12**
+![](/assets/img/rDqfARrva_15972527355f34247f31f96.png)
+
+
+**13**
+![](/assets/img/rDqfARrva_15972527245f3424749a565.png)
+
+
+**14**
+![](/assets/img/rDqfARrva_15972527135f34246946b1a.png)
+
+
+**15**
+![](/assets/img/rDqfARrva_15972527005f34245c79fc7.png)
+
+
+**16**
+![](/assets/img/rDqfARrva_15972526845f34244ce2203.png)
+
+
+**17**
+![](/assets/img/rDqfARrva_15972526645f3424382731b.png)
+
+
+**18**
+![](/assets/img/rDqfARrva_15972526525f34242c6909b.png)
+
+
+**19**
+![](/assets/img/rDqfARrva_15972076045f337434dfe42.png)
+
+
+**20**
+![](/assets/img/rDqfARrva_15972074695f3373ad14caa.png)
+
+
+**21**
+![](/assets/img/rDqfARrva_15972074075f33736f98fb1.png)
+
+
+**22**
+![](/assets/img/rDqfARrva_15972073565f33733c7d0df.png)
+
+
+**23**
+![](/assets/img/rDqfARrva_15972071955f33729b6408d.png)
+
+
+**24**
 ![](/assets/img/rDqfARrva_15972037615f3365311e82b.png)
 
 
