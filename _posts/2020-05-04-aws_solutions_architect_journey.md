@@ -76,6 +76,8 @@ https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-
 
 # Questions to practice
 
+![](/assets/img/rDqfARrva_9a343b8b6556a34ffa7c19a1256b7b7b.png)
+
 
 
 
