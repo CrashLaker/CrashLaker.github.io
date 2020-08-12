@@ -82,12 +82,30 @@ https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-
 ![](/assets/img/rDqfARrva_9a343b8b6556a34ffa7c19a1256b7b7b.png)
 
 
+**0**
 ![](/assets/img/rDqfARrva_15972076045f337434dfe42.png)
+
+
+**1**
 ![](/assets/img/rDqfARrva_15972074695f3373ad14caa.png)
+
+
+**2**
 ![](/assets/img/rDqfARrva_15972074075f33736f98fb1.png)
+
+
+**3**
 ![](/assets/img/rDqfARrva_15972073565f33733c7d0df.png)
+
+
+**4**
 ![](/assets/img/rDqfARrva_15972071955f33729b6408d.png)
+
+
+**5**
 ![](/assets/img/rDqfARrva_15972037615f3365311e82b.png)
+
+
 
 
 
