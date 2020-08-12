@@ -82,12 +82,12 @@ https://d1.awsstatic.com/training-and-certification/docs-sa-assoc/AWS-Certified-
 ![](/assets/img/rDqfARrva_9a343b8b6556a34ffa7c19a1256b7b7b.png)
 
 
-![](/assets/img/rDqfARrva_15972076045f337434dfe42.png)
-![](http://dupi.localshi.com//image/15972074695f3373ad14caa.png)
-![](http://dupi.localshi.com//image/15972074075f33736f98fb1.png)
-![](http://dupi.localshi.com//image/15972073565f33733c7d0df.png)
-![](http://dupi.localshi.com//image/15972071955f33729b6408d.png)
-![](http://dupi.localshi.com//image/15972037615f3365311e82b.png)
+http://dupi.localshi.com//image/15972076045f337434dfe42.png
+http://dupi.localshi.com//image/15972074695f3373ad14caa.png
+http://dupi.localshi.com//image/15972074075f33736f98fb1.png
+http://dupi.localshi.com//image/15972073565f33733c7d0df.png
+http://dupi.localshi.com//image/15972071955f33729b6408d.png
+http://dupi.localshi.com//image/15972037615f3365311e82b.png
 
 
 
