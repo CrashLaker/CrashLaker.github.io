@@ -9,7 +9,17 @@ tags:  [google, gca]
 
 
 
-![](/assets/img/3s05kP9FL_5c19eecb72904f15d929ac3d9346bec7.png)
+* https://medium.com/@yesdeepakverma/how-i-cleared-all-3-google-cloud-certifications-in-3-weeks-f5591aa22572
+    * Google Cloud Architect
+        * https://www.coursera.org/specializations/gcp-architecture
+    * Associate Cloud Engineer
+    * Data Engineer
+        * 
+
+
+
+Official Book
+![](/assets/img/3s05kP9FL_d711cfde53418a3e5b5c88cd21b7939e.png)
 
 
 [![](/uploads/upload_b21c032ed8c7ba515dda8375d6d820ae.png)](https://www.coursera.org/professional-certificates/gcp-data-engineering)
