@@ -29,3 +29,5 @@ Official Book
 
 
 [![](/uploads/upload_348b0d7a9b531baadd8f74a81524cbe9.png)](https://www.coursera.org/professional-certificates/cloud-engineering-gcp)
+
+[![](/uploads/upload_0940964c35203109a1af086ab32e7145.png)](https://www.coursera.org/specializations/gcp-data-machine-learning)
