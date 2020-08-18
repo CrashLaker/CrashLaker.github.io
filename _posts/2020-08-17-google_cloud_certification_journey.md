@@ -15,6 +15,8 @@ tags:  [google, gca]
     * Associate Cloud Engineer
     * Data Engineer
         * 
+* https://towardsdatascience.com/how-i-could-achieve-the-google-cloud-certification-challenge-6f07a2993197
+    *  
 
 
 
