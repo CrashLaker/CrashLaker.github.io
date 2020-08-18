@@ -16,7 +16,7 @@ tags:  [google, gca]
     * Data Engineer
         * 
 * https://towardsdatascience.com/how-i-could-achieve-the-google-cloud-certification-challenge-6f07a2993197
-    *  
+    *  [Official Book](https://amzn.to/2NNfBmF)
 
 
 
