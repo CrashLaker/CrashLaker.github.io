@@ -10,6 +10,9 @@ tags:  [sa, solutions-architect, aws, certification]
 
 
 
+![](/assets/img/rDqfARrva_f5848d15e6412f1d32cf6805106a5720.png)
+
+
 Must:
 * https://medium.com/@devopslearning/my-road-to-aws-certified-solution-architect-394676f15680
     * AWS Re:Invent Videos
