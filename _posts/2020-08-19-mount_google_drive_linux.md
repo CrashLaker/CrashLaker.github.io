@@ -16,11 +16,10 @@ https://uhi.site/index.php/archives/20/
 ```bash
 yum -y install sqlite-devel fuse fuse-devel libcurl-devel zlib-devel m4 gmp-devel
 yum -y install ocaml ocamldoc ocaml-camlp4-devel
-sudo yum install opam ocaml gcc gcc-c++ m4 make ocamldoc ocaml-camlp4-devel ncurses-devel
 curl https://raw.githubusercontent.com/ocaml/opam/master/shell/opam_installer.sh | sh -s /usr/local/bin/
 
-opam init
-opam install google-drive-ocamlfuse
+yes | opam init
+yes | opam install google-drive-ocamlfuse
 ```
 
 Add to .bashrc
