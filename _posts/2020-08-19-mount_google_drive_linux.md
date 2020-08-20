@@ -14,7 +14,7 @@ tags:  [linux, google-drive, mount]
 https://uhi.site/index.php/archives/20/
 
 ```bash
-yum -y install sqlite-devel fuse fuse-devel libcurl-devel zlib-devel m4 gmp-devel
+yum -y install sqlite-devel fuse fuse-devel libcurl-devel zlib-devel m4 gmp-devel patch unzip
 yum -y install ocaml ocamldoc ocaml-camlp4-devel
 curl https://raw.githubusercontent.com/ocaml/opam/master/shell/opam_installer.sh | sh -s /usr/local/bin/
 
@@ -30,3 +30,5 @@ Add to .bashrc
 Login to your google account
 
 `google-drive-ocamlfuse /<path>`
+
+`google-drive-ocamlfuse -debug`
