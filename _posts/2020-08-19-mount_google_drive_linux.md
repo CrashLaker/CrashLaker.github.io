@@ -14,12 +14,13 @@ tags:  [linux, google-drive, mount]
 https://uhi.site/index.php/archives/20/
 
 ```bash
-yum -y install sqlite-devel fuse fuse-devel libcurl-devel zlib-devel m4 gmp-devel patch unzip
+yum -y install patch unzip perl xauth firefox
+yum -y install sqlite-devel fuse fuse-devel libcurl-devel zlib-devel m4 gmp-devel 
 yum -y install ocaml ocamldoc ocaml-camlp4-devel
 curl https://raw.githubusercontent.com/ocaml/opam/master/shell/opam_installer.sh | sh -s /usr/local/bin/
 
 yes | opam init
-yes | opam install google-drive-ocamlfuse
+opam install -y google-drive-ocamlfuse
 ```
 
 Add to .bashrc
