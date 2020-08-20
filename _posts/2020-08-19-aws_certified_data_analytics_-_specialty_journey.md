@@ -19,7 +19,7 @@ tags:  [aws, data-analytics]
     * Designing Data-Intensive Applications by Martin Kleppman
 * 
 
-![](/uploads/upload_2edc995f0db330640bee71bd9381ccab.png 80x80)
+![](/uploads/upload_2edc995f0db330640bee71bd9381ccab.png =120x)
 
 
 
