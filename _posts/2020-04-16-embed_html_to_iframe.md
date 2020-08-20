@@ -15,3 +15,12 @@ tags:  [html,jquery,javascript]
 $('.wrapper-'+label).empty().append('<iframe scrolling="no" style="border:none;" src="data:text/html;charset=utf-8,'+escape(data)+'"></iframe>')
 ```
 
+*Python*
+
+```python
+import urllib.parse
+html = "html code"
+html = urllib.parse.quote(html)
+
+print(f'<iframe widht="100%" height="400px" src="data:text/html;charset=utf-8,{html}></iframe>"')
+```
