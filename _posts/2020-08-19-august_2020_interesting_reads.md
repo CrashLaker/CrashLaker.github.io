@@ -12,5 +12,6 @@ categories:  [monthly-awesome]
 * https://theheadless.dev/
 * https://github.com/shoelace-style/shoelace
 * https://github.com/fullcalendar/fullcalendar
+* https://www.splitgraph.com/blog/data-delivery-network-launch
 * 
 * 
