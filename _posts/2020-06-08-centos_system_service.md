@@ -60,3 +60,12 @@ tmp.mount                                  static
 var-lib-nfs-rpc_pipefs.mount               static  
 org.cups.cupsd.path                        enabled
 ```
+
+
+```bash
+echo "svc name"
+read svcname
+if [ "$svcname" -eq "" ]; then
+    
+fi
+```
