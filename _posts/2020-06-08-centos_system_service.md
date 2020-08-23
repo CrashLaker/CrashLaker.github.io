@@ -65,7 +65,26 @@ org.cups.cupsd.path                        enabled
 ```bash
 echo "svc name"
 read svcname
-if [ "$svcname" -eq "" ]; then
-    
+if [ ! "$svcname" -eq "" ]; then
+filename="/usr/lib/systemd/system/${svcname}.service"
+echo "to create $filename"
+cat <<EOF > $filename
+[Unit]
+Description = <description>
+After = network.target
+
+[Service]
+#Environment="foo=bar"
+WorkingDirectory=<working dir>
+Restart=on-failure
+#RestartSec=3
+ExecStart=/usr/bin/python3 app.py
+
+[Install]
+WantedBy = multi-user.target
+EOF
+echo "file created"
+echo $filename
+
 fi
 ```
