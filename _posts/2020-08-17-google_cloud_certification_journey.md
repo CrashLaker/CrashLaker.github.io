@@ -22,6 +22,9 @@ tags:  [google, gca]
     * Coursera Google Cloud Pathway for Professional Cloud Architect
     * [Learn GCP with Mahesh](https://www.youtube.com/channel/UCL8vwy2jhEtQrC-Rx6qzCZg)
 
+* https://medium.com/@sathishvj
+    * https://medium.com/@sathishvj/frequently-asked-follow-up-questions-on-google-cloud-gcp-certifications-438e1addb91d
+    * 
 
 Official Book
 ![](/assets/img/3s05kP9FL_d711cfde53418a3e5b5c88cd21b7939e.png)
