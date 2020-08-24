@@ -8,6 +8,13 @@ tags:  [google, gca]
 ---
 
 
+## ACE
+
+* https://github.com/sathishvj/awesome-gcp-certifications/blob/master/associate-cloud-engineer.md
+
+
+## All
+
 
 * https://medium.com/@yesdeepakverma/how-i-cleared-all-3-google-cloud-certifications-in-3-weeks-f5591aa22572
     * Google Cloud Architect
@@ -24,7 +31,9 @@ tags:  [google, gca]
 
 * https://medium.com/@sathishvj
     * https://medium.com/@sathishvj/frequently-asked-follow-up-questions-on-google-cloud-gcp-certifications-438e1addb91d
-    * 
+    * https://medium.com/@sathishvj/notes-from-my-google-cloud-professional-cloud-architect-exam-bbc4299ac30
+        * https://github.com/sathishvj/awesome-gcp-certifications
+        * 
 
 Official Book
 ![](/assets/img/3s05kP9FL_d711cfde53418a3e5b5c88cd21b7939e.png)
