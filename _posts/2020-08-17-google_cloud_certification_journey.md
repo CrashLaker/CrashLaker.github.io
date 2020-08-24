@@ -18,6 +18,9 @@ tags:  [google, gca]
 * https://towardsdatascience.com/how-i-could-achieve-the-google-cloud-certification-challenge-6f07a2993197
     *  [Official Book](https://amzn.to/2NNfBmF)
 
+* https://www.linkedin.com/search/results/content/?keywords=google%20cloud%20architect&origin=SWITCH_SEARCH_VERTICAL
+    * Coursera Google Cloud Pathway for Professional Cloud Architect
+    * [Learn GCP with Mahesh](https://www.youtube.com/channel/UCL8vwy2jhEtQrC-Rx6qzCZg)
 
 
 Official Book
