@@ -8,6 +8,10 @@ tags:  [google, gca]
 ---
 
 
+![](/uploads/upload_68bbdd6f58f7a17a7a22a980ce8cbc8d.png =200x)
+https://www.jhanley.com/google-cloud-certification-badges/
+
+
 ## ACE
 
 * https://github.com/sathishvj/awesome-gcp-certifications/blob/master/associate-cloud-engineer.md
