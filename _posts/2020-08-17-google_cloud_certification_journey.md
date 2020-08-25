@@ -19,6 +19,12 @@ https://www.jhanley.com/google-cloud-certification-badges/
 
 ## All
 
+* https://www.theorylane.com/2020/03/31/notes-from-passing-both-gcp-cloud-architect-and-data-engineer-professional-certifications-in-30-days/
+    * https://medium.com/@earlg3/google-cloud-architect-exam-study-materials-updates-for-2019-re-certification-c4894d3a82e7
+        * official exam guide - https://cloud.google.com/certification/guides/professional-cloud-architect/
+        * practice exam - https://cloud.google.com/certification/practice-exam/cloud-architect
+        * cours
+            * https://linuxacademy.com/google-cloud-platform/training/course/name/google-cloud-certified-professional-cloud-architect
 
 * https://medium.com/@yesdeepakverma/how-i-cleared-all-3-google-cloud-certifications-in-3-weeks-f5591aa22572
     * Google Cloud Architect
