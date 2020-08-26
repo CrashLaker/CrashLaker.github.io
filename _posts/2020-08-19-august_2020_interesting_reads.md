@@ -13,5 +13,5 @@ categories:  [monthly-awesome]
 * https://github.com/shoelace-style/shoelace
 * https://github.com/fullcalendar/fullcalendar
 * https://www.splitgraph.com/blog/data-delivery-network-launch
-* 
+* https://www.codeaperture.io/2020/01/05/configure-a-test-lab-on-a-unraid-working-from-home-part-i/
 * 
