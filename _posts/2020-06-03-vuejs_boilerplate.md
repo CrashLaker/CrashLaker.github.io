@@ -38,3 +38,21 @@ module.exports = {
 }
 EOF
 ```
+
+```bash
+cat .env.local
+PUBLIC_URL=http://hostname:ip
+VUE_APP_BASEURL=http://hostname:ip
+```
+
+```javascript
+vue.config.js
+...
+public: process.env.PUBLIC_URL
+...
+
+filename.vue
+...
+var baseurl = process.env.VUE_APP_BASEU
+...
+```
