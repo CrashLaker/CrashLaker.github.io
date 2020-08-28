@@ -53,6 +53,6 @@ public: process.env.PUBLIC_URL
 
 filename.vue
 ...
-var baseurl = process.env.VUE_APP_BASEU
+var baseurl = process.env.VUE_APP_BASEURL
 ...
 ```
