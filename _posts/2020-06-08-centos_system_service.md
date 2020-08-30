@@ -64,7 +64,7 @@ org.cups.cupsd.path                        enabled
 
 ```bash
 svcname=${svcname2:-}
-if [ ! "$svcname" -eq "" ]; then
+if [ ! "$svcname" == "" ]; then
 filename="/usr/lib/systemd/system/${svcname}.service"
 echo "to create $filename"
 cat <<EOF > $filename
