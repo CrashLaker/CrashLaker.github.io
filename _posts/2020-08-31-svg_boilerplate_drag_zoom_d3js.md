@@ -23,8 +23,8 @@ https://observablehq.com/@d3/drag-zoom
 
 <script>
 
-width = window.outerWidth - 40
-height = window.outerHeight - 40
+width = document.body.scrollWidth - 20
+height = document.body.scrollHeight - 20
 var svg = d3.select("body").append("svg")
             .attr("width", `${width}px`)
             .attr("height", `${height}px`)
