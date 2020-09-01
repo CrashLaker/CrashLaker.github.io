@@ -19,3 +19,16 @@ this.bus.$on('your-call', () => {
     
 })
 ```
+
+```javascript
+mounted(){
+    this.bus.$on('your-call', () => {
+        
+    })
+},
+beforeDestroy(){
+    this.bus.$off('your-call', () => {
+        
+    })
+}
+```
