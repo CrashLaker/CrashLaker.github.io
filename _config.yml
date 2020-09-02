@@ -40,6 +40,8 @@ urls:
       url: /about
     - text: My Projects
       url: /projects/
+    - text: My Setup
+      url: https://crashlaker.github.io/me/2020/09/02/my_setups.html
     - text: Tags
       url: /tags
     #- text: XML Feed
