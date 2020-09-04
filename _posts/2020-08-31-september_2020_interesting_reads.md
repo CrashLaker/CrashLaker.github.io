@@ -14,5 +14,6 @@ categories:  [monthly-awesome]
 * Vmware Pallas
     * https://www.virtualizationhowto.com/2020/02/manage-esxi-hosts-without-vcenter-using-vmware-pallas/
     * https://flings.vmware.com/pallas#instructions
+* http://rachelbythebay.com/w/2020/08/14/jobs/
 * 
 
