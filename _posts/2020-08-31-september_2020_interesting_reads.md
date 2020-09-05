@@ -15,5 +15,19 @@ categories:  [monthly-awesome]
     * https://www.virtualizationhowto.com/2020/02/manage-esxi-hosts-without-vcenter-using-vmware-pallas/
     * https://flings.vmware.com/pallas#instructions
 * http://rachelbythebay.com/w/2020/08/14/jobs/
+* Vmware 
+    * Pyvmomi
+        * Install
+            * http://vmware.github.io/pyvmomi-community-samples/
+        * samples
+            * list vms
+                * https://github.com/vmware/pyvmomi-community-samples/blob/master/samples/getallvms.py
+            * exsi perf
+                * https://github.com/vmware/pyvmomi-community-samples/blob/master/samples/esxi_perf_sample.py
+    * Vmware exporter
+        * https://github.com/pryorda/vmware_exporter
+        * docker-compose
+            * https://github.com/pryorda/vmware_exporter/blob/master/docker-compose.yml
 * 
+
 
