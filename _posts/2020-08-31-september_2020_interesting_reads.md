@@ -28,6 +28,8 @@ categories:  [monthly-awesome]
         * https://github.com/pryorda/vmware_exporter
         * docker-compose
             * https://github.com/pryorda/vmware_exporter/blob/master/docker-compose.yml
-* 
+* YOW! 2018 Brendan Gregg - Cloud Performance Root Cause Analysis at Netflix #YOW
+    * https://www.youtube.com/watch?v=tAY8PnfrS_k
+    * 
 
 
