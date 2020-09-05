@@ -30,6 +30,12 @@ categories:  [monthly-awesome]
             * https://github.com/pryorda/vmware_exporter/blob/master/docker-compose.yml
 * YOW! 2018 Brendan Gregg - Cloud Performance Root Cause Analysis at Netflix #YOW
     * https://www.youtube.com/watch?v=tAY8PnfrS_k
-    * 
+    * Atlas: Metrics. 10% of netflix footprint
+        * Stores metrics in-memory for faster graph pull
+            * Pull out these graphics for these region, aplication, device.
+            * For time range.
+    * PICSOU: AWS Usage
+        * Netflix cost
+            * Understand cost and growth and target resources to where applications are growing
 
 
