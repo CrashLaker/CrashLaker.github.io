@@ -37,3 +37,38 @@ img = decode_img(msg)
 img.show()
 ```
 
+
+```python
+#https://stackoverflow.com/questions/48229318/how-to-convert-image-pil-into-base64-without-saving/48229407
+#ty @Taha Mahjoubi
+def img_to_base64_str(img):
+    buffered = io.BytesIO()
+    img.save(buffered, format="PNG")
+    buffered.seek(0)
+    img_byte = buffered.getvalue()
+    img_str = "data:image/png;base64," + base64.b64encode(img_byte).decode()
+    return img_str
+
+def img_from_base64_str(msg):
+    msg = msg.replace("data:image/png;base64,", "")
+    msg = base64.b64decode(msg)
+    buf = io.BytesIO(msg)
+    img = Image.open(buf)
+    return img
+
+#https://stackoverflow.com/questions/38061267/matplotlib-graphic-image-to-base64
+def plot_base64():
+    s = io.BytesIO()
+    plt.savefig(s, format='png', sbbox_inches='tight')
+    plt.close()
+    img_str = "data:image/png;base64," + base64.b64encode(s.getvalue()).decode()
+    return img_str
+
+def plot_png():
+    #fig = create_figure()
+    args = request.args.to_dict()
+    fig = horizon(args)
+    output = io.BytesIO()
+    FigureCanvas(fig).print_png(output)
+    return Response(output.getvalue(), mimetype='image/png')
+```
