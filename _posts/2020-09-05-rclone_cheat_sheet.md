@@ -20,10 +20,19 @@ https://rclone.org/docs/
 ```
 
 
-### RC dynamic threshold
+### RC dynamic threshold (floag --rc)
 ```bash
+rclone mount <drive>:/mnt/drive --rc --retries=10 --tpslimit 8
+```
 
-rclone mount gdrive_usp: /mnt/gdrive_usp2/ --rc --retries=10 --tpslimit 8
 
-
+```bash
+rclone rc core/bwlimit rate=1M
+{
+        "rate": "1M"
+}
+[root@docker ~]# rclone rc core/bwlimit rate=100M
+{
+        "rate": "100M"
+}
 ```
