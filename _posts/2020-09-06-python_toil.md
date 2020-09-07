@@ -45,7 +45,7 @@ def start(*k):
 def end(ts):
     print("Took {}".format(prettytime(cmillis()-ts)))
 
-# 
+# https://stackoverflow.com/questions/14190045/how-do-i-convert-datetime-timedelta-to-minutes-hours-in-python
 def seconds_to_hms(seconds):
     days = seconds // (3600 * 24)
     hours = (seconds // 3600) % 24
