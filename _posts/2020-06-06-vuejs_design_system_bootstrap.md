@@ -115,5 +115,35 @@ export default {
 ```
 </details>
     
+https://stackoverflow.com/questions/52969652/how-to-use-materializecss-with-vue-js
+```bash
+npm install materialize-css@next --save
+npm install material-design-icons --save    
+```
+    
+```javascript
+import 'materialize-css/dist/css/materialize.min.css'
+import 'material-design-icons/iconfont/material-icons.css'
+```
+    
+```javascript
+import M from 'materialize-css'
+```
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
 
