@@ -10,18 +10,6 @@ tags:  [vuejs]
 
 
 
-```bash
-# kickstart
-#https://www.npmjs.com/package/vue-axios
-npm install --save axios vue-axios
-```
-
-```main.js
-import axios from 'axios'
-import VueAxios from 'vue-axios'
- 
-Vue.use(VueAxios, axios)
-```
 
 ```bash
 cat > vue.config.js <<EOF
@@ -39,6 +27,7 @@ module.exports = {
 EOF
 ```
 
+### Vue config + env
 ```bash
 cat .env.local
 PUBLIC_URL=http://hostname:ip
@@ -55,4 +44,18 @@ filename.vue
 ...
 var baseurl = process.env.VUE_APP_BASEURL
 ...
+```
+
+### Axios
+```bash
+# kickstart
+#https://www.npmjs.com/package/vue-axios
+npm install --save axios vue-axios
+```
+
+```main.js
+import axios from 'axios'
+import VueAxios from 'vue-axios'
+ 
+Vue.use(VueAxios, axios)
 ```
