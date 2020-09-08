@@ -53,9 +53,16 @@ var baseurl = process.env.VUE_APP_BASEURL
 npm install --save axios vue-axios
 ```
 
-```main.js
+main.js
+```javascript
 import axios from 'axios'
 import VueAxios from 'vue-axios'
  
 Vue.use(VueAxios, axios)
+```
+
+```javascript
+import axios from 'axios'
+
+const instance = axi
 ```
