@@ -64,5 +64,21 @@ Vue.use(VueAxios, axios)
 ```javascript
 import axios from 'axios'
 
-const instance = axi
+const instance = axios.create({
+   baseURL: process.env.VUE_APP_BACKEND 
+})
+
+export default instance
+```
+
+
+
+
+
+
+
+
+
+
+
 ```
