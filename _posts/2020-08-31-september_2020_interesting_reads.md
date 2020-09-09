@@ -37,5 +37,8 @@ categories:  [monthly-awesome]
     * PICSOU: AWS Usage
         * Netflix cost
             * Understand cost and growth and target resources to where applications are growing
+* APCUPSD
+    * https://jeff.mcfadden.io/posts/monitoring-an-apc-ups-with-a-raspberry-pi
+        * http://www.anites.com/2013/09/monitoring-ups.html
 
 
