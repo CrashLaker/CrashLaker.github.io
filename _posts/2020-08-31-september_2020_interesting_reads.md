@@ -40,5 +40,18 @@ categories:  [monthly-awesome]
 * APCUPSD
     * https://jeff.mcfadden.io/posts/monitoring-an-apc-ups-with-a-raspberry-pi
         * http://www.anites.com/2013/09/monitoring-ups.html
+* [AWS re:Invent 2017: Tooling Up for Efficiency: DIY Solutions @ Netflix (ABD319)](https://www.youtube.com/watch?v=U01QSQJmJbQ)
+    * Serve every data related needs related to capacity planning
+        * Own the investigation of trends, patterns and anomalies in core metrics
+        * Suggest new data-driven approaches to existing workflows and goals
+            * **Don't**:  waiting "Hey can you build this.."
+            * **Do**: "Hey I've looked at this problem. Here's  a new solution for it"
+        * Business-aware metric (streams clicks)
+    * Success Criteria
+        * Feedback from engineering teams (**Also need buy in**)
+            * Regular use of our tools and insights
+            * Raised awareness of their impact on efficiency
+            * Pro-active engagement on efficiency projects
+            * 
 
 
