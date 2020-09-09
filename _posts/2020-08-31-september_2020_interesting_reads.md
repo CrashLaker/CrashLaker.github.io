@@ -52,6 +52,25 @@ categories:  [monthly-awesome]
             * Regular use of our tools and insights
             * Raised awareness of their impact on efficiency
             * Pro-active engagement on efficiency projects
-            * 
+        * (**Holy Grail**) Embrace efficiency (success)
+    * Hierarchy of needs:
+        * Automation: Optimization and Machine Learning
+        * Actionable Insights: Targeted alerts, summary emails and personalized dashboards
+        * Deep Dives: Exploratory analyses and case studies
+        * Transparency: Intuitive and Interactive Dashboards
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
