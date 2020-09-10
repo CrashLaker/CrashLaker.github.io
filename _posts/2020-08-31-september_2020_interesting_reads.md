@@ -58,6 +58,7 @@ categories:  [monthly-awesome]
         * Actionable Insights: Targeted alerts, summary emails and personalized dashboards
         * Deep Dives: Exploratory analyses and case studies
         * Transparency: Intuitive and Interactive Dashboards
+* https://fluidframework.com/
 * 
 
 
