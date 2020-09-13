@@ -15,5 +15,6 @@ tags:  [dashboard, charts, data-vis]
         * demo 
     * https://github.com/jbaysolutions/vue-grid-layout
         * https://www.cryptotiles.io/?utm_source=github&utm_medium=web&utm_campaign=vue-grid-layout
+        * 
 * Refs
     * https://medium.com/nyc-planning-digital/commit-activity-sparklines-eba9761873f1
