@@ -15,6 +15,10 @@ tags:  [dashboard, charts, data-vis]
         * demo 
     * https://github.com/jbaysolutions/vue-grid-layout
         * https://www.cryptotiles.io/?utm_source=github&utm_medium=web&utm_campaign=vue-grid-layout
-        * 
+* D3js
+    * https://bl.ocks.org/mbostock/4062844
+        * https://observablehq.com/@d3/threshold-encoding
+* Matplotlib color line by value
+    * https://crashlaker.github.io/matplotlib/2020/09/12/matplotlib_color_line_by_value.html
 * Refs
     * https://medium.com/nyc-planning-digital/commit-activity-sparklines-eba9761873f1
