@@ -59,7 +59,8 @@ categories:  [monthly-awesome]
         * Deep Dives: Exploratory analyses and case studies
         * Transparency: Intuitive and Interactive Dashboards
 * https://fluidframework.com/
-* 
+* Python SNMP
+    * https://technicalramblings.com/blog/setting-grafana-influxdb-telegraf-ups-monitoring-unraid/
 
 
 
