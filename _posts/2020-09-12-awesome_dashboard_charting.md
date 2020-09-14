@@ -18,6 +18,8 @@ tags:  [dashboard, charts, data-vis]
 * D3js
     * https://bl.ocks.org/mbostock/4062844
         * https://observablehq.com/@d3/threshold-encoding
+    * Horizon like
+        * https://observablehq.com/@mbostock/california-air-quality-2020
 * Matplotlib color line by value
     * https://crashlaker.github.io/matplotlib/2020/09/12/matplotlib_color_line_by_value.html
 * Refs

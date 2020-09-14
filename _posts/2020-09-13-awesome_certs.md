@@ -13,3 +13,4 @@ tags:  [certification]
 * CKA
     * https://medium.com/takeaway-tech/k8s-certification-everything-you-need-to-know-about-k8s-and-ckad-afa04e267ffe
     * https://monicabhartiya.com/posts/kubernetes-syllabus-update
+    * https://capgemini.github.io/kubernetes/Zero-to-CKA-in-2-Weeks/
