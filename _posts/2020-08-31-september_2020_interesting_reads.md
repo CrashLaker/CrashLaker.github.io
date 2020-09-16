@@ -61,6 +61,8 @@ categories:  [monthly-awesome]
 * https://fluidframework.com/
 * Python SNMP
     * https://technicalramblings.com/blog/setting-grafana-influxdb-telegraf-ups-monitoring-unraid/
+* https://medium.com/swlh/how-to-use-aws-codebuild-as-a-ci-for-your-python-project-82dd7dab7afb
+* 
 
 
 
