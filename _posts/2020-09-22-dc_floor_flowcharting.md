@@ -14,7 +14,7 @@ tags:  [data-vis, grafana, flowcharting]
 
 Inspiration from https://aggregate.tibbo.com/solutions/data-center-management.html
 
-http://docs.localshi.com///datag/all//dc-flwochartin-floor.xml
+[initial xml here](http://docs.localshi.com///datag/all//dc-flwochartin-floor.xml)
 
 {% raw %}
 <script>
