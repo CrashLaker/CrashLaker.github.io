@@ -157,7 +157,7 @@ Link para mapa2:
 https://grafana.com/grafana/dashboards/12092
 
 Appendix:  
-[Mapa Brasil v2](http://docs.localshi.com///datag/all//brazil-map-only.xml)  
-[Mapa Brasil v2 + Painel](http://docs.localshi.com///datag/all//map-brazil-scaleok-panel.xml)  
+[Mapa Brasil v2](/assets/files/K6VI7qsEm_brazil-map-only.xml)  
+[Mapa Brasil v2 + Painel](/assets/files/K6VI7qsEm_map-brazil-scaleok-panel.xml)  
 
 Obrigado!

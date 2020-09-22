@@ -10,11 +10,11 @@ tags:  [data-vis, grafana, flowcharting]
 
 
 
-![](/assets/img/prTqGfjy0_dc-floor-v2-anim-speed4x.gif)
+![](/assets/img/prTqGfjy0_dc-floor-flowcharting-v3-raw.gif)
 
 Inspiration from https://aggregate.tibbo.com/solutions/data-center-management.html
 
-[initial xml here](http://docs.localshi.com///datag/all//dc-flwochartin-floor.xml)
+[initial xml here](/assets/files/prTqGfjy0_dc-flwochartin-floor.xml)
 
 {% raw %}
 <script>
