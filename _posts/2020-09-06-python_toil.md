@@ -35,6 +35,17 @@ def save_json(data, filename, force=False):
             else:
                 json.dump(data, f, indent=4, ensure_ascii=False)
                 
+def load_pickle(filename): 
+    if "http" in filename[:5]:
+        data = requests.get(filename, stream=True).raw
+        return pickle.load(data)
+    return pickle.load(open(filename, 'rb'))
+
+def save_pickle(data, filename):
+    with open(filename, 'wb') as handle:
+        pickle.dump(data, handle, protocol=pickle.HIGHEST_PROTOCOL)
+    
+                
 def phead(data, lines=10, width=200):
     print("\n".join(pprint.pformat(data, indent=4, width=width).splitlines()[:lines]))
 
