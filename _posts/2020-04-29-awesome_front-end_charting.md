@@ -8,7 +8,8 @@ date: "2020-04-29 01:20:32.400000+00:00"
 
 ## Design System
 
-
+* Notes
+    * https://medium.com/nightingale/navigating-the-wide-world-of-web-based-data-visualization-libraries-798ea9f536e7
 * ElasticUI
     * https://github.com/elastic/eui
         * Demo:
