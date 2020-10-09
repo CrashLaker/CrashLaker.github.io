@@ -9,6 +9,8 @@ date: "2020-09-23 12:58:55.215000+00:00"
 
 * Playground
     * https://play.grafana.org/d/VbE3_jqZz/flowcharting-options-demo?orgId=1
+* Useful
+    * https://github.com/oozcitak/xmlbuilder-js
 * Issues:
     * Blinking effect help (DC Floor v4)
         * https://github.com/algenty/grafana-flowcharting/issues/226#

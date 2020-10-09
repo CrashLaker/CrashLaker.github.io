@@ -9,3 +9,5 @@ categories:  [monthly-awesome]
 
 
 * https://aws.amazon.com/blogs/opensource/diagram-maker-open-sourcing-iot-visualization/
+* https://blog.rfox.eu/en/Programming/Tools_I_use/Tools_I_use_argparse_builder.html
+* 
