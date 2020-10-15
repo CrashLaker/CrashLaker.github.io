@@ -87,3 +87,31 @@ echo $filename
 
 fi
 ```
+
+```bash
+svcname=${svcname2:-}
+if [ ! "$svcname" == "" ]; then
+filename="Makefile"
+echo "to create $filename"
+cat <<EOF > $filename
+
+
+svc=$svcname
+
+restart:
+    systemctl restart \$(svc)
+    
+start:
+    systemctl start \$(svc)
+
+stop:
+    systemctl stop \$(svc)
+
+status:
+    systemctl status \$(svc)
+    
+    
+EOF
+
+fi
+```

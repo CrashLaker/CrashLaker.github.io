@@ -19,6 +19,8 @@ https://www.iconfinder.com/iconsets/tango-icon-library
 https://icons.mono.company/
 ![](/uploads/upload_24435049fd469e5a94df27221c2beb35.png =400x)
 
+https://www.iconfinder.com/iconsets/simplicio
+![](/uploads/upload_ad874ac1458e8335f4a63d32ab633419.png =400x)
 
 
 
