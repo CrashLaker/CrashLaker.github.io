@@ -8,7 +8,7 @@ tags:  [google, gca]
 ---
 
 
-![](/uploads/upload_68bbdd6f58f7a17a7a22a980ce8cbc8d.png =200x)
+![](/assets/img/3s05kP9FL_68bbdd6f58f7a17a7a22a980ce8cbc8d.png =200x)
 https://www.jhanley.com/google-cloud-certification-badges/
 
 
