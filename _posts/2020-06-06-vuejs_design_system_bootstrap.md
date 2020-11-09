@@ -111,6 +111,25 @@ export default {
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+    
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #003a8c !important;
+    box-shadow: 0 1px 0 0 #002766 !important;
+}    
+
+input[type=text]:not(.browser-default):focus:not([readonly])+label{
+    color: #003a8c;
+}
+    
+.progress {
+    background-color: #597ef7;
+}  
+.progress .determinate {
+    background-color: #10239e;    
+}
+.progress .indeterminate {
+    background-color: #10239e;
+}
 </style>
 ```
 </details>
