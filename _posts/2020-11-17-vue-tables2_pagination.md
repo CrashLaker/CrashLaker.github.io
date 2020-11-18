@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Vue-tables2"
+title: "Vue-tables2 Pagination"
 comments: true
 date: "2020-11-17 03:07:29.492000+00:00"
 ---
