@@ -99,18 +99,17 @@ cat <<EOF > $filename
 svc=$svcname
 
 restart:
-    systemctl restart \$(svc)
-    
+        systemctl restart \$(svc)
+
 start:
-    systemctl start \$(svc)
+        systemctl start \$(svc)
 
 stop:
-    systemctl stop \$(svc)
+        systemctl stop \$(svc)
 
 status:
-    systemctl status \$(svc)
-    
-    
+        systemctl status \$(svc)
+
 EOF
 
 fi
