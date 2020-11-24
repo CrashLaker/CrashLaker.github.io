@@ -42,7 +42,7 @@ def get_log_events(i0_, c_, nexttoken_=None):
         return msgs_ + get_log_events(i0_, c_, nexttoken_)
     
 import datetime
-def myquery(gname_, dfrom_, dto_):
+def lgequery(gname_, dfrom_, dto_): # log events query
     print(datetime.datetime.fromtimestamp(dfrom_),
           datetime.datetime.fromtimestamp(dto_))
     sq = c.start_query(**{
@@ -63,8 +63,8 @@ def myquery(gname_, dfrom_, dto_):
     results_ = rs_["results"]
     print(len(results_))
     if len(results_) == 10000:
-        half_ = int((dfrom_+dto+)/2)
-        return myquery(gname_, dfrom_, half_) + myquery(gname_, half_+1, dto_)
+        half_ = int((dfrom_+dto_)/2)
+        return lgequery(gname_, dfrom_, half_) + lgequery(gname_, half_+1, dto_)
     else:
         return results_
     
