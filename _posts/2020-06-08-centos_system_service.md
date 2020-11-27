@@ -99,16 +99,20 @@ cat <<EOF > $filename
 svc=$svcname
 
 restart:
-        systemctl restart \$(svc)
+$(echo -e "\tsystemctl restart \$(svc)")
 
 start:
-        systemctl start \$(svc)
+$(echo -e "\tsystemctl start \$(svc)")
 
 stop:
-        systemctl stop \$(svc)
+$(echo -e "\tsystemctl stop \$(svc)")
 
 status:
-        systemctl status \$(svc)
+$(echo -e "\tsystemctl status \$(svc)")
+
+edit:
+$(echo -e "\tvim /usr/lib/systemd/system/\$(svc).service")
+
 
 EOF
 
