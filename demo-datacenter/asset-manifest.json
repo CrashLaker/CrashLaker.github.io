@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8f9ed6b4.chunk.css",
+    "main.js": "/static/js/main.178b88b7.chunk.js",
+    "main.js.map": "/static/js/main.178b88b7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f7fe31de.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f7fe31de.js.map",
+    "static/css/2.ad5b5977.chunk.css": "/static/css/2.ad5b5977.chunk.css",
+    "static/js/2.c56d0302.chunk.js": "/static/js/2.c56d0302.chunk.js",
+    "static/js/2.c56d0302.chunk.js.map": "/static/js/2.c56d0302.chunk.js.map",
+    "static/js/3.5b1df1e4.chunk.js": "/static/js/3.5b1df1e4.chunk.js",
+    "static/js/3.5b1df1e4.chunk.js.map": "/static/js/3.5b1df1e4.chunk.js.map",
+    "static/js/4.4e94334a.chunk.js": "/static/js/4.4e94334a.chunk.js",
+    "static/js/4.4e94334a.chunk.js.map": "/static/js/4.4e94334a.chunk.js.map",
+    "static/js/5.d272a0e3.chunk.js": "/static/js/5.d272a0e3.chunk.js",
+    "static/js/5.d272a0e3.chunk.js.map": "/static/js/5.d272a0e3.chunk.js.map",
+    "static/js/6.bc223ee3.chunk.js": "/static/js/6.bc223ee3.chunk.js",
+    "static/js/6.bc223ee3.chunk.js.map": "/static/js/6.bc223ee3.chunk.js.map",
+    "static/js/7.3dcc2520.chunk.js": "/static/js/7.3dcc2520.chunk.js",
+    "static/js/7.3dcc2520.chunk.js.map": "/static/js/7.3dcc2520.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.ad5b5977.chunk.css.map": "/static/css/2.ad5b5977.chunk.css.map",
+    "static/css/main.8f9ed6b4.chunk.css.map": "/static/css/main.8f9ed6b4.chunk.css.map",
+    "static/js/2.c56d0302.chunk.js.LICENSE.txt": "/static/js/2.c56d0302.chunk.js.LICENSE.txt",
+    "static/media/base.css": "/static/media/pficon.eae21d83.woff",
+    "static/media/avatar.3a24bd27.png": "/static/media/avatar.3a24bd27.png",
+    "static/media/avatarImg.svg": "/static/media/avatarImg.6daf7202.svg",
+    "static/media/datacenter-logo.11a825ca.png": "/static/media/datacenter-logo.11a825ca.png",
+    "static/media/all.css": "/static/media/fa-solid-900.46fdbd2d.woff",
+    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg",
+    "static/media/background-image.css": "/static/media/pfbg_768@2x.eea28e73.jpg",
+    "static/media/about-modal-box.css": "/static/media/pfbg_992@2x.30e8d31f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f7fe31de.js",
+    "static/css/2.ad5b5977.chunk.css",
+    "static/js/2.c56d0302.chunk.js",
+    "static/css/main.8f9ed6b4.chunk.css",
+    "static/js/main.178b88b7.chunk.js"
+  ]
+}
