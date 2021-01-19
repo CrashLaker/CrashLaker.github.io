@@ -13,7 +13,7 @@ tags:  [python, selenium, chromium]
 
 https://superuser.com/questions/920523/where-can-i-download-old-stable-builds-of-chromium-from
 
-1. Look up the version number (for example "44.0.2403.157") in the Position Lookup
+1. Look up the version number (for example "44.0.2403.157") in the [Position Lookup](https://omahaproxy.appspot.com/)
 2. In this case it returns a base position of "330231". This is the commit of where the 44 release was branched, back in May 2015.
 3. Open the continuous builds archive
 4. Click through on your platform (Linux/Mac/Win)
