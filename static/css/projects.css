@@ -64,6 +64,7 @@ span.tag-cloud {
   font-size: 85%;
   padding: .2em .6em .3em;
   font-weight: 700;
+  white-space: nowrap;
   /*display: inline;*/
 }
 span.tag-cloud img {
