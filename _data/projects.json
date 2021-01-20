@@ -69,4 +69,14 @@
         "position": "center",
         "size": "cover"
 	},
+	{
+		"slug": "first-nas-build",
+		"name": "First NAS Build",
+		"image": "https://crashlaker.github.io/assets/img/VLGIfAbbo_a78445e2b8bca7246fe9185d1315fe19.png",
+		"url": "https://crashlaker.github.io/2021/01/20/first_truenas_build.html",
+		"date": "Jan 2021",
+		"tags": ["DIY"],
+        "position": "center",
+        "size": "cover"
+	},
 ]
