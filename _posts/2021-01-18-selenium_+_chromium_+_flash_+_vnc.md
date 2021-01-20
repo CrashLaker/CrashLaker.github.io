@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Selenium + Chromium + Flash"
+title: "Selenium + Chromium + Flash + VNC"
 comments: true
 date: "2021-01-18 15:17:40.746000+00:00"
 ---
@@ -152,6 +152,45 @@ all: build run
 
 ```
 
+# VNC
+
+* Map port for novnc to connect. i.e. `docker -p 5905:5905`
+
+```bash
+yum -y install Xvfb
+pip3 install pyvirtualdisplay
+yum -y install novnc tigervnc-server-minimal
+```
+
+```python
+from pyvirtualdisplay import Display
+#display = Display(visible=0, size=(1024,768))
+display = Display(backend="xnvc", size=(1024, 768), rfbport=5904)
+display.start()
+```
+
+```bash
+# start novnc_server
+novnc_server --listen 5905 --vnc localhost:5904
+```
+
+
+* Refs
+    * https://github.com/ponty/PyVirtualDisplay
+    * https://github.com/novnc/noVNC
+```python
+# pyvirtualdisplay/examples/vncserver.py
+
+"Start virtual VNC server. Connect with: vncviewer localhost:5904"
+
+from easyprocess import EasyProcess
+
+from pyvirtualdisplay import Display
+
+with Display(backend="xvnc", size=(100, 60), rfbport=5904) as disp:
+    with EasyProcess(["xmessage", "hello"]) as proc:
+        proc.wait()
+```
 
 # Helpful
 
@@ -165,10 +204,6 @@ document.onmousemove = function(e){
     e.target.title = "X is "+x+" and Y is "+y;
 };
 ```
-
-
-
-
 
 
 # Refs
