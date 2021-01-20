@@ -5,7 +5,7 @@
 		"image": "https://crashlaker.github.io/assets/img/VUXUUEGz-_covid-thumb.gif",
 		"url": "https://crashlaker.github.io/projects/2020/04/19/brazil_states_real_time_covid_19_monitoring.html",
 		"date": "Apr 2020",
-		"tags": ["D3js", "Scrapping", "Datavis", "ETL"],
+		"tags": ["D3.js", "Scrapping", "Datavis", "ETL"],
         "position": "center",
         "size": "cover"
 	},
@@ -28,5 +28,25 @@
 		"tags": ["Scrapping", "Datavis", "ETL", "SOAP", "Python"],
         "position": "center",
         "size": "cover"
-	}
+	},
+	{
+		"slug": "my-demo-datacenter",
+		"name": "My Demo Datacenter",
+		"image": "https://crashlaker.github.io/assets/img/KNea0YJnH_6b4b9aef28db2ec7a5c162852e807c10.png",
+		"url": "https://crashlaker.github.io/projects/2020/05/16/calendar_monitor_dashboard.html",
+		"date": "Dec 2020",
+		"tags": ["React.js"],
+        "position": "center",
+        "size": "cover"
+	},
+	{
+		"slug": "grafana-dc-floor-flowcharting",
+		"name": "DC Floor Flowcharting",
+		"image": "https://crashlaker.github.io/assets/img/prTqGfjy0_dc-floor-flowcharting-v3-raw.gif",
+		"url": "https://crashlaker.github.io/grafana/2020/09/22/dc_floor_flowcharting.html",
+		"date": "Sep 2020",
+		"tags": ["Grafana"],
+        "position": "center",
+        "size": "cover"
+	},
 ]
