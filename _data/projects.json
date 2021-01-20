@@ -79,4 +79,14 @@
         "position": "center",
         "size": "cover"
 	},
+	{
+		"slug": "my-lab-setup",
+		"name": "My Lab Setup",
+		"image": "https://crashlaker.github.io/assets/img/etGs44DCa_f49e51e023bb42215208e1f408f5c22e.png",
+		"url": "https://crashlaker.github.io/me/2020/09/02/my_setups.html",
+		"date": "2021",
+		"tags": ["DIY"],
+        "position": "center",
+        "size": "cover"
+	},
 ]
