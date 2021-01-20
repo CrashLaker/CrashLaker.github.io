@@ -32,8 +32,8 @@
 	{
 		"slug": "my-demo-datacenter",
 		"name": "My Demo Datacenter",
-		"image": "https://crashlaker.github.io/assets/img/KNea0YJnH_6b4b9aef28db2ec7a5c162852e807c10.png",
-		"url": "https://crashlaker.github.io/projects/2020/05/16/calendar_monitor_dashboard.html",
+		"image": "https://crashlaker.github.io/assets/img/893LlD-vY_25e50eaa91d9b1bb2dae9f115c730e37.png",
+		"url": "https://crashlaker.github.io/2021/01/20/my_demodatacenter.html",
 		"date": "Dec 2020",
 		"tags": ["React.js"],
         "position": "center",
@@ -46,6 +46,26 @@
 		"url": "https://crashlaker.github.io/grafana/2020/09/22/dc_floor_flowcharting.html",
 		"date": "Sep 2020",
 		"tags": ["Grafana"],
+        "position": "center",
+        "size": "cover"
+	},
+	{
+		"slug": "grafana-flowcharting-hexbin",
+		"name": "Flowcharting Hexbin",
+		"image": "https://crashlaker.github.io/assets/img/wKX6SNMyy_flowcharting-hexbin2.gif",
+		"url": "https://crashlaker.github.io/visualization/2020/05/19/flowcharting_hexbin.html",
+		"date": "May 2020",
+		"tags": ["Grafana"],
+        "position": "center",
+        "size": "cover"
+	},
+	{
+		"slug": "mapa-do-brasil-grafana",
+		"name": "Mapa do Brasil no Grafana",
+		"image": "https://crashlaker.github.io/assets/img/K6VI7qsEm_svg-panel-brasil-transition.gif",
+		"url": "https://crashlaker.github.io/monitoring/2020/04/15/mapa_do_brasil_no_grafana.html",
+		"date": "Apr 2020",
+		"tags": ["Grafana", "Medium"],
         "position": "center",
         "size": "cover"
 	},
