@@ -280,6 +280,16 @@
         "size": "cover"
 	},
 	{
+		"slug": "horizon-demo",
+		"name": "Horizon Demo",
+		"image": "https://crashlaker.github.io/assets/img/IDYVH0Y3Q_5e4c124ea776fc67eb5e4d8dc1af054a.png",
+		"url": "https://crashlaker.github.io/2021/01/21/horizon_showcase.html",
+		"date": "Jan 2021",
+		"tags": ["Vue.js", "D3.js"],
+        "position": "center",
+        "size": "cover"
+	},
+	{
 		"slug": "first-nas-build",
 		"name": "First NAS Build",
 		"image": "https://crashlaker.github.io/assets/img/VLGIfAbbo_a78445e2b8bca7246fe9185d1315fe19.png",
