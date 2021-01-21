@@ -210,6 +210,26 @@
         "size": "cover"
 	},
 	{
+		"slug": "grafana-idashboard-factory",
+		"name": "iDashboard Factory",
+		"image": "https://crashlaker.github.io/assets/img/IoCcpSAGs_104814877-dbb7fb00-57ef-11eb-81d3-a56dc0145f5a.gif",
+		"url": "https://crashlaker.github.io/grafana/2020/05/05/grafana_flowcharting_showcase.html",
+		"date": "May 2020",
+		"tags": ["Grafana"],
+        "position": "center",
+        "size": "cover"
+	},
+	{
+		"slug": "grafana-dc-cascade",
+		"name": "Datacenter Cascade",
+		"image": "https://crashlaker.github.io/assets/img/IoCcpSAGs_1_2aDXt67_pYrCnY7NlLt9_g.gif",
+		"url": "https://crashlaker.github.io/grafana/2020/05/05/grafana_flowcharting_showcase.html",
+		"date": "May 2020",
+		"tags": ["Grafana"],
+        "position": "center",
+        "size": "cover"
+	},
+	{
 		"slug": "grafana-esxi-horizon",
 		"name": "Home Infra Boomtable Horizon",
 		"image": "https://crashlaker.github.io/assets/img/ccCVjEzLx_262270876c1e97d5034acfffc6ef4982.png",
@@ -224,6 +244,16 @@
 		"name": "Home Infra Boomtable Compact",
 		"image": "https://crashlaker.github.io/assets/img/ccCVjEzLx_ee4f727ef91dc70f9b1319a42a41d512.png",
 		"url": "https://crashlaker.github.io/grafana/2020/05/12/grafana_boomtable_usage.html",
+		"date": "May 2020",
+		"tags": ["Grafana"],
+        "position": "center",
+        "size": "cover"
+	},
+	{
+		"slug": "ip-cam-rtsp-to-html-javascript-grafana",
+		"name": "IP Cam RTSP to HTML/Javascript/Grafana",
+		"image": "https://crashlaker.github.io/assets/img/4TtwzkXXd_feb152d10377b60d70d1db4f387a6e03.png",
+		"url": "https://crashlaker.github.io/grafana/2020/05/14/ip_cam_rtsp_to_html_javascript_grafana.html",
 		"date": "May 2020",
 		"tags": ["Grafana"],
         "position": "center",
