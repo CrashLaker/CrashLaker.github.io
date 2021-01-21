@@ -5,6 +5,14 @@
   vertical-align: top;
   margin: 0 10px;
 }
+
+@media only screen and (max-width: 1000px) {
+    .project-outer {
+        width: 45%;
+        overflow:hidden !important;
+    }
+}
+
 .project-img img {
   width: 100%;
 }

@@ -4,7 +4,7 @@
 img="crashlaker-jekyll-dev"
 port=4000
 
-docker rm -f crash
+docker rm -f ${img}
 docker run -dit \
     --name ${img} \
     -v `pwd`:/folder \
