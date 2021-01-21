@@ -87,7 +87,7 @@
 		"date": "Dec 2020",
 		"tags": ["Grafana", "Medium"],
         "position": "center",
-        "size": "cover"
+        "size": "contain"
 	},
 	{
 		"slug": "quick-tips-on-elasticsearchs-ingesting-and-searching",
