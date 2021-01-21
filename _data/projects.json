@@ -70,6 +70,76 @@
         "size": "cover"
 	},
 	{
+		"slug": "grafana-alerting-sound-polyglot-aws-polly",
+		"name": "Grafana Alerting. Sound + Polyglot Voice with AWS Polly",
+		"image": "https://miro.medium.com/max/1050/1*8r9BLEGp2EH_EFUt3iqdCg.gif",
+		"url": "https://crashlaker.medium.com/grafana-alerting-sound-polyglot-voice-with-aws-polly-f9d1887246a0",
+		"date": "Dec 2020",
+		"tags": ["Grafana", "Medium"],
+        "position": "center",
+        "size": "cover"
+	},
+	{
+		"slug": "quick-tips-on-elasticsearchs-ingesting-and-searching",
+		"name": "Quick tips on Elasticsearch’s ingesting and searching",
+		"image": "https://miro.medium.com/max/945/0*C60-EnvQcCx44ey1.png",
+		"url": "https://crashlaker.medium.com/quick-tips-on-elasticsearchs-ingesting-and-searching-91c16afee380",
+		"date": "Apr 2019",
+		"tags": ["Medium", "Others"],
+        "position": "center",
+        "size": "cover"
+	},
+	{
+		"slug": "practicing-round-d3js-over-appdynamics",
+		"name": "Practicing around D3.js over Appdynamics",
+		"image": "https://miro.medium.com/max/1050/1*qmGfx0pqmDLrWfXkHFsmfg.gif",
+		"url": "https://crashlaker.medium.com/practicing-around-d3-js-over-appdynamics-2975a66bc364",
+		"date": "Apr 2019",
+		"tags": ["Medium", "D3.js"],
+        "position": "center",
+        "size": "cover"
+	},
+	{
+		"slug": "netflix-vizceral-appdynamics",
+		"name": "Netflix Vizceral + Appdynamics",
+		"image": "https://crashlaker.github.io/assets/img/cc7uX6xya_1*lgWDyClNuGqeGGs9veUPsQ.gif",
+		"url": "https://crashlaker.medium.com/netflix-vizceral-appdynamics-d4d5841e5ddf",
+		"date": "Jun 2019",
+		"tags": ["Medium", "Grafana"],
+        "position": "center",
+        "size": "cover"
+	},
+	{
+		"slug": "which-company-college-country-is-leading-leetcodes-leaderboard",
+		"name": "Which Company/College/Country is leading LeetCode’s leaderboard?",
+		"image": "https://miro.medium.com/max/1050/1*3oryDohzffeS0IJEapJLdw.png",
+		"url": "https://crashlaker.medium.com/which-company-college-country-is-leading-leetcodes-leaderboard-ece189e4731",
+		"date": "Aug 2019",
+		"tags": ["Medium", "ETL", "Datavis"],
+        "position": "center",
+        "size": "cover"
+	},
+	{
+		"slug": "descomplicando-o-grafana-simplejson",
+		"name": "Descomplicando o Grafana Simple Json",
+		"image": "https://miro.medium.com/max/1050/1*fJxBJWZIMEmSxSvBirv84A.gif",
+		"url": "https://medium.com/zabbix-brasil/descomplicando-o-grafana-simple-json-71c3001398b0",
+		"date": "Dec 2020",
+		"tags": ["Medium", "Grafana", "Python"],
+        "position": "center",
+        "size": "cover"
+	},
+	{
+		"slug": "15-grafana-vis-3-plugins",
+		"name": "15 Grafana vis you probably didn’t know was possible with these 3 plugins",
+		"image": "https://miro.medium.com/max/1050/1*DMjuTeE1u8ZTofsy-gtnjA.png",
+		"url": "https://medium.com/zabbix-brasil/descomplicando-o-grafana-simple-json-71c3001398b0",
+		"date": "Jun 2020",
+		"tags": ["Medium", "Grafana"],
+        "position": "center",
+        "size": "cover"
+	},
+	{
 		"slug": "grafana-kubeflow",
 		"name": "Grafana Kubeflow",
 		"image": "https://crashlaker.github.io/assets/img/IoCcpSAGs_kubeflow5.gif",
@@ -134,6 +204,26 @@
 		"name": "Grafana AWS Infra Graph",
 		"image": "https://crashlaker.github.io/assets/img/IoCcpSAGs_335d62c24d607cb2baf40683a272ca69.png",
 		"url": "https://crashlaker.github.io/grafana/2020/05/05/grafana_flowcharting_showcase.html",
+		"date": "May 2020",
+		"tags": ["Grafana"],
+        "position": "center",
+        "size": "cover"
+	},
+	{
+		"slug": "grafana-esxi-horizon",
+		"name": "Home Infra Boomtable Horizon",
+		"image": "https://crashlaker.github.io/assets/img/ccCVjEzLx_262270876c1e97d5034acfffc6ef4982.png",
+		"url": "https://crashlaker.github.io/grafana/2020/05/12/grafana_boomtable_usage.html",
+		"date": "May 2020",
+		"tags": ["Grafana"],
+        "position": "center",
+        "size": "cover"
+	},
+	{
+		"slug": "grafana-esxi-compact",
+		"name": "Home Infra Boomtable Compact",
+		"image": "https://crashlaker.github.io/assets/img/ccCVjEzLx_ee4f727ef91dc70f9b1319a42a41d512.png",
+		"url": "https://crashlaker.github.io/grafana/2020/05/12/grafana_boomtable_usage.html",
 		"date": "May 2020",
 		"tags": ["Grafana"],
         "position": "center",
