@@ -10,6 +10,16 @@
         "size": "cover"
 	},
 	{
+		"slug": "timeline-chart-d3js-renderqueue",
+		"name": "Timeline Chart D3js RenderQueue",
+		"image": "https://crashlaker.github.io/assets/img/tC4FqV7g8_observable-timelinechart-480.gif",
+		"url": "https://crashlaker.github.io/2021/01/21/timeline_chart_d3js_renderqueue.html",
+		"date": "Jan 2021",
+		"tags": ["D3.js"],
+        "position": "center",
+        "size": "cover"
+	},
+	{
 		"slug": "themoviedb-project-dataengineer",
 		"name": "TheMovieDB",
 		"image": "https://crashlaker.github.io/assets/img/0-35ynhUx_7efe49ed29409e0cca599fd49cf97b35.png",
