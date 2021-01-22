@@ -30,6 +30,8 @@ social:
       link: "https://github.com/crashlaker"
     - icon: fa-medium
       link: "https://medium.com/@crashlaker"
+    #- icon: "/assets/static/icons/observable.png"
+    #  link: "https://observablehq.com/@crashlaker"
 
 share:
   twitter_username: github.io

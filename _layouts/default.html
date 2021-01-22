@@ -194,8 +194,11 @@ layout: compress
           <div class="social">
             <ul>
               {% for link in site.social %}
-                <li><a href="{{ link.link }}" target="_blank"><i class="fa {{ link.icon }}"></i></a></li>
-              {% endfor %}
+                <li>
+                    <a href="{{ link.link }}" target="_blank">
+                        <i class="fa {{ link.icon }}"></i>
+                    </a>
+                </li>
             </ul>
           </div>
           <div class="search" id="js-search">

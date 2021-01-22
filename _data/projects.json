@@ -280,6 +280,16 @@
         "size": "cover"
 	},
 	{
+		"slug": "grafana-sdg-inspectit-ocelete-demo",
+		"name": "Grafana SDG InspectIT Ocelote Demo",
+		"image": "https://crashlaker.github.io/assets/img/q_17rqFFU_inspectit-ocelote-demo-sdg.gif",
+		"url": "https://crashlaker.github.io/2021/01/22/grafana_sdg_inspectit_ocelote_demo.html",
+		"date": "Jan 2021",
+		"tags": ["Grafana"],
+        "position": "center",
+        "size": "cover"
+	},
+	{
 		"slug": "horizon-demo",
 		"name": "Horizon Demo",
 		"image": "https://crashlaker.github.io/assets/img/IDYVH0Y3Q_5e4c124ea776fc67eb5e4d8dc1af054a.png",
