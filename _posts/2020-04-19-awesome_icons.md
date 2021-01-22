@@ -9,6 +9,9 @@ tags:  [icons]
 
 
 
+https://iconduck.com/
+![](/assets/img/jaJ55G5e5_4797afc9c53c638925018e64a6e0b00c.png)
+
 
 https://antonreshetov.github.io/vue-unicons/
 ![](/assets/img/jaJ55G5e5_36c0c9d75bae183cd1c25123306a853d.png =400x)
