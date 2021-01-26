@@ -5,6 +5,14 @@ comments: true
 date: "2021-01-24 16:48:14.652000+00:00"
 ---
 
+# Concepts
+
+https://bernatgel.github.io/karyoploter_tutorial/Tutorial/PlotHorizon/PlotHorizon.html
+
+![](/assets/img/Sf8kW-XxU_horizon.animation.optimized.gif)
+
+# Code
+
 https://github.com/square/cubism/blob/master/cubism.v1.js
 ```javascript
 // consistent overplotting
@@ -48,6 +56,8 @@ canvas.restore();
 }
 ```
 
+# Examples
+
 * https://bl.ocks.org/tomshanley/2e783361974c41d401993cc4aaae7e8a
 
 ![](/assets/img/Sf8kW-XxU_db2367f053a26db52e88432dd2634416.png)
@@ -73,5 +83,12 @@ canvas.restore();
 
 ![](/assets/img/Sf8kW-XxU_edc4b1c76fb1858e76aed3669544e8e0.png)
 
+# Others
+
+https://towardsdatascience.com/using-strip-charts-to-visualize-dozens-of-time-series-at-once-a983baabb54f
+
+![](/assets/img/Sf8kW-XxU_a43b7fa80c8302e48579845d6af18f75.png)
+
+![](/assets/img/Sf8kW-XxU_9cf077cab21a407ecfc62f8f68e8343d.png)
 
 
