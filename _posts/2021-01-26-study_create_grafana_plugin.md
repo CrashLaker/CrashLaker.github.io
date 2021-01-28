@@ -29,3 +29,6 @@ Useful:
     * (angular0 https://github.com/grafana/piechart-panel
     * Outdated
         * https://github.com/grafana/attic
+* Plugin Signature
+    * https://grafana.com/docs/grafana/latest/plugins/plugin-signatures/
+        * https://grafana.com/docs/grafana/latest/developers/plugins/sign-a-plugin/
