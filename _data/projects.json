@@ -222,7 +222,7 @@
 	{
 		"slug": "grafana-idashboard-factory",
 		"name": "iDashboard Factory",
-		"image": "https://crashlaker.github.io/assets/img/IoCcpSAGs_104814877-dbb7fb00-57ef-11eb-81d3-a56dc0145f5a.gif",
+		"image": "https://crashlaker.github.io/assets/img/IoCcpSAGs_flowcharting-idashboard-working.gif",
 		"url": "https://crashlaker.github.io/grafana/2020/05/05/grafana_flowcharting_showcase.html",
 		"date": "May 2020",
 		"tags": ["Grafana"],
