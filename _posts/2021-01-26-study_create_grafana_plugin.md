@@ -32,12 +32,14 @@ Useful:
     * (angular0 https://github.com/grafana/piechart-panel
     * Outdated
         * https://github.com/grafana/attic
-* Plugin Signature
-    * https://grafana.com/docs/grafana/latest/plugins/plugin-signatures/
-        * https://grafana.com/docs/grafana/latest/developers/plugins/sign-a-plugin/
 * Source:
     * Grafana-UI components  https://github.com/grafana/grafana/tree/master/packages/grafana-ui/src/components
 
+Must:
+* https://grafana.com/blog/2021/01/21/6-tips-for-improving-your-grafana-plugin-before-you-publish/
+* Plugin Signature
+    * https://grafana.com/docs/grafana/latest/plugins/plugin-signatures/
+        * https://grafana.com/docs/grafana/latest/developers/plugins/sign-a-plugin/
 
 Issues:
 * [missing ValueMappingsEditor and ThresholdsEditor export #26554
