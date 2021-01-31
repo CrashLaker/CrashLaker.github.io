@@ -134,6 +134,23 @@ export const HorizonPanel: React.FC<Props> = ({ options, data, width, height }) 
 }
 ```
 
+zabbix datasource
+
+```
+{
+series: [
+    {
+        name: 'wide',
+        fields: [
+            {
+            
+            }
+        ]
+    }
+]
+}
+```
+![](/assets/img/KnrrkOLjC_48fd8552c2152280b0c61b56092652dc.png)
 
 
 
