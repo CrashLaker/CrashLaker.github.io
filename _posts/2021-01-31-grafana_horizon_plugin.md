@@ -11,4 +11,4 @@ tags:  [horizon, cubism, plugin, grafana-plugin, grafana, small-multiples, data-
 
 
 
-![](/assets/img/aELv5AgAT_favicon.png)
+![](https://files-ext.agunicat.co/favicon.png)
