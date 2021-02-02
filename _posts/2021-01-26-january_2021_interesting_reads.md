@@ -9,5 +9,6 @@ categories:  [monthly-awesome]
 
 
 
-* https://openai.com/blog/scaling-kubernetes-to-7500-nodes/
-* 
+ * https://openai.com/blog/scaling-kubernetes-to-7500-nodes/
+ * https://vicki.substack.com/p/you-dont-need-kafka
+ * https://levelup.gitconnected.com/massively-parallel-serverless-computing-in-aws-d99b6090f8b4
