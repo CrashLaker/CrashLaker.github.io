@@ -21,3 +21,4 @@ categories:  [monthly-awesome]
  * https://critter.blog/2021/01/20/90-of-everything-is-crap/
  * https://www.youtube.com/watch?v=clqoD43Qeas&t=6s&ab_channel=SundogEducationwithFrankKane
  * 7 tips for getting hired at amazon or google
+ * https://github.com/havenweb/haven

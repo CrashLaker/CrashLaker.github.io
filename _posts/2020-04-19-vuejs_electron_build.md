@@ -23,6 +23,7 @@ module.exports = {
       builderOptions: {
         appId: 'test.com',
         "win": {
+          "icon": "./build/icons/",
           "target": [
             {
               "target": "portable",
@@ -49,11 +50,23 @@ module.exports = {
 }
 ```
 
+about icons check example [here](https://github.com/nklayman/electron-icon-example/tree/master/build/icons)
+```
+./build/icons/512x512.png
+./build/icons/icon.ico
+```
+
 Install wine
 http://ubuntuhandbook.org/index.php/2020/01/install-wine-5-0-stable-ubuntu-18-04-19-10/
 
 Install mono
 `sudo apt install mono-devel`
+
+```bash
+sudo apt update && apt install wine
+sudo dpkb --add-architecture i386
+sudo apt update && apt install wine32
+```
 
 
 Build
