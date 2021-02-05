@@ -17,7 +17,17 @@ https://chrome.google.com/webstore/detail/custom-javascript-for-web/poakhlngfcio
 ```javascript
 $(document).ready(function() {
   setTimeout(function() {
-    document.querySelector('.CodeMirror').CodeMirror.constructor.Vim.map('kj', '<Esc>', 'insert');
+    document.querySelector('.CodeMirror').CodeMirror
+            .constructor.Vim.map('kj', '<Esc>', 'insert');
+    document.querySelector('.CodeMirror').CodeMirror
+            .addKeyMap({
+        'Alt-1': function(cm) {
+            cm.replaceSelection('```\n\n```') 
+        },
+        'Alt-2': function(cm) {
+            cm.replaceSelection('<details>\n<summary>\n</summary>\n\n</details>') 
+        },
+    })
   }, 2000)
 });
 ``` 
