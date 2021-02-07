@@ -12,7 +12,7 @@ https://github.com/jgraph/drawio-diagrams/tree/master/examples/csv
 
 
 ## [Habit Tracker app AWS diagram](https://github.com/jgraph/drawio-diagrams/blob/master/examples/csv/habit-tracker-app-aws.txt)
-![](/assets/files/FRl8Bv-QP_habit-tracker.svg =300x)
+![](/assets/img/FRl8Bv-QP_habit-tracker.svg){:width="300px"}
 <details>
 <summary>
 csv
@@ -44,7 +44,7 @@ id,component,fill,stroke,shape,refs
 
 
 ## [Supply chain tracking example](https://github.com/jgraph/drawio-diagrams/blob/master/examples/csv/car-partial-supply-chain.txt)
-![](/assets/files/FRl8Bv-QP_drawio-csv-example-supply-chain-tracking.svg)
+![](/assets/img/FRl8Bv-QP_drawio-csv-example-supply-chain-tracking.svg)
 <details>
 <summary>
 csv
@@ -126,7 +126,7 @@ a5,Assembly 5,16,assembly
 
 
 ## [Labels](https://github.com/jgraph/drawio-diagrams/blob/master/examples/csv/labels.txt)
-![](/assets/files/FRl8Bv-QP_drawio-csv-examples-labels.svg)
+![](/assets/img/FRl8Bv-QP_drawio-csv-examples-labels.svg)
 <details>
 <summary>
 csv
@@ -173,7 +173,7 @@ id,name,position,email,url,refs, labeltype
 
 ## [Gitflow](https://github.com/jgraph/drawio-diagrams/blob/master/examples/csv/gitflow.txt)
 
-![](/assets/files/FRl8Bv-QP_drawio-csv-examples-gitflow.svg)
+![](/assets/img/FRl8Bv-QP_drawio-csv-examples-gitflow.svg)
 <details>
 <summary>
 csv
@@ -248,7 +248,7 @@ entry,version,branch,feature,branched
 
 ## [Network Topology](https://github.com/jgraph/drawio-diagrams/blob/master/examples/csv/network-topology.txt)
 
-![](/assets/files/FRl8Bv-QP_drawio-csv-examples-network-topology.svg)
+![](/assets/img/FRl8Bv-QP_drawio-csv-examples-network-topology.svg)
 
 <details>
 <summary>
@@ -292,7 +292,7 @@ entry,zone,type,host,connected
 
 ## [Habit Tracker UML](https://github.com/jgraph/drawio-diagrams/blob/master/examples/csv/habit-tracker-app-use-case.txt)
 
-![](/assets/files/FRl8Bv-QP_drawio-csv-examples-habit-tracker-uml.svg =3400x)
+![](/assets/img/FRl8Bv-QP_drawio-csv-examples-habit-tracker-uml.svg){:width="3400px"}
 <details>
 <summary>
 csv
@@ -334,4 +334,54 @@ id,action,fill,stroke,shape,includes,extends,refs
 </details>
 
 
+## [Edges](https://github.com/jgraph/drawio-diagrams/blob/master/examples/csv/edges.txt)
+
+![](/assets/img/FRl8Bv-QP_drawio-csv-examples-edges.svg)
+
+<details>
+<summary>
+csv
+</summary>
+
+```
+## **********************************************************
+## Example description
+## **********************************************************
+## This example demonstrates the verious methods of using and styling connectors. The core of this example are the various "connect" configurations. All the connector styles are different, except the connection from Cell A to Cells F and Cell G. The connectors to Cells B, C, D and E show different connector styles. Note that when connecting to Cell E we didn't use the destination shape name, but its id instead, as defined in the "connect" configuration. The first line of the CSV data shows how you can connect to multiple shapes. The last entry in the CSV data shows that you can use self-references too. The diagram is a simple tree to improve the readability of this example, but you can use whatever diagram structure you need.
+## **********************************************************
+## Configuration
+## **********************************************************
+# label: %name%
+# style: whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;
+# namespace: csvimport-
+# connect: {"from": "relation1", "to": "name", "invert": true, "label": "manages", \
+#          "style": "curved=1;endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=orthogonalEdgeStyle;"}
+# connect: {"from": "relation2", "to": "name", "invert": true, "label": "owns", \
+#          "style": "curved=1;endArrow=ERmandOne;endFill=0;fontSize=11;dashed=1;"}
+# connect: {"from": "relation3", "to": "name", "invert": true, "label": "waits for", \
+#          "style": "endArrow=blockThin;endFill=1;fontSize=11;edgeStyle=orthogonalEdgeStyle;"}
+# connect: {"from": "relation4", "to": "id", "invert": true, "label": "diff", \
+#          "style": "endArrow=blockThin;endFill=1;fontSize=11;"}
+# connect: {"from": "refs", "to": "id", "style": "curved=1;fontSize=11;"}
+# width: auto
+# height: auto
+# padding: 5
+# ignore: id,refs
+# nodespacing: 60
+# levelspacing: 120
+# edgespacing: 40
+# layout: auto
+## **********************************************************
+## CSV Data
+## **********************************************************
+id,name,relation1,relation2,relation3,relation4,refs
+1,Cell A,,,,"","6,7"
+2,Cell B,Cell A,,,"",""
+3,Cell C,,Cell A,,"",""
+4,Cell D,,,Cell A,"",""
+5,Cell E,,,,"1",""
+6,Cell F,,,,"",""
+7,Cell G,Cell G,,,"",""
+```
+</details>
 

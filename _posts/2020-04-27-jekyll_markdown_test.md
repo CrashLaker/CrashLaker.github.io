@@ -22,7 +22,7 @@ title: "Jekyll Markdown Test"
 comments: true
 date: "2020-04-27 12:39:32.978000+00:00"
 ---
-![SVG Logo](https://www.w3.org/Graphics/SVG/svglogo.svg =200x200)
+![](/assets/img/7T-RFJmUX_svglogo.svg){:width="200px" height="200px"}
 
 
 "Hidden" block support :tada: 
