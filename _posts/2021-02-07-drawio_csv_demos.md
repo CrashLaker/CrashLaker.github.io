@@ -141,8 +141,8 @@ csv
 ## Configuration
 ## **********************************************************
 # labels: {"label1" : "%name%<br><i style=\u0022color:gray;\u0022>%position%</i><br><a href=\u0022mailto:%email%\u0022>Email</a>",\
-           "label2" : "Type2<br>%name%", \
-           "label3" : "Type3"}
+#          "label2" : "Type2<br>%name%", \
+#          "label3" : "Type3"}
 # labelname: labeltype
 # style: whiteSpace=wrap;html=1;rounded=1;fillColor=#ffffff;strokeColor=#000000;
 # namespace: csvimport-
@@ -292,7 +292,7 @@ entry,zone,type,host,connected
 
 ## [Habit Tracker UML](https://github.com/jgraph/drawio-diagrams/blob/master/examples/csv/habit-tracker-app-use-case.txt)
 
-![](/assets/img/FRl8Bv-QP_drawio-csv-examples-habit-tracker-uml.svg){:width="3400px"}
+![](/assets/img/FRl8Bv-QP_drawio-csv-examples-habit-tracker-uml.svg){:width="400px"}
 <details>
 <summary>
 csv

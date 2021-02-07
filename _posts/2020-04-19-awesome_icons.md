@@ -9,6 +9,9 @@ tags:  [icons]
 
 
 
+https://www.iconfinder.com/iconsets/fatcow
+![](/assets/img/jaJ55G5e5_b5ba2870355532bdd726aab97f949721.png){:width="400px"}
+
 https://iconduck.com/
 ![](/assets/img/jaJ55G5e5_4797afc9c53c638925018e64a6e0b00c.png){:width="400px"}
 
