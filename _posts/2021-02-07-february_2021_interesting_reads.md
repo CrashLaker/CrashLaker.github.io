@@ -15,3 +15,4 @@ categories:  [monthly-awesome]
  * https://twitter.com/lisperati/status/1357029088343506944
  * https://robotmoon.com/ssh-tunnels/
  * https://github.com/mya-ake/vue-window-size
+ * https://josh.works/shell-script-basics-change-mac-address
