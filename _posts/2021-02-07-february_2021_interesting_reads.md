@@ -16,3 +16,5 @@ categories:  [monthly-awesome]
  * https://robotmoon.com/ssh-tunnels/
  * https://github.com/mya-ake/vue-window-size
  * https://josh.works/shell-script-basics-change-mac-address
+ * Create a GUI app with Tkinter - Step by Step Tutorial
+ * https://www.youtube.com/watch?v=itRLRfuL_PQ&ab_channel=PythonSimplified

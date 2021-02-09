@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Samba Centos 8"
+title: "Samba Centos 7/8"
 comments: true
 date: "2020-10-04 22:21:32.851000+00:00"
 ---
@@ -33,6 +33,23 @@ read only = no
 ```
 
 ---
+
+### Mount on Centos 7
+
+https://www.serverlab.ca/tutorials/linux/storage-file-systems-linux/mounting-smb-shares-centos-7/
+
+```bash
+cat <<EOF > /root/credentials
+username=usesr
+password=secret
+EOF
+
+
+# /etc/fstab
+\\machine\share /lib_core    cifs    credentials=/root/credentials 0 0
+
+```
+
 
 ### Caveats
 
