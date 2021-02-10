@@ -10,7 +10,7 @@ date: "2021-01-18 15:17:40.746000+00:00"
 chromelinux="https://www.googleapis.com/download/storage/v1/b/chromium-browser-snapshots/o/Linux_x64%2F693954%2Fchrome-linux.zip?generation=1567721852304759&alt=media"
 chromedriver="https://www.googleapis.com/download/storage/v1/b/chromium-browser-snapshots/o/Linux_x64%2F693954%2Fchromedriver_linux64.zip?generation=1567721856639212&alt=media"
 
-wget $chromium -O chromium.zip && unzip chromium.zip && rm -f chromium.zip
+wget $chromelinux -O chromium.zip && unzip chromium.zip && rm -f chromium.zip
 wget $chromedriver -O chromedriver.zip && unzip chromedriver.zip && rm -f chromedriver.zip
 
 # install pepper flash
