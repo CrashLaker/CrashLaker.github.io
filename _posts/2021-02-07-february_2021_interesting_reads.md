@@ -18,3 +18,4 @@ categories:  [monthly-awesome]
  * https://josh.works/shell-script-basics-change-mac-address
  * Create a GUI app with Tkinter - Step by Step Tutorial
  * https://www.youtube.com/watch?v=itRLRfuL_PQ&ab_channel=PythonSimplified
+ * https://stackoverflow.com/questions/48061407/how-to-get-volume-name-from-iscsi-target
