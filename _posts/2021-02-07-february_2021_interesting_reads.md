@@ -20,3 +20,8 @@ categories:  [monthly-awesome]
  * https://www.youtube.com/watch?v=itRLRfuL_PQ&ab_channel=PythonSimplified
  * https://stackoverflow.com/questions/48061407/how-to-get-volume-name-from-iscsi-target
  * https://litestream.io/blog/why-i-built-litestream/
+ * https://www.reddit.com/r/homelab/comments/lhxpqd/if_you_dont_have_your_smoker_thermometer_data_in/
+ * rtl-sdr
+ * https://soma.xpi.com.br/
+ * https://github.com/flameshot-org/flameshot/
+ * https://postgresql.fund/blog/babelfish-the-elephant-in-the-room/
