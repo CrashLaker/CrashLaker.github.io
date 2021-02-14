@@ -25,3 +25,5 @@ categories:  [monthly-awesome]
  * https://soma.xpi.com.br/
  * https://github.com/flameshot-org/flameshot/
  * https://postgresql.fund/blog/babelfish-the-elephant-in-the-room/
+ * https://itnext.io/how-to-create-d3js-v6-zoom-panel-4a3442678ca9
+ * https://github.com/mauriciopoppe/function-plot
