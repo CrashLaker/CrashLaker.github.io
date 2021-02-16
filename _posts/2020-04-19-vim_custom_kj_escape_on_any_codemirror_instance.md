@@ -19,13 +19,19 @@ $(document).ready(function() {
   setTimeout(function() {
     document.querySelector('.CodeMirror').CodeMirror
             .constructor.Vim.map('kj', '<Esc>', 'insert');
+    //document.querySelector('.CodeMirror').CodeMirror
+    //        .keyMap.default['Shift-Tab'] = 'indentLess';
     document.querySelector('.CodeMirror').CodeMirror
             .addKeyMap({
+        'Shift-Tab': 'indentLess',
         'Alt-1': function(cm) {
             cm.replaceSelection('```\n\n```') 
         },
         'Alt-2': function(cm) {
-            cm.replaceSelection('<details>\n<summary>\n</summary>\n\n</details>') 
+            cm.replaceSelection('<details>\n<summary>\nmore\n</summary>\n\n</details>') 
+        },
+        'Alt-3': function(cm) {
+            cm.replaceSelection('<details>\n<summary>\nmore\n</summary>\n\n```\n\n```\n</details>') 
         },
     })
   }, 2000)

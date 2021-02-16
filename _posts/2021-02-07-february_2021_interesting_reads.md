@@ -27,3 +27,15 @@ categories:  [monthly-awesome]
  * https://postgresql.fund/blog/babelfish-the-elephant-in-the-room/
  * https://itnext.io/how-to-create-d3js-v6-zoom-panel-4a3442678ca9
  * https://github.com/mauriciopoppe/function-plot
+ * https://mrkaran.dev/posts/home-server-nomad/
+ * https://haydenjames.io/linux-benchmark-scripts-tools/
+ * bench.sh - view system information and test the network, disk of your linux server
+ * Nench – A script loosely based on the established freevps.us/bench.sh.
+ * VPSbench – A script to run simple and comprehensive benchmarks on CPU and IO performance.
+ * VPS Benchmark – Benchmark disk, CPU, and network.
+ * Linux Bench – STH Linux benchmarking script.
+ * Bench-sh-2 – System Info + Speedtest IPv4 + Drive Speed.
+ * unixbench.sh – Auto install unixbench and test script.
+ * https://levelup.gitconnected.com/kafka-for-engineers-975feaea6067
+ * https://www.willmcgugan.com/blog/tech/post/building-rich-terminal-dashboards/
+ * 
