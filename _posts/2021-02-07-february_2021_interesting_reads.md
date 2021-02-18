@@ -17,11 +17,11 @@ categories:  [monthly-awesome]
  * https://github.com/mya-ake/vue-window-size
  * https://josh.works/shell-script-basics-change-mac-address
  * Create a GUI app with Tkinter - Step by Step Tutorial
- * https://www.youtube.com/watch?v=itRLRfuL_PQ&ab_channel=PythonSimplified
+     * https://www.youtube.com/watch?v=itRLRfuL_PQ&ab_channel=PythonSimplified
  * https://stackoverflow.com/questions/48061407/how-to-get-volume-name-from-iscsi-target
  * https://litestream.io/blog/why-i-built-litestream/
  * https://www.reddit.com/r/homelab/comments/lhxpqd/if_you_dont_have_your_smoker_thermometer_data_in/
- * rtl-sdr
+     * rtl-sdr
  * https://soma.xpi.com.br/
  * https://github.com/flameshot-org/flameshot/
  * https://postgresql.fund/blog/babelfish-the-elephant-in-the-room/
@@ -29,13 +29,19 @@ categories:  [monthly-awesome]
  * https://github.com/mauriciopoppe/function-plot
  * https://mrkaran.dev/posts/home-server-nomad/
  * https://haydenjames.io/linux-benchmark-scripts-tools/
- * bench.sh - view system information and test the network, disk of your linux server
- * Nench – A script loosely based on the established freevps.us/bench.sh.
- * VPSbench – A script to run simple and comprehensive benchmarks on CPU and IO performance.
- * VPS Benchmark – Benchmark disk, CPU, and network.
- * Linux Bench – STH Linux benchmarking script.
- * Bench-sh-2 – System Info + Speedtest IPv4 + Drive Speed.
- * unixbench.sh – Auto install unixbench and test script.
+     * bench.sh - view system information and test the network, disk of your linux server
+     * Nench – A script loosely based on the established freevps.us/bench.sh.
+     * VPSbench – A script to run simple and comprehensive benchmarks on CPU and IO performance.
+     * VPS Benchmark – Benchmark disk, CPU, and network.
+     * Linux Bench – STH Linux benchmarking script.
+     * Bench-sh-2 – System Info + Speedtest IPv4 + Drive Speed.
+     * unixbench.sh – Auto install unixbench and test script.
  * https://levelup.gitconnected.com/kafka-for-engineers-975feaea6067
  * https://www.willmcgugan.com/blog/tech/post/building-rich-terminal-dashboards/
- * 
+ * https://www.sqlite.org/cli.html
+ * https://christine.website/blog/a-trip-into-freebsd-2021-02-13
+ * Why did I leave Google or, why did I stay so long?
+     * https://paygo.media/p/25171
+ * Generate beautiful html for your code
+     * https://ray.so/
+ * https://alpercinar.com/open-cell-id/
