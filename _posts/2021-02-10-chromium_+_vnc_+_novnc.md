@@ -31,7 +31,7 @@ EOF
 ```
  yum -y install xorg-x11-server-Xvfb.x86_64
  yum -y install epel-release
- yum -y install chromium
+ yum -y install chromium alsa-lib
  yum -y install novnc x11vnc
 ```
 

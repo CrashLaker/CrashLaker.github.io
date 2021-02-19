@@ -45,3 +45,4 @@ categories:  [monthly-awesome]
  * Generate beautiful html for your code
      * https://ray.so/
  * https://alpercinar.com/open-cell-id/
+ * https://www.flotato.com/post/memory-chrome-safari-flotato
