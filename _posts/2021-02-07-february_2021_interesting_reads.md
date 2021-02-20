@@ -46,3 +46,8 @@ categories:  [monthly-awesome]
      * https://ray.so/
  * https://alpercinar.com/open-cell-id/
  * https://www.flotato.com/post/memory-chrome-safari-flotato
+ * Tauri: An Electron alternative written in Rust 
+     * https://tauri.studio/en/
+ * https://alistairb.dev/reflections-on-haskell-for-startup/
+ * what websites do you visit every day?
+     * https://news.ycombinator.com/item?id=26192817
