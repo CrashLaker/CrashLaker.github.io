@@ -18,11 +18,10 @@ img.img1{
 {% raw %}
 <iframe id="myIframe0" style="border:none;" src="https://crashlaker.github.io/assets/posts_iframe/FKoRBlTm8-0.html"></iframe>
 <script>
-setTimeout(() => {let myiframe = iFrameResize({ log: true, enablePublicMethods: true }, '#myIframe0');
-                setTimeout() => {
-                    myiframe.close()
-                }, 2000)
-        }, 1000)
+setTimeout(() => {iFrameResize({ 
+                    log: true, 
+                    enablePublicMethods: true,
+                }, '#myIframe0'); }, 1000)
 </script>
 {% endraw %}
     
@@ -42,11 +41,10 @@ img.img1{
 {% raw %}
 <iframe id="myIframe1" style="border:none;" src="https://crashlaker.github.io/assets/posts_iframe/FKoRBlTm8-1.html"></iframe>
 <script>
-setTimeout(() => {let myiframe = iFrameResize({ log: true, enablePublicMethods: true }, '#myIframe1');
-                setTimeout() => {
-                    myiframe.close()
-                }, 2000)
-        }, 1000)
+setTimeout(() => {iFrameResize({ 
+                    log: true, 
+                    enablePublicMethods: true,
+                }, '#myIframe1'); }, 1000)
 </script>
 {% endraw %}
     
@@ -83,11 +81,10 @@ img.spin {
 {% raw %}
 <iframe id="myIframe2" style="border:none;" src="https://crashlaker.github.io/assets/posts_iframe/FKoRBlTm8-2.html"></iframe>
 <script>
-setTimeout(() => {let myiframe = iFrameResize({ log: true, enablePublicMethods: true }, '#myIframe2');
-                setTimeout() => {
-                    myiframe.close()
-                }, 2000)
-        }, 1000)
+setTimeout(() => {iFrameResize({ 
+                    log: true, 
+                    enablePublicMethods: true,
+                }, '#myIframe2'); }, 1000)
 </script>
 {% endraw %}
     
