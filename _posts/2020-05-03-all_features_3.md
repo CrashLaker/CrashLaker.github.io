@@ -11,8 +11,8 @@ setTimeout(() => {let myiframe = iFrameResize({
                     log: false, 
                     enablePublicMethods: true,
                     onResized: function (messageData){
-                        console.log('resized', messageData)
-                        console.log(myiframe)
+                        console.log('resized', messageData);
+                        console.log(myiframe);
                     }
                 }, '#myIframe'); }, 1000)
 </script>
