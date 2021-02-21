@@ -1,0 +1,88 @@
+<html>
+<head>
+<style>
+*{
+margin:0;
+padding:0;
+}
+img{
+position:absolute;
+}
+.img1 {
+top: 5px;
+z-index:3;
+}
+.img2 {
+top: 40px;
+z-index:2;
+}
+.img3 {
+top: 80px;
+z-index:1;
+}
+ 
+img.spin {
+  
+  perspective: 100px;
+  animation: spinner 3s infinite linear;
+  transform-style: preserve-3d;
+  transform: rotate3d(1,0,0,65deg) 
+             rotate3d(0,1,0,10deg) 
+             rotate3d(0,0,1,-45deg);
+  
+}
+ @keyframes spinner {
+    
+0%{
+      transform: rotate3d(1,0,0,65deg) 
+             rotate3d(0,1,0,10deg) 
+             rotate3d(0,0,1,-45deg);
+           }
+    
+100% {
+      transform: rotate3d(1,0,0,65deg) 
+             rotate3d(0,1,0,10deg) 
+             rotate3d(0,0,1,310deg);
+      }
+
+
+}
+/* img.img1 {
+    /*transform: rotateX(0deg) rotateY(0.2deg) rotateZ(0deg);*/
+    transform: rotateX(-64deg) rotateY(0deg) rotateZ(0deg) rotate3d(0, 0.2, 0, -0.52rad);
+  }
+ @keyframes spinner {
+    0%{
+      transform: rotate3d(1, -1, 0, 0deg) rotate3d(1, 1, 0, 80deg);
+       */    }
+    100% {
+      transform: rotate3d(1, -1, 0, 360deg) rotate3d(1, 1, 0, 80deg);
+       */      }
+}*/
+  /*img.img1{
+    -webkit-animation: mover1 2s  infinite alternate;
+    animation: mover1 2s   infinite alternate;
+    z-index:3;
+  }
+@-webkit-keyframes mover1 {
+    0% { transform: translateY(0); }
+    50% { transform: rotate(20deg); }
+    100% { transform: translateY(20px); }
+}
+@keyframes mover1 {
+    0% { transform: rotate3d(0, 1, 0.5, 0deg); }
+    100% { transform: rotateX(0deg) rotateY(0.2deg) rotateZ(0deg); }
+    /*100% { transform: rotate3d(0, 1, 5, 0deg); }*/
+    /*100% { transform: translateY(20px); }*/
+}*/
+  </style>
+  </head>
+  <body>
+<span>
+  <div style="width:100%;height:180px;position:relative;">
+<img class="spin img1" src="http://docs.localshi.com///datag/all//hermes-plan1.png">
+<img class="spin img2" src="http://docs.localshi.com///datag/all//hermes-plan2.png">
+<img class="spin img3" src="http://docs.localshi.com///datag/all//hermes-plan3.png">
+  </div></span>
+  </body>
+  </html>
