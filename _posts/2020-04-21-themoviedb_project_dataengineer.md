@@ -110,9 +110,9 @@ https://medium.com/@o20021106/how-to-connect-to-remote-hive-cluster-with-pyspark
 4. Create a spark session and make sure to enable hive support.
 
 ```bash
-wget http://docs.popshi.com///datag/all//hive-site-1.xml -O /opt/spark/conf/hive-site.xml
-wget http://docs.popshi.com///datag/all//core-site.xml -O /opt/spark/conf/core-site.xml
-wget http://docs.popshi.com///datag/all//hdfs-site.xml -O /opt/spark/conf/hdfs-site.xml
+wget /assets/files/0-35ynhUx_hive-site-1.xml -O /opt/spark/conf/hive-site.xml
+wget /assets/files/0-35ynhUx_core-site.xml -O /opt/spark/conf/core-site.xml
+wget /assets/files/0-35ynhUx_hdfs-site.xml -O /opt/spark/conf/hdfs-site.xml
 wget http://192.168.31.78///datag/all//hive-jdbc-standalone.jar -O /opt/spark/jars/hive-jdbc-standalone.jar
 ```
 
