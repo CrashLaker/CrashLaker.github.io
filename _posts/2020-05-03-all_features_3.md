@@ -7,7 +7,11 @@ date: "2020-05-03 15:56:21.995000+00:00"
 {% raw %}
 <iframe id="myIframe" style="border:none;" src="https://crashlaker.github.io/assets/posts_iframe/sqQw-tO_U.html"></iframe>
 <script>
-setTimeout(() => {iFrameResize({ log: true, enablePublicMethods: true }, '#myIframe')}, 1000)
+setTimeout(() => {let myiframe = iFrameResize({ log: true, enablePublicMethods: true }, '#myIframe');
+                setTimeout() => {
+                    myiframe.close()
+                }, 2000)
+        }, 1000)
 </script>
 {% endraw %}
     
