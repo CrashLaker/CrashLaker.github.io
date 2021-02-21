@@ -37,7 +37,7 @@ http {
     keepalive_timeout  65;
 
     server {
-        server_name donotes.localshi.com;
+        server_name donotes.local.com;
         listen 80;
         location / {
             root /dist;

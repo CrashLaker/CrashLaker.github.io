@@ -10,13 +10,13 @@ tags:  [data-vis, grafana, flowcharting]
 
 
 
-![](/assets/img/prTqGfjy0_dc-floor-flowcharting-v4-raw.gif)
+![](/assets/files/prTqGfjy0_0_dc-floor-flowcharting-v4-raw.gif)
 
-![](/assets/img/prTqGfjy0_dc-floor-flowcharting-v3-raw.gif)
+![](/assets/files/prTqGfjy0_1_dc-floor-flowcharting-v3-raw.gif)
 
 Inspiration from https://aggregate.tibbo.com/solutions/data-center-management.html
 
-[initial xml here](/assets/files/prTqGfjy0_dc-flwochartin-floor.xml)
+[initial xml here](/assets/files/prTqGfjy0_2_dc-flwochartin-floor.xml)
 
 {% raw %}
 <script>
