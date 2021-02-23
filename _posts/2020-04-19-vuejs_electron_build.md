@@ -63,11 +63,18 @@ Install mono
 `sudo apt install mono-devel`
 
 ```bash
-sudo apt update && apt install wine
-sudo dpkb --add-architecture i386
-sudo apt update && apt install wine32
+sudo dpkg --add-architecture i386
+sudo apt update && sudo apt install -y wine-stable wine32
 ```
 
 
 Build
 `yarn electron:build -- --win`
+
+
+## Caveats
+
+### Icon would appear cut in half
+https://github.com/electron-userland/electron-builder/issues/2128
+
+![](/assets/img/SiSRIoMZh_fd14b0f207c8288f71637ec14776c8b6.png)
