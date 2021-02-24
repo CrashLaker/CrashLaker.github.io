@@ -161,7 +161,28 @@ let ps = new powershell({
         console.log(data)
 ```
 
+### Enable logger in nodejs process
 
+https://stackoverflow.com/questions/31394773/iojs-electron-output-all-in-console-to-file
+
+```js
+const fs = require('fs');
+
+if (!fs.existsSync('C:\\temp\\')) fs.mkdir('C:\\temp\\', ()=>{})
+const output = fs.createWriteStream('C:\\temp\\stdout.log')
+const errorOutput = fs.createWriteStream('C:\\temp\\stderr.log')
+const logger = new console.Console(output, errorOutput)
+
+process.on('uncaughtException', function (err) {
+    logger.error('Caught exception ' + err)
+})
+```
+
+### Add extraFiles
+
+![](/assets/img/cF4hBj708_a3170394fc77567cb59e34160d8d2a56.png)
+
+![](/assets/img/cF4hBj708_a150e96c18d7e1d238d05465541409e8.png)
 
 
 

@@ -51,3 +51,4 @@ categories:  [monthly-awesome]
  * https://alistairb.dev/reflections-on-haskell-for-startup/
  * what websites do you visit every day?
      * https://news.ycombinator.com/item?id=26192817
+ * https://github.com/ryanburgess/engineer-manager
