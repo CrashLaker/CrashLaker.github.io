@@ -52,3 +52,6 @@ categories:  [monthly-awesome]
  * what websites do you visit every day?
      * https://news.ycombinator.com/item?id=26192817
  * https://github.com/ryanburgess/engineer-manager
+ * https://gitlab.com/msvechla/gitlab-lambda-runner
+     * https://medium.com/@msvechla/serverless-gitlab-runner-builds-on-lambda-ded4b24b3c4f
+ * https://medium.com/ci-t/a-practical-guide-to-gitlab-runner-custom-executor-drivers-bc6e6562647c
